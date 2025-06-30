@@ -1,0 +1,886 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{AESvsAscon}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AI}{%
+         family={Ahmad},
+         familyi={A\bibinitperiod},
+         given={Ijaz},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AI1}
+    \strng{fullhash}{AI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{{Adaptive Lightweight Security for Performance Efficiency in
+  Critical Healthcare Monitoring}}
+    \field{journaltitle}{arXiv:2406.03786v2 [cs.CR]}
+    \field{year}{2024}
+  \endentry
+
+  \entry{2006-NPTV}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BDQ}{%
+         family={Ban},
+         familyi={B\bibinitperiod},
+         given={Diệp\bibnamedelima Quang},
+         giveni={D\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=THV}{%
+         family={Thung},
+         familyi={T\bibinitperiod},
+         given={Hoàng\bibnamedelima Van},
+         giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nhà xuất bản Giáo dục Việt Nam}%
+    }
+    \keyw{Viet}
+    \strng{namehash}{BDQTHV1}
+    \strng{fullhash}{BDQTHV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Ngữ pháp tiếng Việt}
+    \field{year}{2006}
+  \endentry
+
+  \entry{secg}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BDRL}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Daniel R.\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BDRL1}
+    \strng{fullhash}{BDRL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{{Standards for Efficient Cryptography SEC 2: Recommended
+  Elliptic Curve Domain Parameters. Version 2.0}}
+    \field{year}{2010}
+  \endentry
+
+  \entry{iot3}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CE}{%
+         family={C.},
+         familyi={C\bibinitperiod},
+         given={Ekwueme},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={I.},
+         familyi={I\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={A.},
+         familyi={A\bibinitperiod},
+         given={Dwivedi},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CEIAAD1}
+    \strng{fullhash}{CEIAAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{EAI Endorsed Transactions on Internet of Things}
+    \field{journaltitle}{IEEE ICIINFS Conference Proceedings}
+    \field{year}{2024}
+  \endentry
+
+  \entry{1994-Cavnar}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=CWB}{%
+         family={Cavnar},
+         familyi={C\bibinitperiod},
+         given={William\bibnamedelima B.},
+         giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=TJM}{%
+         family={Trenkle},
+         familyi={T\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CWBTJM1}
+    \strng{fullhash}{CWBTJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{In Proceedings of SDAIR-94, 3rd Annual Symposium on
+  Document Analysis and Information Retrieval}
+    \field{pages}{161\bibrangedash 175}
+    \field{title}{N-Gram-Based Text Categorization}
+    \field{year}{1994}
+  \endentry
+
+  \entry{iot1}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CRWL}{%
+         family={Coutinho},
+         familyi={C\bibinitperiod},
+         given={Rodolfo W.\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Boukerche},
+         familyi={B\bibinitperiod},
+         given={Azzedine},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CRWLBA1}
+    \strng{fullhash}{CRWLBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{{Modeling and Analysis of a Shared Edge Caching System for
+  Connected Cars and Industrial IoT-Based Applications}}
+    \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Ascon-Hash}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EHM}{%
+         family={El-Hadedy},
+         familyi={E\bibinithyphendelim H\bibinitperiod},
+         given={Mohamed},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EHM1}
+    \strng{fullhash}{EHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{{RECO-ASCON: Reconfigurable ASCON Hash Functions for IoT
+  Applications}}
+    \field{journaltitle}{Integration Volume 93}
+    \field{year}{2023}
+  \endentry
+
+  \entry{understandingIoT}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HS}{%
+         family={Hameed},
+         familyi={H\bibinitperiod},
+         given={Sufian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KFI}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Faraz\bibnamedelima Idris},
+         giveni={F\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Hameed},
+         familyi={H\bibinitperiod},
+         given={Bilal},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HSKFIHB1}
+    \strng{fullhash}{HSKFIHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{{Understanding Security Requirements and Challenges in
+  Internet of Things (IoT): A Review}}
+    \field{journaltitle}{Journal of Computer Networks and Communications}
+    \field{year}{2022}
+  \endentry
+
+  \entry{keytime}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HJL}{%
+         family={Hou},
+         familyi={H\bibinitperiod},
+         given={Jia-Li},
+         giveni={J\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=YKH}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Kuo-Hui},
+         giveni={K\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJLYKH1}
+    \strng{fullhash}{HJLYKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{A secure data transmission framework for IoT enabled
+  healthcare}
+    \field{journaltitle}{Heliyon Volume 10, Issue 16}
+    \field{year}{2024}
+  \endentry
+
+  \entry{novelbased}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HJL}{%
+         family={Hou},
+         familyi={H\bibinitperiod},
+         given={Jia-Li},
+         giveni={J\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=YKH}{%
+         family={Yeh},
+         familyi={Y\bibinitperiod},
+         given={Kuo-Hui},
+         giveni={K\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJLYKH1}
+    \strng{fullhash}{HJLYKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Novel Authentication Schemes for IoT Based Healthcare
+  Systems}
+    \field{journaltitle}{International Journal of Distributed Sensor Networks}
+    \field{year}{2015}
+  \endentry
+
+  \entry{1984-TeX-Knuth}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KDE}{%
+         family={Knuth},
+         familyi={K\bibinitperiod},
+         given={Donald\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison-Wesley}%
+    }
+    \strng{namehash}{KDE1}
+    \strng{fullhash}{KDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{The {{\TeX}book}}
+    \field{year}{1984}
+  \endentry
+
+  \entry{iot5}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MD}{%
+         family={M.},
+         familyi={M\bibinitperiod},
+         given={Delvai},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=UE}{%
+         family={U.},
+         familyi={U\bibinitperiod},
+         given={Eisenmann},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={W.},
+         familyi={W\bibinitperiod},
+         given={Elmenreich},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MDUEWE1}
+    \strng{fullhash}{MDUEWE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Intelligent UART Module for Real-Time Applications}
+    \field{journaltitle}{WISES Conference Proceedings}
+    \field{year}{2003}
+  \endentry
+
+  \entry{URL-DLMF}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{National Institute of Standards and Technology}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{howpublished}{\url{http://dlmf.nist.gov}}
+    \field{title}{Digital library of mathematical functions}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{cryptanalytic}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Cryptanalysis}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Cryptanalysis
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{Related-key-attack}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Cryptanalysis}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Related-key_attack
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{Figures}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{LaTeX/Floats, Figures and Captions}
+    \verb{url}
+    \verb http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{06}
+    \field{urlyear}{2015}
+  \endentry
+
+  \entry{Listings}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{LaTeX/Source Code Listings}
+    \verb{url}
+    \verb http://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{06}
+    \field{urlyear}{2015}
+  \endentry
+
+  \entry{Tables}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{LaTeX/Tables}
+    \verb{url}
+    \verb http://en.wikibooks.org/wiki/LaTeX/Tables
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{06}
+    \field{urlyear}{2015}
+  \endentry
+
+  \entry{MITM}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Man-in-the-Middle}
+    \verb{url}
+    \verb https://viblo.asia/p/man-in-the-middle-attack-mitm-aWj53LMbK6m
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{mitm-dh}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Man in the Middle attack in Diffie-Hellman Key Exchange}
+    \verb{url}
+    \verb https://www.geeksforgeeks.org/man-in-the-middle-attack-in-diffie-he
+    \verb llman-key-exchange/
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{brute-force2}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Password cracking}
+    \verb{url}
+    \verb https://www.distributed.net/RC5
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{cpa}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Power Side-channel Attack on software implemented AES using
+  chipwhisperer NANO}
+    \verb{url}
+    \verb https://labs.dese.iisc.ac.in/embeddedlab/power-side-channel-attack-
+    \verb on-software-implemented-aes/
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{brute-force3}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Project RC5}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Password_cracking
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{replay-attack}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Replay Attack}
+    \verb{url}
+    \verb https://vi.wikipedia.org/wiki/T%E1%BA%A5n_c%C3%B4ng_ph%C3%A1t_l%E1%
+    \verb BA%A1i
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{side-channel}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Side-channel attack}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Side-channel_attack
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{brute-force1}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{What is a brute force attack?}
+    \verb{url}
+    \verb https://fieldeffect.com/blog/what-is-a-brute-force-attack
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{dtls}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PG}{%
+         family={Peretti},
+         familyi={P\bibinitperiod},
+         given={Giulio},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LV}{%
+         family={Lakkundit},
+         familyi={L\bibinitperiod},
+         given={Vishwas},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zorzi},
+         familyi={Z\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PGLVZM1}
+    \strng{fullhash}{PGLVZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{BlinkToSCoAP: An End-to-End Security Framework for the
+  Internet of Things}
+    \field{journaltitle}{Future Information Security Workshop, COMSNETS}
+    \field{year}{2015}
+  \endentry
+
+  \entry{a-decade}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RT}{%
+         family={Rajmohan},
+         familyi={R\bibinitperiod},
+         given={Tanusan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NPH}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Phu\bibnamedelima H.},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Ferry},
+         familyi={F\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RTNPHFN1}
+    \strng{fullhash}{RTNPHFN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{{A decade of research on patterns and architectures for IoT
+  security}}
+    \field{journaltitle}{Cybersecurity
+  https://doi.org/10.1186/s42400-021-00104-7}
+    \field{year}{2022}
+  \endentry
+
+  \entry{iot6}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SR}{%
+         family={Shashi},
+         familyi={S\bibinitperiod},
+         given={Rekha},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TL}{%
+         family={Thirupathi},
+         familyi={T\bibinitperiod},
+         given={Lingala},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Srikanth},
+         familyi={S\bibinitperiod},
+         given={Renikunta},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Rekha},
+         familyi={R\bibinitperiod},
+         given={Gangula},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SR+1}
+    \strng{fullhash}{SRTLSRRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Study of security issues and solutions in Internet of Things
+  (IoT)}
+    \field{journaltitle}{Materials Today: Proceedings}
+    \field{year}{2021}
+  \endentry
+
+  \entry{iot4}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TY}{%
+         family={T.},
+         familyi={T\bibinitperiod},
+         given={Yousuf},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={R.},
+         familyi={R\bibinitperiod},
+         given={Mahmoud},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={F.},
+         familyi={F\bibinitperiod},
+         given={Aloul},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IZ}{%
+         family={I.},
+         familyi={I\bibinitperiod},
+         given={Zualkernan},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TY+1}
+    \strng{fullhash}{TYRMFAIZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Internet of Things (IoT) Security: Current Status, Challenges
+  and Countermeasures}
+    \field{journaltitle}{International Journal for Information Security
+  Research}
+    \field{year}{2015}
+  \endentry
+
+  \entry{iot2}{article}{}
+    \name{author}{4}{}{%
+      {{hash=US}{%
+         family={U.},
+         familyi={U\bibinitperiod},
+         given={Satapathy},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={B.},
+         familyi={B\bibinitperiod},
+         given={Mohanta},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={D.},
+         familyi={D\bibinitperiod},
+         given={Jena},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={S.},
+         familyi={S\bibinitperiod},
+         given={Sobhanayak},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{US+1}
+    \strng{fullhash}{USBMDJSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{An ECC-Based Lightweight Authentication Protocol for Mobile
+  Phones in Smart Homes.}
+    \field{journaltitle}{IEEE ICIINFS Conference Proceedings}
+    \field{year}{2018}
+  \endentry
+
+  \entry{1989-TED}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZK}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Kaizhong},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Shasha},
+         familyi={S\bibinitperiod},
+         given={Dennis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZKSD1}
+    \strng{fullhash}{ZKSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{pages}{1245\bibrangedash 1262}
+    \field{title}{{Simple fast algorithms for the editing distance between
+  trees and related problems}}
+    \field{journaltitle}{SIAM Journal on Computing, Volume 18 Issue 6}
+    \field{year}{1989}
+  \endentry
+
+  \entry{2006-DDien}{book}{}
+    \name{author}{1}{}{%
+      {{hash=��}{%
+         prefix={Đinh},
+         prefixi={�\bibinitperiod},
+         family={Điền},
+         familyi={�\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nhà xuất bản Đại học Quốc gia TP.HCM}%
+    }
+    \keyw{Viet}
+    \strng{namehash}{��1}
+    \strng{fullhash}{��1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{�}
+    \field{sortinithash}{�}
+    \field{title}{Xử lý ngôn ngữ tự nhiên}
+    \field{year}{2006}
+  \endentry
+\enddatalist
+\endinput

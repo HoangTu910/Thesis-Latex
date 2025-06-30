@@ -1,0 +1,39 @@
+\chapter{Giới thiệu}
+\label{Chapter1}
+
+Chương \ref{Chapter1}    đưa ra các nội dung tổng quan của khóa luận tốt nghiệp. Trong đó, các
+nội dung được trình bày là việc đặt vấn đề, mục tiêu hướng tới, giải pháp đề xuất,
+đóng góp, và bố cục của khóa luận.
+
+\section{Đặt vấn đề}
+Internet of Things (IoT) đã và đang trở thành một trong những trụ cột quan trọng trong sự phát triển của các công nghệ hiện đại, mở ra nhiều đột phá trong các lĩnh vực như chăm sóc sức khỏe, tự động hóa và các hệ thống thông minh \cite{iot1}. Tuy nhiên, phần lớn các thiết bị IoT hiện nay đều hoạt động trong môi trường có tài nguyên hạn chế, bao gồm tốc độ xử lý thấp, dung lượng pin hạn chế, cũng như kết nối mạng không ổn định. Những hạn chế này khiến các thiết bị dễ bị ảnh hưởng trước các mối đe dọa về bảo mật \cite{iot2}, làm gia tăng nguy cơ mất gói tin trong quá trình truyền dữ liệu. Những kẻ tấn công thường lợi dụng các điểm yếu này để khai thác các lỗ hổng bảo mật trong phần cứng, phần mềm và giao thức để nhắm vào hệ sinh thái IoT trong các hệ thống doanh nghiệp, công nghiệp và chính phủ. Do đó, tính bảo mật, tính toàn vẹn và tính khả dụng của các hệ thống này bị suy yếu gây ra các thiệt hại vô cùng lớn.
+% như nghe lén trái phép (eavesdropping), chỉnh sửa dữ liệu (tampering) và tấn công phát lại (replay attack), trong đó các gói tin hợp lệ bị kẻ tấn công phát lại với mục đích xấu \cite{?}. 
+
+Để xây dụng một hệ thống IoT bảo mật yêu cầu phải có một thuật toán mã hóa đủ mạnh. Các thuật toán mã hóa truyền thống như AES hoặc RSA, tuy hiệu quả và phổ biến trong các hệ thống có tài nguyên dồi dào, lại gặp nhiều khó khăn khi triển khai trên các thiết bị IoT do yêu cầu cao về tính toán và bộ nhớ \cite{iot3}. Vì vậy, khi triển khai hệ thống IoT phải cân nhắc các thuật toán mã hóa nhẹ, phù hợp với các thiết bị IoT hiện nay. Một điều cần chú trọng đó là khi thiết kế các hệ thống IoT, cần xem xét các cơ chế bảo mật ở nhiều lớp \cite{iot4}. Đối với mô hình hệ thống IoT bốn lớp, các lớp trung gian như lớp nhận thức (perceptual layer), lớp mạng (network layer) và lớp xử lý dữ liệu (data processing layer) cần được xem xét để tăng cường bảo mật cũng như đảm bảo tính toàn vẹn của dữ liệu. Tại lớp nhận thức, các giao thức truyền thông đơn giản như UART (Universal Asynchronous Receiver-Transmitter) thường được sử dụng do tính nhẹ và phù hợp với phần lớn các thiết bị tài nguyên thấp. Tuy nhiên, việc truyền dữ liệu thô lại tiềm ẩn nguy cơ mất mát gói tin và tiếp nhận dữ liệu không được xác thực từ các nguồn không tin cậy \cite{iot5}. Bên cạnh đó, trong quá trình truyền dữ liệu giữa gateway và máy chủ, việc mã hóa dữ liệu là bắt buộc; đồng thời, các khóa bí mật sử dụng trong quá trình mã hóa và giải mã cần được thay đổi định kỳ nhằm giảm thiểu nguy cơ bị tấn công dò khóa. Thực tế, nhiều thiết bị IoT cấp thấp hiện nay gặp vấn đề trong việc quản lý khóa bí mật, thường sử dụng các khóa tĩnh được cài đặt sẵn hoặc dựa vào bộ đếm để tạo khóa, dẫn đến nguy cơ bị phá vỡ bảo mật do các phương pháp tấn công tinh vi \cite{iot6}.
+
+Do đó, việc nghiên cứu và phát triển các giải pháp bảo mật nhẹ, phù hợp với tài nguyên hạn chế của thiết bị IoT, đồng thời đảm bảo các yếu tố như dữ liệu phải được mã hóa, khả năng kháng lại các cuộc tấn công, đảm bảo tính toàn vẹn của dữ liệu, các lớp trong kiến trúc IoT đều phải có cơ chế bảo mật hợp lý là một yêu cầu cấp thiết để nâng cao độ an toàn và hiệu quả của các hệ thống IoT trong thực tiễn.
+
+\section{Mục tiêu của đề tài}
+Các thiết bị IoT tài nguyên thấp thường dễ bị khai thác do thiếu các cơ chế bảo mật mạnh mẽ, chẳng hạn như mã hóa phức tạp hoặc xác thực thời gian thực. Do đó, đề tài này tập trung vào phát triển một kiến trúc IoT bảo mật toàn diện, vừa đảm bảo các yếu tố an toàn như tính toàn vẹn, bí mật dữ liệu, và khả năng chống lại các cuộc tấn công từ bên ngoài, vừa tối ưu để phù hợp với các thiết bị có tài nguyên hạn chế. Kiến trúc đề xuất sẽ tích hợp các giải pháp như sử dụng thuật toán mã hóa nhẹ, cơ chế trao đổi khóa động và kiến trúc khung truyền riêng đảm bảo chỉ có các thiết bị được ủy quyền mới có thể xử lý và giải mã các gói tin hợp lý. Đề tài cũng giới thiệu phương pháp \textit{safe counter} mới nhằm hạn chế khả năng bị brute-force vào các gói tin. Qua đó, hệ thống vừa tăng cường bảo mật truyền thông giữa các lớp vừa duy trì hiệu suất và tính khả thi, đáp ứng nhu cầu thực tiễn trong các lĩnh vực y tế, giao thông và nhà thông minh.
+
+\section{Đóng góp của đề tài}
+Kết quả của khóa luận là những đóng góp trong việc thiết kế một kiến trúc IoT bảo mật, tối ưu cho các thiết bị tài nguyên thấp. Trong truyền dữ liệu, thuật toán mã hóa Ascon-128a đã được áp dụng nhằm đảm bảo tính bảo mật trong hệ thống, giảm đáng kể độ trễ mã hóa so với AES. Các gói tin được định dạng trong cấu trúc khung truyền tùy chỉnh, tích hợp các trường như header đồng bộ, định danh, số thứ tự, và mã xác thực,... giúp xác minh tính toàn vẹn và ngăn chặn một số cuộc tấn công. Trao đổi khóa Elliptic Curve Diffie-Hellman (ECDH) sử dụng đường cong \textit{sect163k1} kết hợp với kỹ thuật tạo khóa phiên dùng hàm băm Ascon Hash được triển khai hiệu quả, cho phép tạo khóa bí mật động giữa gateway (ESP32) và máy chủ, tăng cường bảo mật trước các tấn công Man-in-the-Middle. Các kết quả thử nghiệm sử dụng STM32F411VET6 và ESP32 cho thấy tỷ lệ truyền gói tin đạt 99.99\% trong 120 phút (147,682 gói tin), độ trễ trung bình 51.08 ms, và khả năng từ chối 100\% 70,000 gói tin phát lại, khẳng định tính ổn định và an toàn của khung đề xuất. 
+
+\section{Bố cục của khóa luận}
+
+% Tóm lại, các vấn đề bảo mật chính mà các hệ thống IoT hiện nay đang đối mặt bao gồm:
+% \begin{enumerate}
+%     \item Hạn chế tài nguyên: Các thiết bị IoT thường bị giới hạn về khả năng tính toán và tài nguyên, gây khó khăn trong việc triển khai các thuật toán mã hóa phức tạp.
+%     \item Mất mác và không xác thực dữ liệu: Việc sử dụng các giao thức truyền thông đơn giản dễ dẫn đến mất gói tin hoặc tiếp nhận dữ liệu từ nguồn không đáng tin cậy. 
+%     \item Quản lý khóa bí mật: Việc sử dụng khóa tĩnh hoặc các phương pháp tạo khóa không an toàn làm tăng nguy cơ bị tấn công dò khóa, làm mất đi tính bảo mật mặc dù đã mã hóa dữ liệu.
+%     \item Tấn công bảo mật: Các mối đe dọa như nghe lén, chỉnh sửa dữ liệu và tấn công phát lại đòi hỏi các cơ chế bảo vệ hiệu quả hơn ở tất cả các lớp của hệ thống IoT.
+% \end{enumerate}
+
+%Tóm tắt luận văn được trình bày nhiều nhất trong 24 trang in trên hai mặt giấy, cỡ chữ Times New Roman 11 của hệ soạn thảo Winword hoặc phần mềm soạn thảo Latex đối với các chuyên ngành thuộc ngành Toán.
+
+%Mật độ chữ bình thường, không được nén hoặc kéo dãn khoảng cách giữa các chữ.
+%Chế độ dãn dòng là Exactly 17pt.
+%Lề trên, lề dưới, lề trái, lề phải đều là 1.5 cm.
+%Các bảng biểu trình bày theo chiều ngang khổ giấy thì đầu bảng là lề trái của trang.
+%Tóm tắt luận án phải phản ảnh trung thực kết cấu, bố cục và nội dung của luận án, phải ghi đầy đủ toàn văn kết luận của luận án.
+%Mẫu trình bày trang bìa của tóm tắt luận văn (phụ lục 1).

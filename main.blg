@@ -1,0 +1,90 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: Appendix/reassurances.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: Appendix/thanks.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: Appendix/decuong.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: Appendix/tomtat.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Chapter1/chapter1.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Chapter2/chapter2.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Chapter3/chapter3.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Chapter4/chapter4.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: Chapter5/chapter5.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: Appendix/publish.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: References/references.bib
+Warning--I didn't find a database entry for "?"
+Biblatex version: 3.19
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 34 entries,
+            6399 wiz_defined-function locations,
+            1364 strings with 13540 characters,
+and the built_in function-call counts, 213428 in all, are:
+= -- 14329
+> -- 6934
+< -- 1179
++ -- 7960
+- -- 4242
+* -- 13800
+:= -- 23941
+add.period$ -- 0
+call.type$ -- 34
+change.case$ -- 388
+chr.to.int$ -- 355
+cite$ -- 66
+duplicate$ -- 21651
+empty$ -- 18341
+format.name$ -- 2039
+if$ -- 41696
+int.to.chr$ -- 0
+int.to.str$ -- 95
+missing$ -- 0
+newline$ -- 867
+num.names$ -- 1541
+pop$ -- 11542
+preamble$ -- 1
+purify$ -- 520
+quote$ -- 0
+skip$ -- 6264
+stack$ -- 0
+substring$ -- 25304
+swap$ -- 4562
+text.length$ -- 1056
+text.prefix$ -- 33
+top$ -- 1
+type$ -- 1144
+warning$ -- 0
+while$ -- 2709
+width$ -- 0
+write$ -- 834
+(There was 1 warning)

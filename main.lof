@@ -1,0 +1,38 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Tấn công MITM trong nghe lén dữ liệu}}{8}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Tấn công MITM trong trao đổi khóa}}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Minh họa cuộc tấn công phát lại}}{9}{figure.caption.8}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mô hình IoT 4 lớp}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Giao thức MQTT}}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces So sánh hiệu năng giữa Ascon và AES được trích từ bài báo}}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Quá trình mã hóa của ASCON với dữ liệu liên kết}}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Khối 5-bit S-box của ASCON}}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Đường cong elliptic $y^2 = x^3 - 2x + 5$}}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Quá trình thực hiện trao đổi khóa ECDH}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mô hình tổng quan hệ thống}}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Mô hình giao tiếp của hệ thống}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Luồng hoạt động của hệ thống}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Quy trình tạo khóa phiên}}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Khung truyền khởi tạo}}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Khung truyền trao truyền dữ liệu từ gateway xuống lớp nhận thức}}{27}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Khung truyền trong truyền dữ liệu từ lớp nhận thức lên gateway}}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Tính toán thẻ xác thực (Auth Tag) trong trao đổi khóa}}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Bộ khung truyền trong giao tiếp giữa gateway và máy chủ}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Quá trình phân giải khung truyền}}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Hàm phân giải khung truyền GS2}}{31}{figure.caption.28}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Kết quả thực hiện trên MCU STM32F411VET6}}{34}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Quá trình khởi tạo khi reboot}}{34}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Quá trình trao đổi khóa giữa gateway và máy chủ}}{35}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Quá trình truyền dữ liệu}}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Log của gateway và máy chủ trong quá trình cập nhập}}{36}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Đánh giá hiệu suất thực thi của STM32F411VET6}}{37}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Đánh giá hiệu suất thực thi của ESP32}}{37}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Thời gian thực thi quá trình trao đổi khóa trên ESP32}}{38}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Số lượng gói tin truyền mỗi phút}}{39}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Tỷ lệ truyền gói tin mỗi phút}}{39}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Dung lượng tiêu thụ của STM32F411VET6}}{40}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Dung lượng tiêu thụ của ESP32-WROOM-32}}{40}{figure.caption.43}%
+\addvspace {10\p@ }
