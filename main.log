@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.30)  30 JUN 2025 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.30)  1 JUL 2025 02:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1153,13 +1153,7 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'URL-DLMF':
-(biblatex)                - Invalid format of field 'month'.
-
-)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 159.
 Package biblatex Info: Reference segment=0 on input line 159.
 Package hyperref Info: Link coloring OFF on input line 159.
@@ -1277,11 +1271,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.80008> not available
 
 
 
-{D:/MiTek/fonts/enc/dvips/base/8r.enc}] (main.lot)
+{D:/MiTek/fonts/enc/dvips/base/8r.enc}] [6] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [6
+ [7
 
 
 
@@ -1298,7 +1292,7 @@ ChÆ°Æ¡ng 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 D
+l.15 D
       o Ä‘Ã³, viá»‡c nghiÃªn cá»©u vÃ  phÃ¡t triá»ƒn cÃ¡c giáº£i phÃ¡p báº£o... [1
 
 
@@ -1308,12 +1302,16 @@ l.14 D
 
 
 
-])
+]
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.208 \include{Chapter1/chapter1}
-                                  [2] [3]
+l.28 
+      [2]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 33.
+ (D:\MiTek\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)) [3]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (Chapter2/chapter2.tex
@@ -1325,14 +1323,10 @@ ChÆ°Æ¡ng 2.
 
 
 
-] [5]
-
-LaTeX Warning: Citation '?' on page 6 undefined on input line 23.
-
-[6] [7]
+] [5] [6] [7]
 
 pdfTeX warning: pdflatex (file ./images/MITM2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/MITM2.pdf, id=399, 337.26pt x 136.5903pt>
+<images/MITM2.pdf, id=411, 337.26pt x 136.5903pt>
 File: images/MITM2.pdf Graphic file (type pdf)
 <use images/MITM2.pdf>
 Package pdftex.def Info: images/MITM2.pdf  used on input line 56.
@@ -1340,7 +1334,7 @@ Package pdftex.def Info: images/MITM2.pdf  used on input line 56.
 
 
 pdfTeX warning: pdflatex (file ./images/MITM1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/MITM1.pdf, id=400, 340.3917pt x 211.7511pt>
+<images/MITM1.pdf, id=412, 340.3917pt x 211.7511pt>
 File: images/MITM1.pdf Graphic file (type pdf)
 <use images/MITM1.pdf>
 Package pdftex.def Info: images/MITM1.pdf  used on input line 63.
@@ -1348,7 +1342,7 @@ Package pdftex.def Info: images/MITM1.pdf  used on input line 63.
 
 
 pdfTeX warning: pdflatex (file ./images/replay.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/replay.pdf, id=403, 337.26pt x 144.54pt>
+<images/replay.pdf, id=415, 337.26pt x 144.54pt>
 File: images/replay.pdf Graphic file (type pdf)
 <use images/replay.pdf>
 Package pdftex.def Info: images/replay.pdf  used on input line 72.
@@ -1361,7 +1355,7 @@ ChÆ°Æ¡ng 3.
 
 
 pdfTeX warning: pdflatex (file ./images/4layer.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/4layer.pdf, id=502, 349.305pt x 325.215pt>
+<images/4layer.pdf, id=514, 349.305pt x 325.215pt>
 File: images/4layer.pdf Graphic file (type pdf)
 <use images/4layer.pdf>
 Package pdftex.def Info: images/4layer.pdf  used on input line 11.
@@ -1376,7 +1370,7 @@ Package pdftex.def Info: images/4layer.pdf  used on input line 11.
  <./images/4layer.pdf>]
 
 pdfTeX warning: pdflatex (file ./mqtt.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<mqtt.pdf, id=521, 362.3136pt x 179.7114pt>
+<mqtt.pdf, id=535, 362.3136pt x 179.7114pt>
 File: mqtt.pdf Graphic file (type pdf)
 <use mqtt.pdf>
 Package pdftex.def Info: mqtt.pdf  used on input line 29.
@@ -1385,7 +1379,7 @@ Package pdftex.def Info: mqtt.pdf  used on input line 29.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11]
-<ascon-aes.png, id=533, 718.685pt x 430.60875pt>
+<ascon-aes.png, id=545, 718.685pt x 430.60875pt>
 File: ascon-aes.png Graphic file (type png)
 <use ascon-aes.png>
 Package pdftex.def Info: ascon-aes.png  used on input line 44.
@@ -1399,12 +1393,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Citation '?' on page 13 undefined on input line 54.
 
 [13 <./ascon-aes.png>]
-<ascon_process.png, id=557, 1117.17375pt x 316.18124pt>
+<ascon_process.png, id=571, 1117.17375pt x 316.18124pt>
 File: ascon_process.png Graphic file (type png)
 <use ascon_process.png>
 Package pdftex.def Info: ascon_process.png  used on input line 68.
 (pdftex.def)             Requested size: 409.71692pt x 115.9576pt.
-<s-box.png, id=559, 705.63625pt x 478.78876pt>
+<s-box.png, id=573, 705.63625pt x 478.78876pt>
 File: s-box.png Graphic file (type png)
 <use s-box.png>
 Package pdftex.def Info: s-box.png  used on input line 81.
@@ -1417,7 +1411,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.77837> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.11761> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
  [14 <./ascon_process.png>]
-<curve.png, id=570, 342.27875pt x 343.2825pt>
+<curve.png, id=584, 342.27875pt x 343.2825pt>
 File: curve.png Graphic file (type png)
 <use curve.png>
 Package pdftex.def Info: curve.png  used on input line 118.
@@ -1429,7 +1423,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [15 <./s-box.png>]
 
 pdfTeX warning: pdflatex (file ./images/keyexchange.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/keyexchange.pdf, id=577, 278.96219pt x 283.0575pt>
+<images/keyexchange.pdf, id=591, 278.96219pt x 283.0575pt>
 File: images/keyexchange.pdf Graphic file (type pdf)
 <use images/keyexchange.pdf>
 Package pdftex.def Info: images/keyexchange.pdf  used on input line 137.
@@ -1449,108 +1443,119 @@ LaTeX Warning: Citation '?' on page 17 undefined on input line 164.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./images/keyexchange.pdf>] [18]
+<Images/ascon_hash.png, id=654, 495.65175pt x 197.538pt>
+File: Images/ascon_hash.png Graphic file (type png)
+<use Images/ascon_hash.png>
+Package pdftex.def Info: Images/ascon_hash.png  used on input line 207.
+(pdftex.def)             Requested size: 364.19667pt x 145.154pt.
+
 
 pdfTeX warning: pdflatex (file ./realsystem.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<realsystem.pdf, id=643, 583.21887pt x 449.76028pt>
+<realsystem.pdf, id=659, 583.21887pt x 449.76028pt>
 File: realsystem.pdf Graphic file (type pdf)
 <use realsystem.pdf>
-Package pdftex.def Info: realsystem.pdf  used on input line 213.
+Package pdftex.def Info: realsystem.pdf  used on input line 225.
 (pdftex.def)             Requested size: 455.24411pt x 351.0861pt.
-
-Overfull \hbox (7.73654pt too wide) in paragraph at lines 219--220
-[]\T5/ptm/m/n/13 Vi ^^_i·u khiºn STM32F411VET6 ^^_÷ñc ph¡t triºn düa tr¶n bë cæng cö STM32CubeIDE
- []
-
-[19 <./realsystem.pdf>] [20]
-
-pdfTeX warning: pdflatex (file ./images/system.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/system.pdf, id=695, 455.78279pt x 280.1667pt>
-File: images/system.pdf Graphic file (type pdf)
-<use images/system.pdf>
-Package pdftex.def Info: images/system.pdf  used on input line 238.
-(pdftex.def)             Requested size: 386.96027pt x 237.86067pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21]
+
+Overfull \hbox (7.73654pt too wide) in paragraph at lines 231--232
+[]\T5/ptm/m/n/13 Vi ^^_i·u khiºn STM32F411VET6 ^^_÷ñc ph¡t triºn düa tr¶n bë cæng cö STM32CubeIDE
+ []
+
+[19 <./Images/ascon_hash.png>] [20 <./realsystem.pdf>] [21]
+
+pdfTeX warning: pdflatex (file ./images/system.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/system.pdf, id=718, 455.78279pt x 280.1667pt>
+File: images/system.pdf Graphic file (type pdf)
+<use images/system.pdf>
+Package pdftex.def Info: images/system.pdf  used on input line 250.
+(pdftex.def)             Requested size: 386.96027pt x 237.86067pt.
+[22 <./images/system.pdf>]
 
 pdfTeX warning: pdflatex (file ./trans-sys.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<trans-sys.pdf, id=705, 587.3142pt x 670.42468pt>
+<trans-sys.pdf, id=776, 587.3142pt x 670.42468pt>
 File: trans-sys.pdf Graphic file (type pdf)
 <use trans-sys.pdf>
-Package pdftex.def Info: trans-sys.pdf  used on input line 251.
+Package pdftex.def Info: trans-sys.pdf  used on input line 263.
 (pdftex.def)             Requested size: 455.24411pt x 519.6556pt.
-[22 <./images/system.pdf>] [23 <./trans-sys.pdf>]
+
 
 pdfTeX warning: pdflatex (file ./skey.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<skey.pdf, id=803, 559.12888pt x 277.035pt>
+<skey.pdf, id=779, 559.12888pt x 277.035pt>
 File: skey.pdf Graphic file (type pdf)
 <use skey.pdf>
-Package pdftex.def Info: skey.pdf  used on input line 264.
+Package pdftex.def Info: skey.pdf  used on input line 276.
 (pdftex.def)             Requested size: 455.24411pt x 225.5596pt.
-[24 <./skey.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23] [24 <./trans-sys.pdf>] [25 <./skey.pdf>]
 
 pdfTeX warning: pdflatex (file ./init-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<init-frame.pdf, id=850, 312.20638pt x 100.45529pt>
+<init-frame.pdf, id=873, 312.20638pt x 100.45529pt>
 File: init-frame.pdf Graphic file (type pdf)
 <use init-frame.pdf>
-Package pdftex.def Info: init-frame.pdf  used on input line 288.
+Package pdftex.def Info: init-frame.pdf  used on input line 300.
 (pdftex.def)             Requested size: 273.14923pt x 87.89201pt.
-[25] [26 <./init-frame.pdf>]
+[26 <./init-frame.pdf>]
 
 pdfTeX warning: pdflatex (file ./gp-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<gp-frame.pdf, id=874, 649.46638pt x 205.72859pt>
+<gp-frame.pdf, id=892, 649.46638pt x 205.72859pt>
 File: gp-frame.pdf Graphic file (type pdf)
 <use gp-frame.pdf>
-Package pdftex.def Info: gp-frame.pdf  used on input line 306.
+Package pdftex.def Info: gp-frame.pdf  used on input line 318.
 (pdftex.def)             Requested size: 455.24411pt x 144.20992pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 
 pdfTeX warning: pdflatex (file ./pg-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pg-frame.pdf, id=876, 530.94356pt x 92.2647pt>
+<pg-frame.pdf, id=894, 530.94356pt x 92.2647pt>
 File: pg-frame.pdf Graphic file (type pdf)
 <use pg-frame.pdf>
-Package pdftex.def Info: pg-frame.pdf  used on input line 315.
+Package pdftex.def Info: pg-frame.pdf  used on input line 327.
 (pdftex.def)             Requested size: 409.71692pt x 71.19888pt.
-[27 <./gp-frame.pdf> <./pg-frame.pdf>]
+[27] [28 <./gp-frame.pdf> <./pg-frame.pdf>]
 
 pdfTeX warning: pdflatex (file ./auth_t.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<auth_t.pdf, id=902, 481.8pt x 57.09329pt>
+<auth_t.pdf, id=926, 481.8pt x 57.09329pt>
 File: auth_t.pdf Graphic file (type pdf)
 <use auth_t.pdf>
-Package pdftex.def Info: auth_t.pdf  used on input line 328.
+Package pdftex.def Info: auth_t.pdf  used on input line 340.
 (pdftex.def)             Requested size: 386.96027pt x 45.85588pt.
-[28 <./auth_t.pdf>]
+[29 <./auth_t.pdf>]
 
 pdfTeX warning: pdflatex (file ./gs-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<gs-frame.pdf, id=916, 649.46638pt x 382.5492pt>
+<gs-frame.pdf, id=940, 649.46638pt x 382.5492pt>
 File: gs-frame.pdf Graphic file (type pdf)
 <use gs-frame.pdf>
-Package pdftex.def Info: gs-frame.pdf  used on input line 341.
+Package pdftex.def Info: gs-frame.pdf  used on input line 353.
 (pdftex.def)             Requested size: 455.24411pt x 268.15617pt.
-[29 <./gs-frame.pdf>]
+
 
 pdfTeX warning: pdflatex (file ./frameparsing1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<frameparsing1.pdf, id=934, 310.27919pt x 227.89139pt>
+<frameparsing1.pdf, id=944, 310.27919pt x 227.89139pt>
 File: frameparsing1.pdf Graphic file (type pdf)
 <use frameparsing1.pdf>
-Package pdftex.def Info: frameparsing1.pdf  used on input line 350.
+Package pdftex.def Info: frameparsing1.pdf  used on input line 362.
 (pdftex.def)             Requested size: 318.66948pt x 234.07352pt.
-
+[30 <./gs-frame.pdf>]
 
 pdfTeX warning: pdflatex (file ./frameparse.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<frameparse.pdf, id=935, 555.99718pt x 437.71529pt>
+<frameparse.pdf, id=959, 555.99718pt x 437.71529pt>
 File: frameparse.pdf Graphic file (type pdf)
 <use frameparse.pdf>
-Package pdftex.def Info: frameparse.pdf  used on input line 357.
+Package pdftex.def Info: frameparse.pdf  used on input line 369.
 (pdftex.def)             Requested size: 455.24411pt x 358.40788pt.
-[30 <./frameparsing1.pdf>]
 
-LaTeX Warning: Citation '?' on page 31 undefined on input line 364.
+LaTeX Warning: Citation '?' on page 31 undefined on input line 376.
 
-[31 <./frameparse.pdf>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 367.
-) [32]
+[31 <./frameparsing1.pdf> <./frameparse.pdf>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 379.
+ [32]) [33]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (Chapter4/chapter4.tex
@@ -1558,7 +1563,7 @@ ChÆ°Æ¡ng 4.
 
 
 pdfTeX warning: pdflatex (file ./stm32log.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<stm32log.pdf, id=973, 492.88138pt x 205.72859pt>
+<stm32log.pdf, id=996, 492.88138pt x 205.72859pt>
 File: stm32log.pdf Graphic file (type pdf)
 <use stm32log.pdf>
 Package pdftex.def Info: stm32log.pdf  used on input line 31.
@@ -1566,7 +1571,7 @@ Package pdftex.def Info: stm32log.pdf  used on input line 31.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33
+[34
 
 
 
@@ -1576,7 +1581,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 
 pdfTeX warning: pdflatex (file ./initlog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<initlog.pdf, id=979, 506.85359pt x 257.04028pt>
+<initlog.pdf, id=1003, 506.85359pt x 257.04028pt>
 File: initlog.pdf Graphic file (type pdf)
 <use initlog.pdf>
 Package pdftex.def Info: initlog.pdf  used on input line 40.
@@ -1584,7 +1589,7 @@ Package pdftex.def Info: initlog.pdf  used on input line 40.
 
 
 pdfTeX warning: pdflatex (file ./ecdhlog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<ecdhlog.pdf, id=981, 488.78609pt x 252.945pt>
+<ecdhlog.pdf, id=1005, 488.78609pt x 252.945pt>
 File: ecdhlog.pdf Graphic file (type pdf)
 <use ecdhlog.pdf>
 Package pdftex.def Info: ecdhlog.pdf  used on input line 49.
@@ -1595,82 +1600,74 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 pdfTeX warning: pdflatex (file ./datalog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<datalog.pdf, id=985, 480.83638pt x 250.0542pt>
+<datalog.pdf, id=1009, 480.83638pt x 250.0542pt>
 File: datalog.pdf Graphic file (type pdf)
 <use datalog.pdf>
 Package pdftex.def Info: datalog.pdf  used on input line 57.
 (pdftex.def)             Requested size: 455.24411pt x 236.75269pt.
-[34 <./stm32log.pdf> <./initlog.pdf>] [35 <./ecdhlog.pdf> <./datalog.pdf>]
+[35 <./stm32log.pdf> <./initlog.pdf>] [36 <./ecdhlog.pdf> <./datalog.pdf>]
 
 pdfTeX warning: pdflatex (file ./sclog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<sclog.pdf, id=1027, 1372.16632pt x 701.7417pt>
+<sclog.pdf, id=1050, 1372.16632pt x 701.7417pt>
 File: sclog.pdf Graphic file (type pdf)
 <use sclog.pdf>
 Package pdftex.def Info: sclog.pdf  used on input line 66.
 (pdftex.def)             Requested size: 455.24411pt x 232.81757pt.
-[36 <./sclog.pdf>]
-<stm32-2.png, id=1046, 394.638pt x 191.187pt>
+[37 <./sclog.pdf>]
+<stm32-2.png, id=1069, 394.638pt x 191.187pt>
 File: stm32-2.png Graphic file (type png)
 <use stm32-2.png>
 Package pdftex.def Info: stm32-2.png  used on input line 81.
 (pdftex.def)             Requested size: 341.43307pt x 165.41531pt.
-<esp32.png, id=1047, 401.646pt x 197.976pt>
+<esp32.png, id=1070, 401.646pt x 197.976pt>
 File: esp32.png Graphic file (type png)
 <use esp32.png>
 Package pdftex.def Info: esp32.png  used on input line 88.
 (pdftex.def)             Requested size: 341.43307pt x 168.30453pt.
-<ke.png, id=1048, 361.35pt x 125.706pt>
+<ke.png, id=1071, 361.35pt x 125.706pt>
 File: ke.png Graphic file (type png)
 <use ke.png>
 Package pdftex.def Info: ke.png  used on input line 95.
 (pdftex.def)             Requested size: 341.43307pt x 118.77745pt.
- [37 <./stm32-2.png> <./esp32.png>]
-<packet2.png, id=1058, 620.7993pt x 228.3732pt>
+ [38 <./stm32-2.png> <./esp32.png>]
+<packet2.png, id=1081, 620.7993pt x 228.3732pt>
 File: packet2.png Graphic file (type png)
 <use packet2.png>
 Package pdftex.def Info: packet2.png  used on input line 114.
 (pdftex.def)             Requested size: 364.19667pt x 133.97935pt.
- [38 <./ke.png>]
-<pdr2.png, id=1064, 630.1944pt x 228.3732pt>
+ [39 <./ke.png>]
+<pdr2.png, id=1087, 630.1944pt x 228.3732pt>
 File: pdr2.png Graphic file (type png)
 <use pdr2.png>
 Package pdftex.def Info: pdr2.png  used on input line 121.
 (pdftex.def)             Requested size: 364.19667pt x 131.97914pt.
- [39 <./packet2.png> <./pdr2.png>]
-<images/stm32flash.png, id=1074, 219.0pt x 212.649pt>
+ [40 <./packet2.png> <./pdr2.png>]
+<images/stm32flash.png, id=1098, 219.0pt x 212.649pt>
 File: images/stm32flash.png Graphic file (type png)
 <use images/stm32flash.png>
 Package pdftex.def Info: images/stm32flash.png  used on input line 166.
 (pdftex.def)             Requested size: 204.85846pt x 198.92963pt.
-<images/stm32ram.png, id=1075, 216.81pt x 212.649pt>
+<images/stm32ram.png, id=1099, 216.81pt x 212.649pt>
 File: images/stm32ram.png Graphic file (type png)
 <use images/stm32ram.png>
 Package pdftex.def Info: images/stm32ram.png  used on input line 172.
 (pdftex.def)             Requested size: 204.85846pt x 200.93813pt.
-<images/esp32flash.png, id=1076, 215.715pt x 216.81pt>
+<images/esp32flash.png, id=1100, 215.715pt x 216.81pt>
 File: images/esp32flash.png Graphic file (type png)
 <use images/esp32flash.png>
 Package pdftex.def Info: images/esp32flash.png  used on input line 183.
 (pdftex.def)             Requested size: 204.85846pt x 205.90877pt.
-<images/esp32ram.png, id=1077, 217.248pt x 216.81pt>
+<images/esp32ram.png, id=1101, 217.248pt x 216.81pt>
 File: images/esp32ram.png Graphic file (type png)
 <use images/esp32ram.png>
 Package pdftex.def Info: images/esp32ram.png  used on input line 189.
 (pdftex.def)             Requested size: 204.85846pt x 204.45645pt.
- [40 <./images/stm32flash.png> <./images/stm32ram.png> <./images/esp32flash.png> <./images/esp32ram.png>] [41]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 244.
- (D:\MiTek\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [42]
-
-LaTeX Warning: Citation '?' on page 43 undefined on input line 264.
-
-[43]) [44]
+ [41 <./images/stm32flash.png> <./images/stm32ram.png> <./images/esp32flash.png> <./images/esp32ram.png>] [42] [43] [44]) [45]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (Chapter5/chapter5.tex
 ChÆ°Æ¡ng 5.
-) [45
+) [46
 
 
 
@@ -1680,7 +1677,7 @@ ChÆ°Æ¡ng 5.
 ]
 \openout2 = `Appendix/publish.aux'.
 
- (Appendix/publish.tex) [46
+ (Appendix/publish.tex) [47
 
 
 
@@ -1688,6 +1685,12 @@ ChÆ°Æ¡ng 5.
 
 
 ]
+
+Package biblatex Warning: Keyword 'Viet' not found on input line 227.
+
+
+LaTeX Warning: Empty bibliography on input line 227.
+
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
@@ -1698,27 +1701,26 @@ Overfull \hbox (2.19708pt too wide) in paragraph at lines 232--232
 []\T5/ptm/m/n/13 Brown, Daniel R. L. ``Stan-dards for Ef-fi-cient Cryp-tog-ra-phy SEC 2: Rec-om-mended
  []
 
-[47
-
-
-
-
-
-]
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 232.
- (D:\MiTek\tex/latex/vntex\t5cmtt.fd
+(D:\MiTek\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Overfull \hbox (15.86635pt too wide) in paragraph at lines 232--232
 []\T5/ptm/m/n/13 Online. \T5/ptm/m/it/13 Crypt-anal-y-sis\T5/ptm/m/n/13 . \T5/ptm/m/sc/13 url\T5/ptm/m/n/13 : []$\T5/cmtt/m/n/13 https : / / en . wikipedia . org / wiki / Cryptanalysis$[]
  []
 
-[48]
-Overfull \hbox (77.8891pt too wide) in paragraph at lines 232--232
-\T5/ptm/m/n/13 on pat-terns and ar-chi-tec-tures for IoT se-cu-rity''. In: \T5/ptm/m/it/13 Cy-ber-se-cu-rity https://doi.org/10.1186/s42400-
+[48
+
+
+
+
+
+]
+Overfull \hbox (7.14568pt too wide) in paragraph at lines 232--232
+[]\T5/ptm/m/n/13 Online. \T5/ptm/m/it/13 Related-key At-tack\T5/ptm/m/n/13 . \T5/ptm/m/sc/13 url\T5/ptm/m/n/13 : []$\T5/cmtt/m/n/13 https : / / en . wikipedia . org / wiki / Related -[]
  []
 
-[49] (main.aux (Appendix/reassurances.aux) (Appendix/thanks.aux) (Appendix/decuong.aux) (Appendix/tomtat.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux) (Chapter4/chapter4.aux) (Chapter5/chapter5.aux) (Appendix/publish.aux))
+[49] [50] (main.aux (Appendix/reassurances.aux) (Appendix/thanks.aux) (Appendix/decuong.aux) (Appendix/tomtat.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux) (Chapter4/chapter4.aux) (Chapter5/chapter5.aux) (Appendix/publish.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1735,7 +1737,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2339876BAB382A75C66F5D113D2D7748;8365.
+(rerunfilecheck)             Checksum: 2D917AF9964B4E73E1E9156DDB547260;8529.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1746,17 +1748,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35328 strings out of 474486
- 652760 string characters out of 5760645
+ 35322 strings out of 474486
+ 652255 string characters out of 5760645
  1942542 words of memory out of 5000000
- 56763 multiletter control sequences out of 15000+600000
- 644880 words of font info for 168 fonts, out of 8000000 for 9000
+ 56755 multiletter control sequences out of 15000+600000
+ 649336 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,2609b,1478s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,107p,2609b,1491s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/MiTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmtt12.pfb><D:/MiTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MiTek/fonts/type1/vntex/urwvn/utmb8v.pfb><D:/MiTek/fonts/type1/urw/times/utmr8a.pfb><D:/MiTek/fonts/type1/vntex/urwvn/utmr8v.pfb><D:/MiTek/fonts/type1/urw/times/utmri8a.pfb><D:/MiTek/fonts/type1/vntex/urwvn/utmri8v.pfb><D:/MiTek/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (57 pages, 10879695 bytes).
+Output written on main.pdf (59 pages, 10915255 bytes).
 PDF statistics:
- 1262 PDF objects out of 1440 (max. 8388607)
- 199 named destinations out of 1000 (max. 500000)
- 508 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1282 PDF objects out of 1440 (max. 8388607)
+ 201 named destinations out of 1000 (max. 500000)
+ 521 words of extra memory for PDF output out of 10000 (max. 10000000)
 

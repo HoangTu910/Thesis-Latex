@@ -6,6 +6,7 @@ nội dung được trình bày là việc đặt vấn đề, mục tiêu hư�
 đóng góp, và bố cục của khóa luận.
 
 \section{Đặt vấn đề}
+\label{sec:prob}
 Internet of Things (IoT) đã và đang trở thành một trong những trụ cột quan trọng trong sự phát triển của các công nghệ hiện đại, mở ra nhiều đột phá trong các lĩnh vực như chăm sóc sức khỏe, tự động hóa và các hệ thống thông minh \cite{iot1}. Tuy nhiên, phần lớn các thiết bị IoT hiện nay đều hoạt động trong môi trường có tài nguyên hạn chế, bao gồm tốc độ xử lý thấp, dung lượng pin hạn chế, cũng như kết nối mạng không ổn định. Những hạn chế này khiến các thiết bị dễ bị ảnh hưởng trước các mối đe dọa về bảo mật \cite{iot2}, làm gia tăng nguy cơ mất gói tin trong quá trình truyền dữ liệu. Những kẻ tấn công thường lợi dụng các điểm yếu này để khai thác các lỗ hổng bảo mật trong phần cứng, phần mềm và giao thức để nhắm vào hệ sinh thái IoT trong các hệ thống doanh nghiệp, công nghiệp và chính phủ. Do đó, tính bảo mật, tính toàn vẹn và tính khả dụng của các hệ thống này bị suy yếu gây ra các thiệt hại vô cùng lớn.
 % như nghe lén trái phép (eavesdropping), chỉnh sửa dữ liệu (tampering) và tấn công phát lại (replay attack), trong đó các gói tin hợp lệ bị kẻ tấn công phát lại với mục đích xấu \cite{?}. 
 
@@ -14,13 +15,43 @@ Internet of Things (IoT) đã và đang trở thành một trong những trụ c
 Do đó, việc nghiên cứu và phát triển các giải pháp bảo mật nhẹ, phù hợp với tài nguyên hạn chế của thiết bị IoT, đồng thời đảm bảo các yếu tố như dữ liệu phải được mã hóa, khả năng kháng lại các cuộc tấn công, đảm bảo tính toàn vẹn của dữ liệu, các lớp trong kiến trúc IoT đều phải có cơ chế bảo mật hợp lý là một yêu cầu cấp thiết để nâng cao độ an toàn và hiệu quả của các hệ thống IoT trong thực tiễn.
 
 \section{Mục tiêu của đề tài}
-Các thiết bị IoT tài nguyên thấp thường dễ bị khai thác do thiếu các cơ chế bảo mật mạnh mẽ, chẳng hạn như mã hóa phức tạp hoặc xác thực thời gian thực. Do đó, đề tài này tập trung vào phát triển một kiến trúc IoT bảo mật toàn diện, vừa đảm bảo các yếu tố an toàn như tính toàn vẹn, bí mật dữ liệu, và khả năng chống lại các cuộc tấn công từ bên ngoài, vừa tối ưu để phù hợp với các thiết bị có tài nguyên hạn chế. Kiến trúc đề xuất sẽ tích hợp các giải pháp như sử dụng thuật toán mã hóa nhẹ, cơ chế trao đổi khóa động và kiến trúc khung truyền riêng đảm bảo chỉ có các thiết bị được ủy quyền mới có thể xử lý và giải mã các gói tin hợp lý. Đề tài cũng giới thiệu phương pháp \textit{safe counter} mới nhằm hạn chế khả năng bị brute-force vào các gói tin. Qua đó, hệ thống vừa tăng cường bảo mật truyền thông giữa các lớp vừa duy trì hiệu suất và tính khả thi, đáp ứng nhu cầu thực tiễn trong các lĩnh vực y tế, giao thông và nhà thông minh.
+Các thiết bị IoT tài nguyên thấp thường dễ bị khai thác do thiếu các cơ chế bảo mật mạnh mẽ, chẳng hạn như mã hóa phức tạp hoặc xác thực thời gian thực cũng như một số nhược điểm khác
+được đề cập ở phần \ref{sec:prob}. 
+Hơn nữa, phần lớn các nghiên cứu trong lĩnh vực bảo mật IoT chỉ tập trung giải quyết các bài toán đơn lẻ hoặc dừng lại ở mức lý thuyết. Vì vậy, đề tài hướng đến việc thiết kế một kiến trúc IoT hoàn chỉnh, có khả năng triển khai trên các thiết bị phần cứng khác nhau, đặc biệt là những thiết bị có tài nguyên giới hạn. Kiến trúc phải 
+đảm bảo khả năng bảo mật đa lớp trong kiến trúc IoT bốn lớp. Từ đó, đề tài hướng đến việc đóng góp cho cộng đồng một kiến trúc có tính tổng quát cao, có thể triển khai trên bất kỳ nền tảng phần cứng nào.
+
+\section{Giải pháp đề xuất}
+Đề tài tập trung vào phát triển một kiến trúc IoT bảo mật toàn diện, vừa đảm bảo các yếu tố an toàn như tính toàn vẹn, bí mật dữ liệu, và khả năng chống lại các cuộc tấn công từ bên ngoài, vừa tối ưu để phù hợp với các thiết bị có tài nguyên hạn chế. Kiến trúc đề xuất sẽ tích hợp các giải pháp như sử dụng thuật toán mã hóa nhẹ, cơ chế trao đổi khóa động và kiến trúc khung truyền riêng đảm bảo chỉ có các thiết bị được ủy quyền mới có thể xử lý và giải mã các gói tin hợp lý. Đề tài cũng giới thiệu phương pháp \textit{safe counter} mới nhằm hạn chế khả năng bị brute-force vào các gói tin. Qua đó, hệ thống vừa tăng cường bảo mật truyền thông giữa các lớp vừa duy trì hiệu suất và tính khả thi, đáp ứng nhu cầu thực tiễn trong các lĩnh vực y tế, giao thông và nhà thông minh.
 
 \section{Đóng góp của đề tài}
-Kết quả của khóa luận là những đóng góp trong việc thiết kế một kiến trúc IoT bảo mật, tối ưu cho các thiết bị tài nguyên thấp. Trong truyền dữ liệu, thuật toán mã hóa Ascon-128a đã được áp dụng nhằm đảm bảo tính bảo mật trong hệ thống, giảm đáng kể độ trễ mã hóa so với AES. Các gói tin được định dạng trong cấu trúc khung truyền tùy chỉnh, tích hợp các trường như header đồng bộ, định danh, số thứ tự, và mã xác thực,... giúp xác minh tính toàn vẹn và ngăn chặn một số cuộc tấn công. Trao đổi khóa Elliptic Curve Diffie-Hellman (ECDH) sử dụng đường cong \textit{sect163k1} kết hợp với kỹ thuật tạo khóa phiên dùng hàm băm Ascon Hash được triển khai hiệu quả, cho phép tạo khóa bí mật động giữa gateway (ESP32) và máy chủ, tăng cường bảo mật trước các tấn công Man-in-the-Middle. Các kết quả thử nghiệm sử dụng STM32F411VET6 và ESP32 cho thấy tỷ lệ truyền gói tin đạt 99.99\% trong 120 phút (147,682 gói tin), độ trễ trung bình 51.08 ms, và khả năng từ chối 100\% 70,000 gói tin phát lại, khẳng định tính ổn định và an toàn của khung đề xuất. 
+Kết quả của khóa luận là những đóng góp trong việc thiết kế một kiến trúc IoT bảo mật, tối ưu cho các thiết bị tài nguyên thấp. Trong truyền dữ liệu, thuật toán mã hóa Ascon-128a đã được áp dụng nhằm đảm bảo tính bảo mật trong hệ thống, giảm đáng kể độ trễ mã hóa so với AES. Các gói tin được định dạng trong cấu trúc khung truyền tùy chỉnh, tích hợp các trường như header đồng bộ, định danh, số thứ tự, và mã xác thực,... giúp xác minh tính toàn vẹn và ngăn chặn một số cuộc tấn công. Trao đổi khóa Elliptic Curve Diffie-Hellman (ECDH) sử dụng đường cong \textit{sect163k1} kết hợp với kỹ thuật tạo khóa phiên dùng hàm băm Ascon Hash được triển khai hiệu quả, cho phép tạo khóa bí mật động giữa gateway (ESP32) và máy chủ, tăng cường bảo mật trước các tấn công Man-in-the-Middle. Các kết quả thử nghiệm sử dụng vi điều khiển tầm trung như STM32F411VET6 và ESP32 cho thấy tỷ lệ truyền gói tin đạt 99.99\% trong 120 phút (147,682 gói tin), độ trễ trung bình 51.08 ms, và khả năng từ chối 100\% 70,000 gói tin phát lại, khẳng định tính ổn định và an toàn của khung đề xuất. 
 
 \section{Bố cục của khóa luận}
 
+Báo cáo khóa luận được chia thành 5 chương gồm các nội dung như sau:
+\begin{itemize}
+    \item CHƯƠNG 1: GIỚI THIỆU
+    \item CHƯƠNG 2: CÁC CÔNG TRÌNH LIÊN QUAN
+    \item CHƯƠNG 3: PHƯƠNG PHÁP ĐỀ XUẤT
+    \item CHƯƠNG 4: KẾT QUẢ TRIỂN KHAI VÀ PHÂN TÍCH
+    \item CHƯƠNG 5: KẾT LUẬN
+\end{itemize}
+
+Chương 1 sẽ đưa ra các nội dung tổng quát của khóa luận. Các nội dung chính 
+bao gồm đặt vấn đề, mục tiêu của đề tài, đóng góp của đề tài, và bố cục của khóa luận.
+
+Chương 2 sẽ đưa ra một số công trình liên quan đến đề tài, làm rõ các ưu nhược điểm của từng công trình.
+Ngoài ra, chương này cũng sẽ phân tích một số cuộc tấn công phổ biến trong hệ thống IoT. Từ đó, đưa ra khoảng trống nghiên cứu, 
+các vấn đề mà đề tài tập trung giải quyết.
+
+Chương 3 bao gồm hai phần chính. Phần thứ nhất tập trung về cơ sở lý thuyết liên quan tới kiến trúc IoT đề xuất. Phần thứ hai sẽ trình bày
+chi tiết quá trình triển khai từng module trong hệ thống.
+
+Chương 4 đưa ra các kết quả đạt được trong việc triển khai. Đồng thời, chương này sẽ đánh giá hiệu suất và một số thông số quan trọng khác cũng như
+phân tích và nhận xét về khả năng bảo mật của hệ thống.
+
+Cuối cùng là chương 5 sẽ tóm gọn lại về mục tiêu, phương pháp, kết quả đạt được. Đồng thời sẽ đưa ra các hạn chế của đề tài và 
+đề xuất hướng phát triển trong tương lai.
 % Tóm lại, các vấn đề bảo mật chính mà các hệ thống IoT hiện nay đang đối mặt bao gồm:
 % \begin{enumerate}
 %     \item Hạn chế tài nguyên: Các thiết bị IoT thường bị giới hạn về khả năng tính toán và tài nguyên, gây khó khăn trong việc triển khai các thuật toán mã hóa phức tạp.

@@ -64,7 +64,7 @@ Cơ chế \textit{Safe counter} cũng được triển khai thành công trên c
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{sclog.pdf}
-    \caption{Log của gateway và máy chủ trong quá trình cập nhập}
+    \caption{Quá trình thực hiện cơ chế \textit{safe counter}}
     \label{fig:sclog}
 \end{figure}
 
@@ -213,11 +213,11 @@ Tổng kích thước mà hệ thống đã truyền tải sẽ được tính n
 \]
 Từ đó, ta có thể tính toán thông lượng của hệ thống bằng công thức:
 \[
-\text{Throughtput} = \left( \frac{\text{Data size}}{\text{Transmission Time}} \right) \times 8 = \left( \frac{7,230,538}{120 \times 60} \right) \times 8 \approx 8,033.93 \ \text{bps}
+\textit{Throughtput} = \left( \frac{\text{Data size}}{\text{Transmission Time}} \right) \times 8 = \left( \frac{7,230,538}{120 \times 60} \right) \times 8 \approx 8,033.93 \ \text{bps}
 \]
 Trong đánh giá này, mỗi khung truyền GS2 có tổng kích thước là 49 byte, tuy nhiên chỉ có 3 byte dữ liệu cần thiết, phần còn lại chủ yếu là các trường bổ sung nhằm đảm bảo tính bảo mật của hệ thống, dẫn đến một tham số được đưa ra đó là hiệu suất tải (\textit{payload efficiency}) khá nhỏ là $3/49 \approx 6.12\%$. Con số này nói lên rằng chỉ có 6.12\% dữ liệu được truyền là dữ liệu hữu ích, trong khi phần còn lại là chi phí truyền dẫn khác không có ý nghĩa đối với người dùng cuối. Vì vậy, mặc dù thông lượng của hệ thống khá cao nhưng thực tế thì thông lượng hữu ích (goodput) lại thấp hơn nhiều:
 \[
-\text{Goodput} = \left( \frac{147,562 \times 3}{120 \times 60} \right) \times 8 \approx 491.87 \ \text{bps}
+\textit{Goodput} = \left( \frac{147,562 \times 3}{120 \times 60} \right) \times 8 \approx 491.87 \ \text{bps}
 \]
 Từ những phân tích trên, có thế thấy chi phí truyền tải khi áp dụng kiến trúc khung truyền là không nhỏ. Với hiệu suất tải thấp sẽ dẫn đến việc tiêu tốn băng thông, băng thông sẽ không được sử dụng một cách tối ưu. Tuy nhiên, hiệu suất tải sẽ được cải thiện đáng kể nếu hệ thống truyền nhiều dữ liệu, tức là kích thước tải lớn hơn. Bảng \ref{tab:efficiency} trình bày hiệu suất tải với các kích thước tải khác nhau trên cũng một khung truyền dữ liệu, có thể thấy thay vì truyền 3 byte dữ liệu như đề tài đã thực hiện, nếu ứng dụng kiến trúc này vào các hệ thống cần truyền nhiều dữ liệu đồng thời, việc sử dụng băng thông sẽ được tối ưu hơn rất nhiều.
 \begin{table}[h]
@@ -261,7 +261,7 @@ Phần này trình bày đánh giá chi tiết về mức độ an toàn của h
 
 \textit{Nhận xét 5: Thuật toán trao đổi khóa ECDH đảm bảo mức độ bảo mật theo khuyến nghị của NIST.}
 \begin{itemize}
-    \item Quá trình trao đổi khóa dùng thuật toán ECDH sử dụng đường cong \textit{sect163k1} với mức bảo mật là 80-bit. Mức bảo mật này đáp ứng được khuyến nghị của NIST về mức độ bảo mật \cite{?}. Hơn nữa, khóa bảo mật sẽ được cập nhật định kỳ, khiến các cuộc tấn brute-force vào khóa bí mật trở nên không khả thi.
+    \item Quá trình trao đổi khóa dùng thuật toán ECDH sử dụng đường cong \textit{sect163k1} với mức bảo mật là 80-bit. Mức bảo mật này đáp ứng được khuyến nghị của NIST về mức độ bảo mật \cite{nist}. Hơn nữa, khóa bảo mật sẽ được cập nhật định kỳ, khiến các cuộc tấn brute-force vào khóa bí mật trở nên không khả thi.
 \end{itemize}
 
 \textit{Nhận xét 6: Hệ thống có khả năng phát hiện và ngăn chặn các cuộc tấn công phát lại (replay attack).}
