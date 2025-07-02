@@ -51,8 +51,9 @@
 \contentsline {section}{\numberline {4.2}Kết quả, phân tích và đánh giá}{34}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Kết quả thực hiện}{34}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Đánh giá}{37}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Phân tích thông lượng và hiệu suất tải dữ liệu}{42}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Phân tích khả năng bảo mật của hệ thống}{43}{subsection.4.2.4}%
-\contentsline {chapter}{\numberline {5}Kết luận}{46}{chapter.5}%
-\contentsline {chapter}{Danh mục công trình của tác giả}{47}{chapter.5}%
-\contentsline {chapter}{Tài liệu tham khảo}{48}{Item.14}%
+\contentsline {subsection}{\numberline {4.2.3}Phân tích công suất tiêu thụ}{42}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Phân tích thông lượng và hiệu suất tải dữ liệu}{43}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Phân tích khả năng bảo mật của hệ thống}{45}{subsection.4.2.5}%
+\contentsline {chapter}{\numberline {5}Kết luận}{48}{chapter.5}%
+\contentsline {chapter}{Danh mục công trình của tác giả}{49}{chapter.5}%
+\contentsline {chapter}{Tài liệu tham khảo}{50}{Item.14}%

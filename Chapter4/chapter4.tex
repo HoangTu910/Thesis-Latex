@@ -193,6 +193,47 @@ Trên STM32F411VET6, nhiệm vụ chính là thu thập và mã hóa dữ liệu
 \label{fig:esp32mem}
 \end{figure}
 
+\subsection{Phân tích công suất tiêu thụ}
+Quá trình đo công suất tiêu thụ được thực hiện trên hệ thống phần cứng bao gồm vi điều khiển STM32F411VET6 ở lớp nhận thức và module ESP32 ở lớp mạng.
+Cảm biến INA219 được sử dụng để phục vụ quá trình đo đạc của hệ thống. Đây là một cảm biến chuyên dụng sử dụng giao thức I2C cho phép
+đo dòng điện, điện áp và tính toán công suất tiêu thụ với độ chính xác cao. Cả hệ thống được cấp nguồn chung là 5V và đo liên tục trong 60 phút. Quá trình trao đổi khóa cũng được cập nhật lại là trao đổi khóa sau mỗi 10 gói tin thành công.
+Với cấu hình thử nghiệm như vậy sẽ cho ra cái nhìn khách quan hơn về mức tiêu thụ năng lượng của hệ thống.
+Trong suốt quá trình đo, các thông như về dòng điện (mA) và công suất tiêu thụ (mW) được ghi lại mỗi phút. 
+Các kết quả thu được phản ánh trực tiếp mức độ tiêu thụ năng lượng của từng thành phần cũng như toàn hệ thống trong suốt thời gian hoạt động.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.2\linewidth]{ina219.png}
+    \caption{Cảm biến dòng INA219}
+    \label{fig:ina219}
+\end{figure}
+
+Hình \ref{fig:stm32pow} minh họa dòng điện và công suất tiêu thụ của STM32 trong suốt 60 phút. Dòng điện dao động trong khoảng từ 40 đến 48 mA, với giá trị trung bình đạt 43.99 mA. Công suất tiêu thụ của STM32 dao động từ 200 đến 240 mW, với mức trung bình trong một giờ là 222.97 mW.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{stm32pow.png}
+    \caption{Mức tiêu thụ năng lượng của STM32F411VET6}
+    \label{fig:stm32pow}
+\end{figure}
+
+Tương tự, hình \ref{fig:esp32pow} thể hiện đặc tính tiêu thụ năng lượng của ESP32 IoT Gateway. ESP32 có dòng điện dao động từ 100 đến 125 mA, với giá trị trung bình là 112.52 mA. 
+Công suất tiêu thụ tương ứng dao động trong khoảng 500 đến 600 mW, với giá trị trung bình đạt 556.46 mW. 
+Có thể nhận thấy ESP32 tiêu thụ năng lượng cao hơn đáng kể so với STM32, do phải xử lý các thuật toán phức tạp hơn, duy trì kết nối Wi-Fi và truyền dữ liệu liên tục tới máy chủ qua giao thức MQTT.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{esp32pow.png}
+    \caption{Mức tiêu thụ năng lượng của ESP32 Gateway}
+    \label{fig:esp32pow}
+\end{figure}
+
+Cuối cùng, hình \ref{fig:totalpow} trình bày công suất tiêu thụ tổng của toàn hệ thống. Kết quả ghi nhận mức tiêu thụ trung bình là 779.43 mW.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{totalpow.png}
+    \caption{Mức tiêu thụ năng lượng của toàn bộ hệ thống}
+    \label{fig:totalpow}
+\end{figure}
+
 \subsection{Phân tích thông lượng và hiệu suất tải dữ liệu}
 Thông lượng và hiệu suất tải dữ liệu là hai thông số quan trọng trong việc đánh giá hệ thống. Việc sử dụng kiến trúc khung truyền với các trường dữ liệu bổ sung sẽ tốn thêm chi phí truyền tải, kích thước mỗi gói tin sẽ tăng so với các phương pháp đơn giản hơn. Phần này sẽ tập trung vào phân tích thông lượng và hiệu suất tải dữ liệu để đánh giá một số hạn chế của hệ thống. Đồng thời, đề xuất một số phương pháp có thể giúp cải thiện hệ thống trong tương lai.
 

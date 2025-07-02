@@ -36,4 +36,8 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Tỷ lệ truyền gói tin mỗi phút}}{40}{figure.caption.40}%
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Dung lượng tiêu thụ của STM32F411VET6}}{41}{figure.caption.43}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Dung lượng tiêu thụ của ESP32-WROOM-32}}{41}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Cảm biến dòng INA219}}{42}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Mức tiêu thụ năng lượng của STM32F411VET6}}{42}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Mức tiêu thụ năng lượng của ESP32 Gateway}}{43}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Mức tiêu thụ năng lượng của toàn bộ hệ thống}}{43}{figure.caption.48}%
 \addvspace {10\p@ }
