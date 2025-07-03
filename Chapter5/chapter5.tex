@@ -1,2 +1,29 @@
 \chapter{Kết luận}
 \label{Chapter5}
+
+Đề tài đã hoàn thành phát triển một kiến trúc IoT bảo mật toàn diện, kết hợp nhiều kỹ thuật cốt lõi nhằm đảm bảo tính an toàn và hiệu quả trong môi trường giới hạn tài nguyên. 
+Cụ thể, hệ thống tích hợp kiến trúc khung truyền, cơ chế trao đổi khóa động và tạo khóa phiên, thuật toán mã hóa nhẹ Ascon-128a, cùng với cơ chế \textit{safe counter}, đã
+cho ra các kết quả tốt. 
+
+Hệ thống đạt tỷ lệ truyền thành công là 99.99\% trong 120 phút, thể hiện tính ổn định và toàn vẹn của dữ liệu trong quá trình truyền.
+Độ trễ trung bình là 51.08 ms cho mỗi gói tin, kết quả về độ trễ sẽ thay đổi tùy thuộc vào tốc độ mạng thực tế. Để kiểm tra khả năng chống lại tấn công brute-force, 70,000
+gói tin giả mạo được gửi liên tục vào máy chủ. Kết quả cho thấy máy chủ từ chối 100\% gói tin giả nhờ vào cơ chế \textit{safe counter} đề xuất. 
+Về hiệu năng mã hóa, thuật toán Ascon-128a khi triển khai trên lõi ARM Cortex-M4 cho kết quả nhanh hơn 78.4\% so với AES, cho thấy độ hiệu quả 
+và phù hợp với các phần cứng có tài nguyên giới hạn. 
+
+Tuy nhiên, đề tài vẫn còn một số hạn chế nhất định cần được cải thiện trong các nghiên cứu tiếp theo. Đầu tiên là về thông lượng, với kiến trúc khung truyền chứa nhiều trường dữ liệu để đảm bảo tính bảo mật, nhưng điều này cũng làm gia tăng kích thước mỗi gói tin, dẫn đến hiệu quả sử dụng băng thông chưa được tối ưu. Dù băng thông có thể cải thiện thông qua việc tăng số lượng dữ liệu ở mỗi lần truyền, tuy nhiên việc tiếp tục nghiên cứu về hướng tối ưu băng thông sẽ là cần thiết.
+Một hạn chế khác đó là về vấn đề năng lượng tiêu thụ. Với công suất tiêu thụ trung bình là 779.43 mW, đây là một con số khá cao nếu hệ thống sử dụng pin để hoạt động. Để có thể so sánh rõ hơn, ví dụ khi sử dụng pin Li-ion 3.7V 
+có dung lượng 2000 mAh. Thời gian hoạt động là:
+\[
+    \text{Time} = \frac{\text{Pin Capacity}}{\text{Power}} = \frac{2000 \times 3.7 }{779.43} \approx 9.49 \, \text{giờ}
+\]
+Với 9.49 giờ hoạt động có thể thấy đây là con số không quá cao, chưa đáp ứng được nhu cầu hoạt động liên tục ít nhất là trong một ngày, đặc biệt là đối với các ứng dụng IoT cần hoạt động liên tục trong thời gian dài. Ngoài ra, quá trình trao đổi khóa sử dụng thuật toán
+Elliptic Curve Diffie-Hellman cũng là một vấn đề có thể cân nhắc cải thiện. Với độ trễ của mỗi lần tạo khóa chung và sinh khóa bí mật là 335 ms, vấn đề về đáp ứng thời gian thực sẽ
+không được đảm bảo. Mặc dù đề tài đã cố gắng giải quyết vấn đề này bằng cách giảm tần suất trao đổi khóa giữa gateway và máy chủ thông qua cơ chế tạo khóa phiên, chỉ thực hiện trao đổi khi thực sự cần thiết. Tuy nhiên, nếu có thể cải thiện hiệu năng của thuật toán trao đổi khóa hoặc áp dụng giải pháp thay thế hiệu quả hơn, hệ thống sẽ hoạt động tối ưu hơn nữa.
+
+Từ những hạn chế đã phân tích, một số hướng phát triển tiềm năng có thể được cân nhắc nhằm cải thiện hiệu năng và độ phù hợp của hệ thống trong các ứng dụng thực tế. Đối với vấn đề về thông lượng, các kỹ thuật nén dữ liệu có thể nghiên cứu áp dụng vào hệ thống, từ đó có thể cải thiện vấn đề về băng thông. 
+Một hướng giải quyết dễ tiếp cận hơn đó là phát triển một số cơ chế hoặc thuật toán tích lũy dữ liệu. Nếu hệ thống có một cơ chế tích lũy phù hợp, có thể tận dụng được phân tích lý thuyết trong phần \ref{sec:put}, theo đó khi kích thước payload càng lớn
+thì hiệu suất tải dữ liệu sẽ được cải thiện đáng kể. Về phần trao đổi khóa, có hai hướng có thể nghiên cứu: (1) phát triển một cơ chế trao đổi khóa mới nhẹ hơn nhưng vẫn đảm bảo mức độ bảo mật cao, (2) tìm kiếm và đánh giá một số đường cong 
+elliptic khác phù hợp hơn trong việc triển khai trên các hệ thống nhúng, thay thế cho đường cong hiện tại đang sử dụng trong ECDH. Cuối cùng là về phần năng lượng, việc tích hợp các cơ chế tiết kiệm năng lượng có thể nghiên cứu để triển khai. Trên vi điều khiển 
+STM32, có thể sử dụng các chế độ Sleep Mode hoặc Stop Mode, điều chỉnh chu kỳ hoạt động để kéo dài thời gian ngủ mà vẫn đảm bảo khả năng truyền nhận dữ liệu kịp thời. Tương tự với ESP32 Gateway, nếu có thể nghiên cứu được giải pháp giúp ESP32 hoạt động với công suất thấp thì
+có thể tối ưu được rất nhiều về phần năng lượng. Với những hướng phát triển trên, hệ thống có thể đạt được sự cân bằng tốt hơn giữa bảo mật, hiệu năng và khả năng triển khai thực tế trong các ứng dụng IoT yêu cầu cao như giám sát y tế, nhà thông minh hay thành phố thông minh.

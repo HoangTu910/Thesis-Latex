@@ -51,7 +51,8 @@ Kỹ thuật trao đổi khóa sử dụng thuật toán ECDH được triển k
     \label{fig:logecdh}
 \end{figure}
 
-Quá trình truyền dữ liệu được triển khai thành công theo đúng trình tự được trình bày trong hình \ref{fig:system} và \ref{fig:trans-sys}. Trên ESP32, quá trình truyền được chia thành năm giai đoạn chính bắt đầu bằng việc kiểm tra khóa, gửi tín hiệu kích hoạt đến cho STM32 ở lớp nhận thức, nhận khung dữ liệu từ STM32 và tiến hành phân giải, tạo khung truyền dữ liệu mới đề gửi lên máy chủ, cuối cùng chờ tín hiệu ACK từ máy chủ. Về phần máy chủ, sau khi nhận khung truyền đã phân giải và mã hóa dữ liệu thành công sẽ gửi về tín hiệu ACK để kết thúc phiên. Các kết quả giao tiếp trên được trình bày trong hình \ref{fig:datalog}.
+Quá trình truyền dữ liệu được triển khai thành công theo đúng trình tự được trình bày trong hình \ref{fig:system} và \ref{fig:trans-sys}. Trên ESP32, quá trình truyền được chia thành năm giai đoạn chính: (1) kiểm tra khóa hiện tại, (2) gửi tín hiệu kích hoạt đến vi điều khiển STM32 tại lớp nhận thức, (3) nhận và phân giải khung dữ liệu từ STM32, (4) tạo khung truyền dữ liệu mới để gửi lên máy chủ, và (5) chờ nhận tín hiệu xác nhận (ACK) từ máy chủ. 
+Ở phía máy chủ, sau khi tiếp nhận khung truyền, dữ liệu sẽ được giải mã và xác thực. Nếu dữ liệu hợp lệ, máy chủ sẽ phản hồi tín hiệu ACK để xác nhận thành công và kết thúc phiên truyền. Các kết quả minh họa cho quá trình truyền và phản hồi giữa các thiết bị được thể hiện trong Hình \ref{fig:datalog}. Các kết quả giao tiếp trên được trình bày trong hình \ref{fig:datalog}.
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{datalog.pdf}
@@ -235,6 +236,7 @@ Cuối cùng, hình \ref{fig:totalpow} trình bày công suất tiêu thụ tổ
 \end{figure}
 
 \subsection{Phân tích thông lượng và hiệu suất tải dữ liệu}
+\label{sec:put}
 Thông lượng và hiệu suất tải dữ liệu là hai thông số quan trọng trong việc đánh giá hệ thống. Việc sử dụng kiến trúc khung truyền với các trường dữ liệu bổ sung sẽ tốn thêm chi phí truyền tải, kích thước mỗi gói tin sẽ tăng so với các phương pháp đơn giản hơn. Phần này sẽ tập trung vào phân tích thông lượng và hiệu suất tải dữ liệu để đánh giá một số hạn chế của hệ thống. Đồng thời, đề xuất một số phương pháp có thể giúp cải thiện hệ thống trong tương lai.
 
 Khung truyền GS2 sẽ được sử dụng trong việc đánh giá thông lượng cũng như hiệu suất tải dữ liệu của hệ thống. Đây là khung truyền được sử dụng với tần suất lớn nhất trong suốt quá trình truyền tải dữ liệu. Khung truyền GS2 là khung truyền đảm nhận việc truyền dữ liệu từ lớp nhận thức đến máy chủ bằng giao thức MQTT. Thông qua việc phân tích khung truyền GS2, có thể xấp xỉ chính xác nhất thông lượng và hiệu suất tải dữ liệu của hệ thống. Tổng kích thước của khung truyền GS2 là tổng kích thước của tất cả các trường dữ liệu được tính toán như sau:
@@ -315,12 +317,18 @@ Phần này trình bày đánh giá chi tiết về mức độ an toàn của h
     \item Một kịch bản có thể xảy ra đó là kẻ tấn công cố gắng brute-force toàn bộ 4 byte \textit{sequence number} để có thể thành công gửi gói tin vào máy chủ. Vì vậy, cơ chế \textit{safe counter} được thiết lập để có thể các cuộc tấn công trên. Nếu máy chủ từ chối một số lượng gói tin nhất định, cả gateway và máy chủ sẽ sử dụng \textit{safe counter} để cập nhật lại \textit{sequence number} mới một cách đồng bộ. Với cơ chế này, tỉ lệ brute-force thành công gần như là không thể xảy ra. 
 \end{itemize}
 
-\textit{Nhận xét 8: Hệ thống đã được kiểm nghiệm thực tế với lượng lớn dữ liệu giả mạo và cho thấy khả năng phòng thủ cao.}
+\textit{Nhận xét 8: Khả năng chống lại tấn công kênh biên (side-channel attack) nhờ vào mã hóa Ascon.}
+\begin{itemize}
+    \item Khả năng chống lại tấn công kênh biên được chứng minh trong bài báo \cite{asconv1.2} của nhóm nghiên cứu Ascon. Trong đó họ đã đề cập đến việc
+    Ascon có thể được triển khai hiệu quả trên các nền tảng và ứng dụng yêu cầu khả năng chống tấn công kênh bên cao. Việc sử dụng S-box theo dạng bitsliced giúp ngăn chặn các cuộc tấn công dựa trên thời gian truy cập bộ nhớ cache, vì không cần sử dụng bảng tra cứu (lookup table). Ngoài ra, bậc đại số thấp của S-box còn tạo điều kiện thuận lợi cho việc áp dụng các biện pháp bảo vệ kênh bên ở cả cấp độ thứ nhất và cao hơn, thông qua các kỹ thuật như masking (che giấu dữ liệu) hoặc chia sẻ (sharing-based countermeasures). 
+\end{itemize}
+
+\textit{Nhận xét 9: Hệ thống đã được kiểm nghiệm thực tế với lượng lớn dữ liệu giả mạo và cho thấy khả năng phòng thủ cao.}
 \begin{itemize}
     \item Hệ thống đã được kiểm tra bằng cách gửi 70,000 gói tin giả mạo. Rõ ràng rằng nếu kẻ tấn công không biết được kiến trúc của khung truyền dữ liệu, họ sẽ không thể gửi dữ liệu tới hệ thống. Vì vậy, trong thử nghiệm, giả định rằng kẻ tấn công biết trước khung truyền dữ liệu cho từng giao tiếp. Kết quả vẫn cho thấy máy chủ đã từ chối toàn bộ 70,000 gói tin giả mạo, đạt tỉ lệ 100\%, chứng minh khả năng bảo vệ của hệ thống trước các cuộc tấn công trên.
 \end{itemize}
 
-\textit{Nhận xét 9: Kiến trúc đề xuất triển khai phù hợp với các thiết bị IoT hiện nay.}
+\textit{Nhận xét 10: Kiến trúc đề xuất triển khai phù hợp với các thiết bị IoT hiện nay.}
 \begin{itemize}
     \item Đề tài sử dụng các phần cứng tầm trung như STM32F411VET6 và ESP32, xung nhịp của STM32 cũng được giới hạn ở mức mặc  định là 16MHz. Tuy nhiên, với các phân tích về sử dụng bộ nhớ cũng như thời gian xử lý dữ liệu ở phần \ref{sec:res}, có thể thấy kiến trúc IoT đề tài đề xuất hoàn toàn phù hợp để triển khai trên các thiết bị IoT có khả năng tính toán thấp mà vẫn cung cấp tính năng bảo mật tốt. Các dòng vi điều khiển cao cấp hơn như STM32F7 hoặc STM32H7, kết hợp với Raspberry Pi như một IoT Gateway thì hiệu suất thậm chí sẽ vượt trội hơn nhưng các phần cứng tầm trung là hoàn toàn đủ để triển khai tốt kiến trúc này.
 \end{itemize}

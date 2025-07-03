@@ -364,6 +364,28 @@
     \field{urlyear}{2025}
   \endentry
 
+  \entry{cumulative}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Online},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Cumulative distribution function}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Cumulative_distribution_function
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{Figures}{online}{}
     \name{author}{1}{}{%
       {{hash=O}{%
@@ -774,6 +796,39 @@
   (IoT)}
     \field{journaltitle}{Materials Today: Proceedings}
     \field{year}{2021}
+  \endentry
+
+  \entry{ecc-review}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SR}{%
+         family={Siddiqui},
+         familyi={S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mehrotra},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SRMS1}
+    \strng{fullhash}{SRMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.5121/ijcsit.2011.3307
+    \endverb
+    \field{number}{3}
+    \field{pages}{84\bibrangedash 103}
+    \field{title}{A Review on Elliptic Curve Cryptography for Embedded Systems}
+    \field{volume}{3}
+    \field{journaltitle}{International Journal of Computer Science and
+  Information Technology (IJCSIT)}
+    \field{year}{2011}
   \endentry
 
   \entry{iot4}{article}{}

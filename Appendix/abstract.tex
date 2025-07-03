@@ -1,0 +1,17 @@
+\chapter*{Abstract}
+\label{Abstract-en}
+\addcontentsline{toc}{chapter}{Abstract}
+
+IoT devices often face secure communication challenges due to computational limitations, therefore
+increasing their vulnerability of being attacked. To solve these problems, this thesis focuses on 
+designing and implementing a complete secure IoT architecture that can be adapted 
+to most hardware platforms. The system is built based on the combination of critical techniques: 
+the frame-based architecture, dynamic key exchange and session key generation, lightweight cryptography Ascon-128a, 
+and the proposed \textit{safe counter} mechanism. The architecture was implemented on STM32F411VET6 and ESP32 hardware, 
+along with a Linux server. The results show that the Packet Delivery Ratio (PDR) of the system is 99.99\% over 120 minutes, with
+a latency of 51.08 ms. Besides that, when tested by sending 70,000 malicious packets to the server
+to simulate a brute-force attack targeting the \textit{sequence number}, the server has successfully rejected 100\% malicious
+packets thanks to the \textit{safe counter} mechanism. Also, Ascon-128a has better performance
+compared to AES at 78.4\% on the ARM Cortex-M4 processor. The results about memory comsumtion and power consumtion
+show that the architecture is suitable to implement on most hardware. The security analysis proves that the system has
+the ability to resist some common attacks, claiming the safety of the proposed method. 
