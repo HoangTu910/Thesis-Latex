@@ -86,17 +86,18 @@ Lệnh ACK phản hồi từ máy chủ, báo hiệu phiên truyền thành côn
 
 \begin{figure}[H]
     \centering
+    \includegraphics[width=0.75\linewidth]{ke.png}
+    \caption{Thời gian thực thi quá trình trao đổi khóa trên ESP32}
+    \label{fig:ke}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \includegraphics[width=0.75\linewidth]{esp32.png}
     \caption{Đánh giá hiệu suất thực thi của ESP32}
     \label{fig:esp32}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{ke.png}
-    \caption{Thời gian thực thi quá trình trao đổi khóa trên ESP32}
-    \label{fig:ke}
-\end{figure}
 
 Trong khoảng thời gian 120 phút thực nghiệm, gateway đã thực hiện truyền tổng cộng 147,682 gói tin. Một gói tin truyền thành công được định nghĩa là gói tin được mã hóa đúng cách và máy chủ có thể giải mã đúng gói tin đó. Tỷ lệ truyền gói tin thành công (Packet Delivery Ratio - PDR) là một thông số quan trọng trong việc đánh giá mức độ toàn vẹn của hệ thống được tính toán sau mỗi phút truyền dữ liệu, được tính toán với công thức sau:
 \[
