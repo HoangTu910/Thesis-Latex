@@ -1,61 +1,59 @@
-\contentsline {chapter}{Xác nhận hoàn tất chỉnh sửa}{i}{chapter*.1}%
-\contentsline {chapter}{Lời cảm ơn}{ii}{Item.1}%
-\contentsline {chapter}{Lời cam đoan}{iii}{chapter*.2}%
-\contentsline {chapter}{Tóm tắt}{iv}{chapter*.5}%
-\contentsline {chapter}{Abstract}{v}{chapter*.6}%
-\contentsline {chapter}{Mục lục}{vi}{chapter*.6}%
-\contentsline {chapter}{Tóm tắt}{x}{chapter*.9}%
+\contentsline {chapter}{Lời cảm ơn}{i}{Doc-Start}%
+\contentsline {chapter}{Lời cam đoan}{ii}{table.caption.2}%
+\contentsline {chapter}{Tóm tắt}{iii}{chapter*.5}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.6}%
+\contentsline {chapter}{Mục lục}{v}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Giới thiệu}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Đặt vấn đề}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Mục tiêu của đề tài}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Giải pháp đề xuất}{2}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Đóng góp của đề tài}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Đóng góp của đề tài}{3}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Bố cục của khóa luận}{3}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Các công trình liên quan}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Các công trình nghiên cứu về kiến trúc IoT bảo mật}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Các mối đe dọa và loại tấn công phổ biến}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Dò khóa bí mật của hệ thống}{6}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Tấn công brute-force}{6}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Tấn công Side-Channel}{7}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Một số cuộc tấn công dò khóa khác}{7}{subsubsection.2.2.1.3}%
-\contentsline {subsection}{\numberline {2.2.2}Tấn công Man-in-the-Middle}{8}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {2}Các công trình liên quan}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Các công trình nghiên cứu về kiến trúc IoT bảo mật}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Các mối đe dọa và loại tấn công phổ biến}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Dò khóa bí mật của hệ thống}{7}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Tấn công brute-force}{7}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Tấn công Side-Channel}{8}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Một số cuộc tấn công dò khóa khác}{8}{subsubsection.2.2.1.3}%
+\contentsline {subsection}{\numberline {2.2.2}Tấn công Man-in-the-Middle}{9}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Tấn công phát lại (Replay Attack)}{9}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Khoảng trống nghiên cứu}{9}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Phương pháp đề xuất}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Cơ sở lý thuyết}{10}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Kiến trúc IoT bốn lớp}{10}{subsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}Lớp nhận thức (Perceptual Layer)}{11}{subsubsection.3.1.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.2}Lớp mạng (Network Layer)}{11}{subsubsection.3.1.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.1.3}Lớp xử lý dữ liệu (Data Processing Layer)}{11}{subsubsection.3.1.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.1.4}Lớp ứng dụng (Application Layer)}{11}{subsubsection.3.1.1.4}%
-\contentsline {subsection}{\numberline {3.1.2}Giao thức MQTT}{11}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Mật mã hóa nhẹ ASCON-128a}{12}{subsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Thuật toán ASCON-128a}{13}{subsubsection.3.1.3.1}%
-\contentsline {subsection}{\numberline {3.1.4}Thuật toán trao đổi khóa Elliptic Curve Diffie-Hellman}{15}{subsection.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.1.4.1}Đường cong Elliptic trên trường hữu hạn}{15}{subsubsection.3.1.4.1}%
-\contentsline {subsubsection}{\numberline {3.1.4.2}Trao đổi khóa Elliptic Curve Diffie-Hellman (ECDH)}{16}{subsubsection.3.1.4.2}%
-\contentsline {subsection}{\numberline {3.1.5}Hàm băm nhẹ ASCON}{18}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Phương pháp thực hiện}{19}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Tổng quan hệ thống IoT}{19}{subsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.1}STM32F411VET6 MCU}{19}{subsubsection.3.2.1.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.2}ESP32 Gateway}{20}{subsubsection.3.2.1.2}%
-\contentsline {subsubsection}{\numberline {3.2.1.3}Hệ thống máy chủ}{21}{subsubsection.3.2.1.3}%
-\contentsline {subsection}{\numberline {3.2.2}Mô hình giao tiếp của hệ thống}{22}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Phương pháp tạo khóa phiên từ khóa bí mật sử dụng trong mã hóa và giải mã dữ liệu}{23}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Kiến trúc khung truyền giao tiếp giữa các lớp trong hệ thống IoT}{26}{subsection.3.2.4}%
-\contentsline {subsubsection}{\numberline {3.2.4.1}Khung truyền khởi tạo}{26}{subsubsection.3.2.4.1}%
-\contentsline {subsubsection}{\numberline {3.2.4.2}Khung truyền trong giao tiếp giữa lớp nhận thức và lớp mạng}{27}{subsubsection.3.2.4.2}%
-\contentsline {subsubsection}{\numberline {3.2.4.3}Khung truyền trong giao tiếp giữa gateway và server}{28}{subsubsection.3.2.4.3}%
-\contentsline {subsubsection}{\numberline {3.2.4.4}Quá trình phân giải khung truyền}{30}{subsubsection.3.2.4.4}%
-\contentsline {subsection}{\numberline {3.2.5}Cơ chế safe counter}{32}{subsection.3.2.5}%
-\contentsline {chapter}{\numberline {4}Kết quả triển khai và phân tích}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Mô hình thực nghiệm}{34}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Kết quả, phân tích và đánh giá}{34}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Kết quả thực hiện}{34}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Đánh giá}{37}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Phân tích công suất tiêu thụ}{42}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Phân tích thông lượng và hiệu suất tải dữ liệu}{43}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Phân tích khả năng bảo mật của hệ thống}{45}{subsection.4.2.5}%
-\contentsline {chapter}{\numberline {5}Kết luận}{49}{chapter.5}%
-\contentsline {chapter}{Danh mục công trình của tác giả}{51}{chapter.5}%
-\contentsline {chapter}{Tài liệu tham khảo}{52}{Item.15}%
+\contentsline {section}{\numberline {2.3}Khoảng trống nghiên cứu}{10}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Phương pháp đề xuất}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Cơ sở lý thuyết}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Kiến trúc IoT bốn lớp}{12}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Lớp nhận thức (Perceptual Layer)}{13}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Lớp mạng (Network Layer)}{13}{subsubsection.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}Lớp xử lý dữ liệu (Data Processing Layer)}{13}{subsubsection.3.1.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.1.4}Lớp ứng dụng (Application Layer)}{13}{subsubsection.3.1.1.4}%
+\contentsline {subsection}{\numberline {3.1.2}Giao thức MQTT}{13}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Mật mã hóa nhẹ ASCON-128a}{14}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Thuật toán ASCON-128a}{15}{subsubsection.3.1.3.1}%
+\contentsline {subsection}{\numberline {3.1.4}Thuật toán trao đổi khóa Elliptic Curve Diffie-Hellman}{17}{subsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Đường cong Elliptic trên trường hữu hạn}{17}{subsubsection.3.1.4.1}%
+\contentsline {subsubsection}{\numberline {3.1.4.2}Trao đổi khóa Elliptic Curve Diffie-Hellman (ECDH)}{18}{subsubsection.3.1.4.2}%
+\contentsline {subsection}{\numberline {3.1.5}Hàm băm nhẹ ASCON}{20}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Phương pháp thực hiện}{22}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Tổng quan hệ thống IoT}{22}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}STM32F411VET6 MCU}{23}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}ESP32 Gateway}{23}{subsubsection.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.3}Hệ thống máy chủ}{23}{subsubsection.3.2.1.3}%
+\contentsline {subsection}{\numberline {3.2.2}Mô hình giao tiếp của hệ thống}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Phương pháp tạo khóa phiên từ khóa bí mật sử dụng trong mã hóa và giải mã dữ liệu}{26}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Kiến trúc khung truyền giao tiếp giữa các lớp trong hệ thống IoT}{28}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4.1}Khung truyền khởi tạo}{29}{subsubsection.3.2.4.1}%
+\contentsline {subsubsection}{\numberline {3.2.4.2}Khung truyền trong giao tiếp giữa lớp nhận thức và lớp mạng}{30}{subsubsection.3.2.4.2}%
+\contentsline {subsubsection}{\numberline {3.2.4.3}Khung truyền trong giao tiếp giữa gateway và server}{31}{subsubsection.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {3.2.4.4}Quá trình phân giải khung truyền}{33}{subsubsection.3.2.4.4}%
+\contentsline {subsection}{\numberline {3.2.5}Cơ chế safe counter}{35}{subsection.3.2.5}%
+\contentsline {chapter}{\numberline {4}Kết quả triển khai và phân tích}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Mô hình thực nghiệm}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Kết quả, phân tích và đánh giá}{38}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Kết quả thực hiện}{38}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Đánh giá}{41}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Phân tích công suất tiêu thụ}{46}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Phân tích thông lượng và hiệu suất tải dữ liệu}{48}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Phân tích khả năng bảo mật của hệ thống}{51}{subsection.4.2.5}%
+\contentsline {chapter}{\numberline {5}Kết luận}{54}{chapter.5}%
+\contentsline {chapter}{Danh mục công trình của tác giả}{56}{chapter.5}%
+\contentsline {chapter}{Tài liệu tham khảo}{57}{Item.14}%

@@ -12,7 +12,7 @@ Về hiệu năng mã hóa, thuật toán Ascon-128a khi triển khai trên lõi
 và phù hợp với các phần cứng có tài nguyên giới hạn. 
 
 Tuy nhiên, đề tài vẫn còn một số hạn chế nhất định cần được cải thiện trong các nghiên cứu tiếp theo. Đầu tiên là về thông lượng, với kiến trúc khung truyền chứa nhiều trường dữ liệu để đảm bảo tính bảo mật, nhưng điều này cũng làm gia tăng kích thước mỗi gói tin, dẫn đến hiệu quả sử dụng băng thông chưa được tối ưu. Dù băng thông có thể cải thiện thông qua việc tăng số lượng dữ liệu ở mỗi lần truyền, tuy nhiên việc tiếp tục nghiên cứu về hướng tối ưu băng thông sẽ là cần thiết.
-Một hạn chế khác đó là về vấn đề năng lượng tiêu thụ. Với công suất tiêu thụ trung bình là 779.43 mW, đây là một con số khá cao nếu hệ thống sử dụng pin để hoạt động. Để có thể so sánh rõ hơn, ví dụ khi sử dụng pin Li-ion 3.7V 
+Một trong những hạn chế đáng chú ý của hệ thống là mức tiêu thụ năng lượng. Với công suất tiêu thụ trung bình đạt khoảng 779.43 mW, đây là mức tiêu thụ tương đối cao nếu hệ thống dự kiến hoạt động bằng nguồn pin dung lượng thấp, chẳng hạn như trong các thiết bị đeo nhỏ gọn (wearable devices). Để có thể so sánh rõ hơn, ví dụ khi sử dụng pin Li-ion 3.7V 
 có dung lượng 2000 mAh. Thời gian hoạt động là:
 \[
     \text{Time} = \frac{\text{Pin Capacity}}{\text{Power}} = \frac{2000 \times 3.7 }{779.43} \approx 9.49 \, \text{giờ}

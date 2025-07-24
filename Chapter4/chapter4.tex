@@ -52,7 +52,7 @@ Kỹ thuật trao đổi khóa sử dụng thuật toán ECDH được triển k
 \end{figure}
 
 Quá trình truyền dữ liệu được triển khai thành công theo đúng trình tự được trình bày trong hình \ref{fig:system} và \ref{fig:trans-sys}. Trên ESP32, quá trình truyền được chia thành năm giai đoạn chính: (1) kiểm tra khóa hiện tại, (2) gửi tín hiệu kích hoạt đến vi điều khiển STM32 tại lớp nhận thức, (3) nhận và phân giải khung dữ liệu từ STM32, (4) tạo khung truyền dữ liệu mới để gửi lên máy chủ, và (5) chờ nhận tín hiệu xác nhận (ACK) từ máy chủ. 
-Ở phía máy chủ, sau khi tiếp nhận khung truyền, dữ liệu sẽ được giải mã và xác thực. Nếu dữ liệu hợp lệ, máy chủ sẽ phản hồi tín hiệu ACK để xác nhận thành công và kết thúc phiên truyền. Các kết quả minh họa cho quá trình truyền và phản hồi giữa các thiết bị được thể hiện trong Hình \ref{fig:datalog}. Các kết quả giao tiếp trên được trình bày trong hình \ref{fig:datalog}.
+Ở phía máy chủ, sau khi tiếp nhận khung truyền, dữ liệu sẽ được giải mã và xác thực. Nếu dữ liệu hợp lệ, máy chủ sẽ phản hồi tín hiệu ACK để xác nhận thành công và kết thúc phiên truyền. Các kết quả giao tiếp trên được trình bày trong hình \ref{fig:datalog}.
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{datalog.pdf}
@@ -71,31 +71,31 @@ Cơ chế \textit{Safe counter} cũng được triển khai thành công trên c
 
 \subsection{Đánh giá}
 \label{sec:res}
-Hệ thống được đánh giá dựa trên quá trình trao đổi dữ liệu liên tục trong 120 phút, với các kết quả được trình bày trong hình \ref{fig:stm32}, \ref{fig:esp32} và hình \ref{fig:ke}. Kết quả này tập trung vào hiệu suất của hai thiết bị công suất thấp ở lớp nhận thức và lớp mạng. Đầu tiên là đánh giá với STM32F411VET6 ở lớp nhận thức. STM32 thực hiện việc cấu hình khung truyền PG1 với thời gian trung bình là 0.634 ms. Truyền khung PG1 bằng UART lên gateway có thời gian trung bình là 5.58 ms. Thuật toán Ascon-128a có thời gian mã hóa trung bình là 0.328 ms, cho thấy hiệu năng vượt trội so với thuật toán AES, vốn được triển khai tương tự bằng thư viện X-CUBE-CRYPTOLIB và có thời gian mã hóa trung bình là 0.936 ms trên lõi ARM Cortex-M4. Quá trình phân giải khung truyền GP1 từ gateway có thời gian trung bình là 0.374 ms; khung truyền GP2 có thời gian trung bình là 0.023 ms. Sự khác biệt lớn về thời gian trong quá trình phân giải phần lớn là do việc giải mã khóa và tính toán thẻ xác thực ở khung truyền GP1.
+Hệ thống được đánh giá dựa trên quá trình trao đổi dữ liệu liên tục trong 120 phút, với các kết quả được trình bày trong hình \ref{fig:ke}, \ref{fig:esp32} và hình \ref{fig:ke}. Kết quả này tập trung vào hiệu suất của hai thiết bị công suất thấp ở lớp nhận thức và lớp mạng. Đầu tiên là đánh giá với STM32F411VET6 ở lớp nhận thức. STM32 thực hiện việc cấu hình khung truyền PG1 với thời gian trung bình là 0.634 ms. Truyền khung PG1 bằng UART lên gateway có thời gian trung bình là 5.58 ms. Thuật toán Ascon-128a có thời gian mã hóa trung bình là 0.328 ms, cho thấy hiệu năng vượt trội so với thuật toán AES, vốn được triển khai tương tự bằng thư viện X-CUBE-CRYPTOLIB và có thời gian mã hóa trung bình là 0.936 ms trên lõi ARM Cortex-M4. Quá trình phân giải khung truyền GP1 từ gateway có thời gian trung bình là 0.374 ms; khung truyền GP2 có thời gian trung bình là 0.023 ms. Sự khác biệt lớn về thời gian trong quá trình phân giải phần lớn là do việc giải mã khóa và tính toán thẻ xác thực ở khung truyền GP1.
 
 Ở lớp mạng, ESP32 thực hiện việc phân giải PG1 từ STM32 trong thời gian trung bình 0.35 ms. Cấu hình khung truyền GP1 có thời gian trung bình là 0.57 ms, trong khi đó thời gian cấu hình GP2 có thời gian trung bình là 0.014 ms. Thời gian truyền khung truyền GP2 dùng UART xuống lớp nhận thức có thời gian trung bình là 9.01 ms. Quá trình trao đổi khóa bao gồm việc tạo cặp khóa cá nhân (private key)/khóa công khai (public key) và tính toán khóa bí mật có thời gian trung bình lần lượt là 335.08 ms và 335.46 ms. Tuy nhiên, việc trao đổi khóa chỉ được thực hiện sau một khoảng thời gian cố định, vì vậy nếu xét về tổng thể sẽ không ảnh hưởng nhiều đến toàn bộ hiệu suất của hệ thống. Thời gian trung bình cấu hình khung truyền GS1 và GS2 lần lượt là 0.28 ms và 0.033 ms. Mặc dù GS2 có nhiều trường cần cấu hình hơn GS1, nhưng GS2 chỉ thực hiện việc tách trường dữ liệu và thẻ xác thực từ khung PG1 mà không thực hiện tính toán nào thêm. Vì thế, việc cấu hình GS2 nhanh hơn nhiều so với GS1, khi mà GS1 cần phải tính toán thẻ xác thực trong quá trình cấu hình. Thời gian tính toán khóa phiên ở mỗi phiên truyền dữ liệu có thời gian trung bình là 1.189 ms.
 
 Lệnh ACK phản hồi từ máy chủ, báo hiệu phiên truyền thành công, có độ trễ trung bình là 29.58 ms, tính từ lúc khung truyền GS tới máy chủ và gateway nhận được ACK. Tuy nhiên, độ trễ này là không cố định do phụ thuộc phần lớn vào tốc độ mạng cũng như hiệu suất của máy chủ; vì vậy, nếu triển khai ở một số hệ thống khác thì độ trễ sẽ có thể khác. Tổng thời gian truyền được tính từ lúc STM32 nhận được tín hiệu kích hoạt từ gateway cho đến khi gateway nhận được ACK là 51.09 ms.
 
-\begin{figure}[H]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\linewidth]{stm32-2.png}
-    \caption{Đánh giá hiệu suất thực thi của STM32F411VET6}
-    \label{fig:stm32}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{ke.png}
+    \includegraphics[width=0.8\linewidth]{ke.png}
     \caption{Thời gian thực thi quá trình trao đổi khóa trên ESP32}
     \label{fig:ke}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\linewidth]{esp32.png}
-    \caption{Đánh giá hiệu suất thực thi của ESP32}
+    \includegraphics[width=0.8\linewidth]{esp32.png}
+    \caption{Đánh giá hiệu suất thực thi các tác vụ của ESP32}
     \label{fig:esp32}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{stm32-2.png}
+    \caption{Đánh giá hiệu suất thực thi các tác vụ của STM32F411VET6}
+    \label{fig:stm32}
 \end{figure}
 
 
@@ -113,14 +113,14 @@ Biểu đồ trong Hình \ref{fig:packet} minh họa số lượng gói tin đư
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{packet2.png}
+    \includegraphics[width=0.9\linewidth]{packet.png}
     \caption{Số lượng gói tin truyền mỗi phút}
     \label{fig:packet}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{pdr2.png}
+    \includegraphics[width=0.9\linewidth]{pdr.png}
     \caption{Tỷ lệ truyền gói tin mỗi phút}
     \label{fig:pdr}
 \end{figure}
@@ -142,7 +142,7 @@ Biểu đồ trong Hình \ref{fig:packet} minh họa số lượng gói tin đư
     \end{tabular}
 \end{table}
 
-Dung lượng bộ nhớ của hệ thống IoT trên ESP32 và STM32 được cung cấp bởi công cụ lập trình PlatformIO và Cube IDE, hiển thị tổng số byte RAM và FLASH được sử dụng trong quá trình nạp firmware. Chi tiết được trình bày trong bảng \ref{tab:memory}.
+Dung lượng bộ nhớ của hệ thống IoT trên ESP32 và STM32 được cung cấp bởi công cụ lập trình PlatformIO và Cube IDE, hiển thị tổng số byte RAM và FLASH được sử dụng trong quá trình nạp firmware. Chi tiết trình bày trong bảng \ref{tab:memory}.
 
 \begin{table}[h]
 \centering
@@ -163,13 +163,13 @@ Trên STM32F411VET6, nhiệm vụ chính là thu thập và mã hóa dữ liệu
 
 \begin{figure}[H]
 \centering
-\begin{subfigure}[b]{0.45\textwidth} 
+\begin{subfigure}[b]{0.495\textwidth} 
          \centering
          \includegraphics[width=\textwidth]{images/stm32flash.png}
          \caption{Dung lượng Flash}
 \end{subfigure}
 \hfill
-\begin{subfigure}[b]{0.45\textwidth}
+\begin{subfigure}[b]{0.495\textwidth}
          \centering
          \includegraphics[width=\textwidth]{images/stm32ram.png}
          \caption{Dung lượng RAM}
@@ -180,13 +180,13 @@ Trên STM32F411VET6, nhiệm vụ chính là thu thập và mã hóa dữ liệu
 
 \begin{figure}[H]
 \centering
-\begin{subfigure}[b]{0.45\textwidth} 
+\begin{subfigure}[b]{0.495\textwidth} 
          \centering
          \includegraphics[width=\textwidth]{images/esp32flash.png}
          \caption{Dung lượng Flash}
 \end{subfigure}
 \hfill
-\begin{subfigure}[b]{0.45\textwidth}
+\begin{subfigure}[b]{0.495\textwidth}
          \centering
          \includegraphics[width=\textwidth]{images/esp32ram.png}
          \caption{Dung lượng RAM}
@@ -212,7 +212,7 @@ Các kết quả thu được phản ánh trực tiếp mức độ tiêu thụ 
 Hình \ref{fig:stm32pow} minh họa dòng điện và công suất tiêu thụ của STM32 trong suốt 60 phút. Dòng điện dao động trong khoảng từ 40 đến 48 mA, với giá trị trung bình đạt 43.99 mA. Công suất tiêu thụ của STM32 dao động từ 200 đến 240 mW, với mức trung bình trong một giờ là 222.97 mW.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{stm32pow.png}
+    \includegraphics[width=1\linewidth]{stm32pow2.png}
     \caption{Mức tiêu thụ năng lượng của STM32F411VET6}
     \label{fig:stm32pow}
 \end{figure}
@@ -223,18 +223,47 @@ Có thể nhận thấy ESP32 tiêu thụ năng lượng cao hơn đáng kể so
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{esp32pow.png}
+    \includegraphics[width=1\linewidth]{esp32pow2.png}
     \caption{Mức tiêu thụ năng lượng của ESP32 Gateway}
     \label{fig:esp32pow}
 \end{figure}
 
-Cuối cùng, hình \ref{fig:totalpow} trình bày công suất tiêu thụ tổng của toàn hệ thống. Kết quả ghi nhận mức tiêu thụ trung bình là 779.43 mW.
+
+Hình \ref{fig:totalpow} trình bày mức tiêu thụ năng lượng tổng thể của toàn bộ hệ thống trong quá trình hoạt động. Kết quả cho thấy mức tiêu thụ trung bình đạt 779.43 mW.
+Dựa trên kết quả này và đối chiếu với Bảng \ref{tab:hardware}, có thể phân loại hệ thống vào nhóm thiết bị IoT từ Category 1 đến Category 2, theo phân loại phần cứng được đề xuất bởi Abdulghani et al \cite{hardware}.
+Điều này cho thấy kiến trúc hệ thống được thiết kế tối ưu, cân bằng tốt giữa hiệu quả năng lượng và khả năng bảo mật, qua đó tăng tính khả thi cho các ứng dụng thực tế, đặc biệt là trong các môi trường IoT có tài nguyên hạn chế.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\linewidth]{totalpow.png}
     \caption{Mức tiêu thụ năng lượng của toàn bộ hệ thống}
     \label{fig:totalpow}
 \end{figure}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Phân loại các thiết bị IoT dựa trên hiệu suất phần cứng}
+\label{tab:hardware}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Category} & \textbf{CPU} & \textbf{RAM} & \textbf{Storage} & \textbf{Power} & \textbf{Example} \\
+\hline
+Category~1 & 8-bit, 16~MHz & $\leq$~32~KB & Small & $\leq$~1~W & Arduino Mega \\
+\hline
+Category~2 & 32-bit, 80~MHz & 32--80~KB & Small & $\leq$~1~W & NodeMCU ESP-12 \\
+\hline
+Category~3 & Single-core, 1~GHz & 80~KB--512~MB & $\leq$~4~GB & 1--2~W & Raspberry Pi Zero \\
+\hline
+Category~4 & Quad-core, 1.2~GHz & 512~MB--2~GB & $\leq$~8~GB & 2--4~W & Raspberry Pi 3 \\
+\hline
+Category~5 & Quad-core, 2~GHz & $\geq$~8~GB & $\geq$~32~GB & High & Jetson TX2 \\
+\hline
+\end{tabular}
+\begin{flushleft}
+\footnotesize
+Nguồn: Abdulghani, H.A.; Collen, A.; Nijdam, N.A. \textit{Guidance Framework for Developing IoT-Enabled Systems’ Cybersecurity}. Sensors 2023, 23, 4174. \url{https://doi.org/10.3390/s23084174}
+\end{flushleft}
+\end{table}
 
 \subsection{Phân tích thông lượng và hiệu suất tải dữ liệu}
 \label{sec:put}
@@ -263,7 +292,8 @@ Trong đánh giá này, mỗi khung truyền GS2 có tổng kích thước là 4
 \[
 \textit{Goodput} = \left( \frac{147,562 \times 3}{120 \times 60} \right) \times 8 \approx 491.87 \ \text{bps}
 \]
-Từ những phân tích trên, có thế thấy chi phí truyền tải khi áp dụng kiến trúc khung truyền là không nhỏ. Với hiệu suất tải thấp sẽ dẫn đến việc tiêu tốn băng thông, băng thông sẽ không được sử dụng một cách tối ưu. Tuy nhiên, hiệu suất tải sẽ được cải thiện đáng kể nếu hệ thống truyền nhiều dữ liệu, tức là kích thước tải lớn hơn. Bảng \ref{tab:efficiency} trình bày hiệu suất tải với các kích thước tải khác nhau trên cũng một khung truyền dữ liệu, có thể thấy thay vì truyền 3 byte dữ liệu như đề tài đã thực hiện, nếu ứng dụng kiến trúc này vào các hệ thống cần truyền nhiều dữ liệu đồng thời, việc sử dụng băng thông sẽ được tối ưu hơn rất nhiều.
+Từ những phân tích trên, có thế thấy chi phí truyền tải khi áp dụng kiến trúc khung truyền là không nhỏ. Với hiệu suất tải thấp sẽ dẫn đến việc tiêu tốn băng thông, băng thông sẽ không được sử dụng một cách tối ưu. Tuy nhiên, hiệu suất tải sẽ được cải thiện đáng kể nếu hệ thống truyền nhiều dữ liệu, tức là kích thước tải lớn hơn. Bảng \ref{tab:efficiency} và hình \ref{fig:charteff} trình bày hiệu suất tải với các kích thước tải khác nhau trên cũng một khung truyền dữ liệu. Có thể thấy thay vì truyền 3 byte dữ liệu như đề tài đã thực hiện, nếu ứng dụng kiến trúc này vào các hệ thống cần truyền nhiều dữ liệu đồng thời, việc sử dụng băng thông sẽ được tối ưu hơn rất nhiều.
+Biểu đồ ở hình \ref{fig:charteff} chứng minh với kích thước tải càng lớn, hiệu suất tải càng cải thiện.
 \begin{table}[h]
 \centering
 \small
@@ -280,6 +310,14 @@ Payload Length & Total Frame Size & Efficiency \\
 \hline
 \end{tabular}
 \end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{chartefficiency.png}
+    \caption{Hiệu suất tải với các kích thước tải khác nhau}
+    \label{fig:charteff}
+\end{figure}
+
 \subsection{Phân tích khả năng bảo mật của hệ thống}
 Phần này trình bày đánh giá chi tiết về mức độ an toàn của hệ thống IoT được đề xuất, thông qua việc phân tích và nhận xét khả năng kháng cự của nó trước một số dạng tấn công phổ biến hiện nay.
 
@@ -305,7 +343,7 @@ Phần này trình bày đánh giá chi tiết về mức độ an toàn của h
 
 \textit{Nhận xét 5: Thuật toán trao đổi khóa ECDH đảm bảo mức độ bảo mật theo khuyến nghị của NIST.}
 \begin{itemize}
-    \item Quá trình trao đổi khóa dùng thuật toán ECDH sử dụng đường cong \textit{sect163k1} với mức bảo mật là 80-bit. Mức bảo mật này đáp ứng được khuyến nghị của NIST về mức độ bảo mật \cite{nist}. Hơn nữa, khóa bảo mật sẽ được cập nhật định kỳ, khiến các cuộc tấn brute-force vào khóa bí mật trở nên không khả thi.
+    \item Quá trình trao đổi khóa dùng thuật toán ECDH sử dụng đường cong \textit{sect163k1} với mức bảo mật là 80-bit. Mức bảo mật này đáp ứng được khuyến nghị của NIST về mức độ bảo mật \cite{nist}. Hơn nữa, khóa bảo mật sẽ được cập nhật định kỳ, khiến các cuộc tấn brute-force vào khóa bí mật trở nên bất khả thi.
 \end{itemize}
 
 \textit{Nhận xét 6: Hệ thống có khả năng phát hiện và ngăn chặn các cuộc tấn công phát lại (replay attack).}
@@ -315,7 +353,7 @@ Phần này trình bày đánh giá chi tiết về mức độ an toàn của h
 
 \textit{Nhận xét 7: Cơ chế safe counter giúp chống lại tấn công brute-force vào sequence number của hệ thống.}
 \begin{itemize}
-    \item Một kịch bản có thể xảy ra đó là kẻ tấn công cố gắng brute-force toàn bộ 4 byte \textit{sequence number} để có thể thành công gửi gói tin vào máy chủ. Vì vậy, cơ chế \textit{safe counter} được thiết lập để có thể các cuộc tấn công trên. Nếu máy chủ từ chối một số lượng gói tin nhất định, cả gateway và máy chủ sẽ sử dụng \textit{safe counter} để cập nhật lại \textit{sequence number} mới một cách đồng bộ. Với cơ chế này, tỉ lệ brute-force thành công gần như là không thể xảy ra. 
+    \item Một kịch bản có thể xảy ra đó là kẻ tấn công cố gắng brute-force toàn bộ 4 byte \textit{sequence number} để có thể thành công gửi gói tin vào máy chủ. Vì vậy, cơ chế \textit{safe counter} được thiết lập để có thể các cuộc tấn công trên. Nếu máy chủ từ chối một số lượng gói tin nhất định, gateway và máy chủ sẽ sử dụng \textit{safe counter} để cập nhật lại \textit{sequence number} mới một cách đồng bộ. Với cơ chế này, tỉ lệ brute-force thành công gần như là không thể xảy ra. 
 \end{itemize}
 
 \textit{Nhận xét 8: Khả năng chống lại tấn công kênh biên (side-channel attack) nhờ vào mã hóa Ascon.}
@@ -326,12 +364,12 @@ Phần này trình bày đánh giá chi tiết về mức độ an toàn của h
 
 \textit{Nhận xét 9: Hệ thống đã được kiểm nghiệm thực tế với lượng lớn dữ liệu giả mạo và cho thấy khả năng phòng thủ cao.}
 \begin{itemize}
-    \item Hệ thống đã được kiểm tra bằng cách gửi 70,000 gói tin giả mạo. Rõ ràng rằng nếu kẻ tấn công không biết được kiến trúc của khung truyền dữ liệu, họ sẽ không thể gửi dữ liệu tới hệ thống. Vì vậy, trong thử nghiệm, giả định rằng kẻ tấn công biết trước khung truyền dữ liệu cho từng giao tiếp. Kết quả vẫn cho thấy máy chủ đã từ chối toàn bộ 70,000 gói tin giả mạo, đạt tỉ lệ 100\%, chứng minh khả năng bảo vệ của hệ thống trước các cuộc tấn công trên.
+    \item Hệ thống đã được kiểm tra bằng cách gửi 70,000 gói tin giả mạo. Rõ ràng rằng nếu kẻ tấn công không biết được kiến trúc của khung truyền dữ liệu, họ sẽ không thể gửi dữ liệu tới hệ thống. Vì vậy, trong thử nghiệm, giả định kẻ tấn công biết trước khung truyền dữ liệu cho từng giao tiếp. Kết quả vẫn cho thấy máy chủ đã từ chối toàn bộ 70,000 gói tin giả mạo, đạt tỉ lệ 100\%, chứng minh khả năng bảo vệ của hệ thống trước các cuộc tấn công trên.
 \end{itemize}
 
-\textit{Nhận xét 10: Kiến trúc đề xuất triển khai phù hợp với các thiết bị IoT hiện nay.}
+\textit{Nhận xét 10: Kiến trúc đề xuất triển khai phù hợp với các thiết bị IoT.}
 \begin{itemize}
-    \item Đề tài sử dụng các phần cứng tầm trung như STM32F411VET6 và ESP32, xung nhịp của STM32 cũng được giới hạn ở mức mặc  định là 16MHz. Tuy nhiên, với các phân tích về sử dụng bộ nhớ cũng như thời gian xử lý dữ liệu ở phần \ref{sec:res}, có thể thấy kiến trúc IoT đề tài đề xuất hoàn toàn phù hợp để triển khai trên các thiết bị IoT có khả năng tính toán thấp mà vẫn cung cấp tính năng bảo mật tốt. Các dòng vi điều khiển cao cấp hơn như STM32F7 hoặc STM32H7, kết hợp với Raspberry Pi như một IoT Gateway thì hiệu suất thậm chí sẽ vượt trội hơn nhưng các phần cứng tầm trung là hoàn toàn đủ để triển khai tốt kiến trúc này.
+    \item Đề tài sử dụng các phần cứng tầm trung như STM32F411VET6 và ESP32, xung nhịp của STM32 cũng được giới hạn ở mức mặc định là 16MHz. Tuy nhiên, với các phân tích về sử dụng bộ nhớ, thời gian xử lý dữ liệu cũng như mức năng lượng tiêu thụ ở phần \ref{sec:res}, có thể thấy kiến trúc IoT đề tài đề xuất hoàn toàn phù hợp để triển khai trên các thiết bị IoT có khả năng tính toán thấp mà vẫn cung cấp tính năng bảo mật tốt. Các dòng vi điều khiển cao cấp hơn như STM32F7 hoặc STM32H7, kết hợp với Raspberry Pi như một IoT Gateway thì hiệu suất thậm chí sẽ vượt trội hơn nhưng các phần cứng tầm trung là hoàn toàn đủ để triển khai tốt kiến trúc này.
 \end{itemize}
 
 

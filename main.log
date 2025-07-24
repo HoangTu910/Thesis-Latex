@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.30)  10 JUL 2025 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.30)  25 JUL 2025 00:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -222,41 +222,6 @@ File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-) (D:\MiTek\tex/latex/psnfss\mathptmx.sty
-Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
-LaTeX Info: Redefining \hbar on input line 50.
 ) (D:\MiTek\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip50
@@ -274,43 +239,359 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip62
 \f@nch@widthR=\skip63
 \@temptokenb=\toks20
+) (D:\MiTek\tex/latex/pgfplots\pgfplots.sty (D:\MiTek\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (D:\MiTek\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:\MiTek\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (D:\MiTek\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (D:\MiTek\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (D:\MiTek\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (D:\MiTek\tex/latex/pgf/frontendlayer\tikz.sty (D:\MiTek\tex/latex/pgf/basiclayer\pgf.sty (D:\MiTek\tex/latex/pgf/utilities\pgfrcs.sty (D:\MiTek\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen144
+\pgfutil@tempdimb=\dimen145
+) (D:\MiTek\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box51
+) (D:\MiTek\tex/generic/pgf/utilities\pgfrcs.code.tex (D:\MiTek\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MiTek\tex/latex/pgf/basiclayer\pgfcore.sty (D:\MiTek\tex/latex/pgf/systemlayer\pgfsys.sty (D:\MiTek\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MiTek\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+ (D:\MiTek\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen146
+\pgf@y=\dimen147
+\pgf@xa=\dimen148
+\pgf@ya=\dimen149
+\pgf@xb=\dimen150
+\pgf@yb=\dimen151
+\pgf@xc=\dimen152
+\pgf@yc=\dimen153
+\pgf@xd=\dimen154
+\pgf@yd=\dimen155
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count266
+ (D:\MiTek\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (D:\MiTek\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MiTek\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (D:\MiTek\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
+) (D:\MiTek\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (D:\MiTek\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (D:\MiTek\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (D:\MiTek\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MiTek\tex/generic/pgf/math\pgfmath.code.tex (D:\MiTek\tex/generic/pgf/math\pgfmathutil.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen156
+\pgfmath@count=\count269
+\pgfmath@box=\box52
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathcalc.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count270
+)) (D:\MiTek\tex/generic/pgf/math\pgfint.code.tex) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen157
+\pgf@picmaxx=\dimen158
+\pgf@picminy=\dimen159
+\pgf@picmaxy=\dimen160
+\pgf@pathminx=\dimen161
+\pgf@pathmaxx=\dimen162
+\pgf@pathminy=\dimen163
+\pgf@pathmaxy=\dimen164
+\pgf@xx=\dimen165
+\pgf@xy=\dimen166
+\pgf@yx=\dimen167
+\pgf@yy=\dimen168
+\pgf@zx=\dimen169
+\pgf@zy=\dimen170
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen171
+\pgf@path@lasty=\dimen172
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen173
+\pgf@shorten@start@additional=\dimen174
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count271
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen175
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen176
+\pgf@pt@y=\dimen177
+\pgf@pt@temp=\dimen178
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen179
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen180
+\pgf@sys@shading@range@num=\count272
+\pgf@shadingcount=\count273
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box56
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (D:\MiTek\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box57
+) (D:\MiTek\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (D:\MiTek\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen181
+\pgf@nodesepend=\dimen182
+) (D:\MiTek\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (D:\MiTek\tex/latex/pgf/utilities\pgffor.sty (D:\MiTek\tex/latex/pgf/utilities\pgfkeys.sty (D:\MiTek\tex/generic/pgf/utilities\pgfkeys.code.tex)) (D:\MiTek\tex/latex/pgf/math\pgfmath.sty (D:\MiTek\tex/generic/pgf/math\pgfmath.code.tex)) (D:\MiTek\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen183
+\pgffor@skip=\dimen184
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+)) (D:\MiTek\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MiTek\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count274
+\pgfplotmarksize=\dimen185
+)
+\tikz@lastx=\dimen186
+\tikz@lasty=\dimen187
+\tikz@lastxsaved=\dimen188
+\tikz@lastysaved=\dimen189
+\tikz@lastmovetox=\dimen190
+\tikz@lastmovetoy=\dimen191
+\tikzleveldistance=\dimen192
+\tikzsiblingdistance=\dimen193
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count275
+\tikznumberofchildren=\count276
+\tikznumberofcurrentchild=\count277
+\tikz@fig@count=\count278
+ (D:\MiTek\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count279
+\pgfmatrixcurrentcolumn=\count280
+\pgf@matrix@numberofcolumns=\count281
+)
+\tikz@expandcount=\count282
+ (D:\MiTek\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (D:\MiTek\tex/generic/pgfplots\pgfplots.code.tex (D:\MiTek\tex/generic/pgfplots\pgfplotscore.code.tex
+\t@pgfplots@toka=\toks33
+\t@pgfplots@tokb=\toks34
+\t@pgfplots@tokc=\toks35
+\pgfplots@tmpa=\dimen194
+\c@pgfplots@coordindex=\count283
+\c@pgfplots@scanlineindex=\count284
+ (D:\MiTek\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (D:\MiTek\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (D:\MiTek\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (D:\MiTek\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+(D:\MiTek\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (D:\MiTek\tex/generic/pgfplots/util\pgfplotsutil.code.tex (D:\MiTek\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (D:\MiTek\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (D:\MiTek\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count285
+) (D:\MiTek\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (D:\MiTek\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count286
+\t@pgfplotstable@a=\toks39
+) (D:\MiTek\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (D:\MiTek\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (D:\MiTek\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (D:\MiTek\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (D:\MiTek\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count287
+ (D:\MiTek\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (D:\MiTek\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (D:\MiTek\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (D:\MiTek\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (D:\MiTek\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (D:\MiTek\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (D:\MiTek\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (D:\MiTek\tex/generic/pgfplots\pgfplots.scaling.code.tex) (D:\MiTek\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (D:\MiTek\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (D:\MiTek\tex/generic/pgfplots\pgfplots.markers.code.tex) (D:\MiTek\tex/generic/pgfplots\pgfplotsticks.code.tex) (D:\MiTek\tex/generic/pgfplots\pgfplots.paths.code.tex) (D:\MiTek\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (D:\MiTek\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen195
+\pgfdecoratedremainingdistance=\dimen196
+\pgfdecoratedinputsegmentcompleteddistance=\dimen197
+\pgfdecoratedinputsegmentremainingdistance=\dimen198
+\pgf@decorate@distancetomove=\dimen199
+\pgf@decorate@repeatstate=\count288
+\pgfdecorationsegmentamplitude=\dimen256
+\pgfdecorationsegmentlength=\dimen257
+)
+\tikz@lib@dec@box=\box62
+) (D:\MiTek\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (D:\MiTek\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (D:\MiTek\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (D:\MiTek\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (D:\MiTek\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count289
+\pgfplots@xmin@reg=\dimen258
+\pgfplots@xmax@reg=\dimen259
+\pgfplots@ymin@reg=\dimen260
+\pgfplots@ymax@reg=\dimen261
+\pgfplots@zmin@reg=\dimen262
+\pgfplots@zmax@reg=\dimen263
+) (D:\MiTek\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (D:\MiTek\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (D:\MiTek\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip64
+
+For additional information on amsmath, use the `?' option.
+(D:\MiTek\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (D:\MiTek\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks40
+\ex@=\dimen264
+)) (D:\MiTek\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen265
+) (D:\MiTek\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count290
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count291
+\leftroot@=\count292
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count293
+\DOTSCASE@=\count294
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box63
+\strutbox@=\box64
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen266
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count295
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count296
+\dotsspace@=\muskip16
+\c@parentequation=\count297
+\dspbrk@lvl=\count298
+\tag@help=\toks41
+\row@=\count299
+\column@=\count300
+\maxfields@=\count301
+\andhelp@=\toks42
+\eqnshift@=\dimen267
+\alignsep@=\dimen268
+\tagshift@=\dimen269
+\tagwidth@=\dimen270
+\totwidth@=\dimen271
+\lineht@=\dimen272
+\@envbody=\toks43
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks44
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 ) (D:\MiTek\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (D:\MiTek\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (D:\MiTek\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen142
-\captionmargin=\dimen143
-\caption@leftmargin=\dimen144
-\caption@rightmargin=\dimen145
-\caption@width=\dimen146
-\caption@indent=\dimen147
-\caption@parindent=\dimen148
-\caption@hangindent=\dimen149
+\caption@tempdima=\dimen273
+\captionmargin=\dimen274
+\caption@leftmargin=\dimen275
+\caption@rightmargin=\dimen276
+\caption@width=\dimen277
+\caption@indent=\dimen278
+\caption@parindent=\dimen279
+\caption@hangindent=\dimen280
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count196
-\c@continuedfloat=\count197
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
 Package caption Info: scrextend package is loaded.
-\caption@addmargin@hsize=\dimen150
-\caption@addmargin@linewidth=\dimen151
+\caption@addmargin@hsize=\dimen281
+\caption@addmargin@linewidth=\dimen282
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count198
+\c@subfigure=\count304
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count199
+\c@subtable=\count305
 ) (D:\MiTek\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box51
-\beforetitleunit=\skip64
-\aftertitleunit=\skip65
-\ttl@plus=\dimen152
-\ttl@minus=\dimen153
-\ttl@toksa=\toks21
-\titlewidth=\dimen154
-\titlewidthlast=\dimen155
-\titlewidthfirst=\dimen156
+\ttl@box=\box65
+\beforetitleunit=\skip67
+\aftertitleunit=\skip68
+\ttl@plus=\dimen283
+\ttl@minus=\dimen284
+\ttl@toksa=\toks45
+\titlewidth=\dimen285
+\titlewidthlast=\dimen286
+\titlewidthfirst=\dimen287
 ) (D:\MiTek\tex/latex/diagbox\diagbox.sty
 Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
  (D:\MiTek\tex/latex/pict2e\pict2e.sty
@@ -319,65 +600,78 @@ Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 112.
- (D:\MiTek\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-)
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
  (D:\MiTek\tex/latex/pict2e\p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
-) (D:\MiTek\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-\pIIe@GRAPH=\toks22
-\@arclen=\dimen157
-\@arcrad=\dimen158
-\pIIe@tempdima=\dimen159
-\pIIe@tempdimb=\dimen160
-\pIIe@tempdimc=\dimen161
-\pIIe@tempdimd=\dimen162
-\pIIe@tempdime=\dimen163
-\pIIe@tempdimf=\dimen164
+\pIIe@GRAPH=\toks46
+\@arclen=\dimen288
+\@arcrad=\dimen289
+\pIIe@tempdima=\dimen290
+\pIIe@tempdimb=\dimen291
+\pIIe@tempdimc=\dimen292
+\pIIe@tempdimd=\dimen293
+\pIIe@tempdime=\dimen294
+\pIIe@tempdimf=\dimen295
 ) (D:\MiTek\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count266
-\calc@Bcount=\count267
-\calc@Adimen=\dimen165
-\calc@Bdimen=\dimen166
-\calc@Askip=\skip66
-\calc@Bskip=\skip67
+\calc@Acount=\count306
+\calc@Bcount=\count307
+\calc@Adimen=\dimen296
+\calc@Bdimen=\dimen297
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count268
-\calc@Cskip=\skip68
+\calc@Ccount=\count308
+\calc@Cskip=\skip71
 ) (D:\MiTek\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen167
-\ar@mcellbox=\box52
-\extrarowheight=\dimen168
-\NC@list=\toks23
-\extratabsurround=\skip69
-\backup@length=\skip70
-\ar@cellbox=\box53
+\col@sep=\dimen298
+\ar@mcellbox=\box66
+\extrarowheight=\dimen299
+\NC@list=\toks47
+\extratabsurround=\skip72
+\backup@length=\skip73
+\ar@cellbox=\box67
 )
-\diagbox@boxa=\box54
-\diagbox@boxb=\box55
-\diagbox@boxm=\box56
-\diagbox@wd=\dimen169
-\diagbox@ht=\dimen170
-\diagbox@insepl=\dimen171
-\diagbox@insepr=\dimen172
-\diagbox@outsepl=\dimen173
-\diagbox@outsepr=\dimen174
+\diagbox@boxa=\box68
+\diagbox@boxb=\box69
+\diagbox@boxm=\box70
+\diagbox@wd=\dimen300
+\diagbox@ht=\dimen301
+\diagbox@insepl=\dimen302
+\diagbox@insepr=\dimen303
+\diagbox@outsepl=\dimen304
+\diagbox@outsepr=\dimen305
 ) (D:\MiTek\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (D:\MiTek\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks24
-\symAMSa=\mathgroup6
-\symAMSb=\mathgroup7
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (D:\MiTek\tex/latex/biblatex\biblatex.sty
+)) (D:\MiTek\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip74
+\LTright=\skip75
+\LTpre=\skip76
+\LTpost=\skip77
+\LTchunksize=\count309
+\LTcapwidth=\dimen306
+\LT@head=\box71
+\LT@firsthead=\box72
+\LT@foot=\box73
+\LT@lastfoot=\box74
+\LT@gbox=\box75
+\LT@cols=\count310
+\LT@rows=\count311
+\c@LT@tables=\count312
+\c@LT@chunks=\count313
+\LT@p@ftn=\toks48
+) (D:\MiTek\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (D:\MiTek\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
@@ -393,79 +687,79 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (D:\MiTek\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count269
+\etb@tempcnta=\count314
 ) (D:\MiTek\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (D:\MiTek\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (D:\MiTek\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count270
+\lrq@indent=\count315
  (D:\MiTek\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (D:\MiTek\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (D:\MiTek\tex/latex/url\url.sty
-\Urlmuskip=\muskip16
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count271
-\c@listtotal=\count272
-\c@listcount=\count273
-\c@liststart=\count274
-\c@liststop=\count275
-\c@citecount=\count276
-\c@citetotal=\count277
-\c@multicitecount=\count278
-\c@multicitetotal=\count279
-\c@instcount=\count280
-\c@maxnames=\count281
-\c@minnames=\count282
-\c@maxitems=\count283
-\c@minitems=\count284
-\c@citecounter=\count285
-\c@maxcitecounter=\count286
-\c@savedcitecounter=\count287
-\c@uniquelist=\count288
-\c@uniquename=\count289
-\c@refsection=\count290
-\c@refsegment=\count291
-\c@maxextratitle=\count292
-\c@maxextratitleyear=\count293
-\c@maxextraname=\count294
-\c@maxextradate=\count295
-\c@maxextraalpha=\count296
-\c@abbrvpenalty=\count297
-\c@highnamepenalty=\count298
-\c@lownamepenalty=\count299
-\c@maxparens=\count300
-\c@parenlevel=\count301
-\blx@tempcnta=\count302
-\blx@tempcntb=\count303
-\blx@tempcntc=\count304
-\c@blx@maxsection=\count305
-\blx@maxsegment@0=\count306
-\blx@notetype=\count307
-\blx@parenlevel@text=\count308
-\blx@parenlevel@foot=\count309
-\blx@sectionciteorder@0=\count310
-\blx@sectionciteorderinternal@0=\count311
-\blx@entrysetcounter=\count312
-\blx@biblioinstance=\count313
-\labelnumberwidth=\skip71
-\labelalphawidth=\skip72
-\biblabelsep=\skip73
-\bibitemsep=\skip74
-\bibnamesep=\skip75
-\bibinitsep=\skip76
-\bibparsep=\skip77
-\bibhang=\skip78
-\blx@bcfin=\read2
-\blx@bcfout=\write3
+\c@tabx@nest=\count316
+\c@listtotal=\count317
+\c@listcount=\count318
+\c@liststart=\count319
+\c@liststop=\count320
+\c@citecount=\count321
+\c@citetotal=\count322
+\c@multicitecount=\count323
+\c@multicitetotal=\count324
+\c@instcount=\count325
+\c@maxnames=\count326
+\c@minnames=\count327
+\c@maxitems=\count328
+\c@minitems=\count329
+\c@citecounter=\count330
+\c@maxcitecounter=\count331
+\c@savedcitecounter=\count332
+\c@uniquelist=\count333
+\c@uniquename=\count334
+\c@refsection=\count335
+\c@refsegment=\count336
+\c@maxextratitle=\count337
+\c@maxextratitleyear=\count338
+\c@maxextraname=\count339
+\c@maxextradate=\count340
+\c@maxextraalpha=\count341
+\c@abbrvpenalty=\count342
+\c@highnamepenalty=\count343
+\c@lownamepenalty=\count344
+\c@maxparens=\count345
+\c@parenlevel=\count346
+\blx@tempcnta=\count347
+\blx@tempcntb=\count348
+\blx@tempcntc=\count349
+\c@blx@maxsection=\count350
+\blx@maxsegment@0=\count351
+\blx@notetype=\count352
+\blx@parenlevel@text=\count353
+\blx@parenlevel@foot=\count354
+\blx@sectionciteorder@0=\count355
+\blx@sectionciteorderinternal@0=\count356
+\blx@entrysetcounter=\count357
+\blx@biblioinstance=\count358
+\labelnumberwidth=\skip78
+\labelalphawidth=\skip79
+\biblabelsep=\skip80
+\bibitemsep=\skip81
+\bibnamesep=\skip82
+\bibinitsep=\skip83
+\bibparsep=\skip84
+\bibhang=\skip85
+\blx@bcfin=\read3
+\blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count314
-\c@maxcomprange=\count315
-\c@mincompwidth=\count316
+\c@mincomprange=\count359
+\c@maxcomprange=\count360
+\c@mincompwidth=\count361
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (D:\MiTek\tex/latex/biblatex\blx-dm.def
@@ -473,88 +767,88 @@ File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count317
-\c@savedafterword=\count318
-\c@annotator=\count319
-\c@savedannotator=\count320
-\c@author=\count321
-\c@savedauthor=\count322
-\c@bookauthor=\count323
-\c@savedbookauthor=\count324
-\c@commentator=\count325
-\c@savedcommentator=\count326
-\c@editor=\count327
-\c@savededitor=\count328
-\c@editora=\count329
-\c@savededitora=\count330
-\c@editorb=\count331
-\c@savededitorb=\count332
-\c@editorc=\count333
-\c@savededitorc=\count334
-\c@foreword=\count335
-\c@savedforeword=\count336
-\c@holder=\count337
-\c@savedholder=\count338
-\c@introduction=\count339
-\c@savedintroduction=\count340
-\c@namea=\count341
-\c@savednamea=\count342
-\c@nameb=\count343
-\c@savednameb=\count344
-\c@namec=\count345
-\c@savednamec=\count346
-\c@translator=\count347
-\c@savedtranslator=\count348
-\c@shortauthor=\count349
-\c@savedshortauthor=\count350
-\c@shorteditor=\count351
-\c@savedshorteditor=\count352
-\c@labelname=\count353
-\c@savedlabelname=\count354
-\c@institution=\count355
-\c@savedinstitution=\count356
-\c@lista=\count357
-\c@savedlista=\count358
-\c@listb=\count359
-\c@savedlistb=\count360
-\c@listc=\count361
-\c@savedlistc=\count362
-\c@listd=\count363
-\c@savedlistd=\count364
-\c@liste=\count365
-\c@savedliste=\count366
-\c@listf=\count367
-\c@savedlistf=\count368
-\c@location=\count369
-\c@savedlocation=\count370
-\c@organization=\count371
-\c@savedorganization=\count372
-\c@origlocation=\count373
-\c@savedoriglocation=\count374
-\c@origpublisher=\count375
-\c@savedorigpublisher=\count376
-\c@publisher=\count377
-\c@savedpublisher=\count378
-\c@language=\count379
-\c@savedlanguage=\count380
-\c@origlanguage=\count381
-\c@savedoriglanguage=\count382
-\c@pageref=\count383
-\c@savedpageref=\count384
-\shorthandwidth=\skip79
-\shortjournalwidth=\skip80
-\shortserieswidth=\skip81
-\shorttitlewidth=\skip82
-\shortauthorwidth=\skip83
-\shorteditorwidth=\skip84
-\locallabelnumberwidth=\skip85
-\locallabelalphawidth=\skip86
-\localshorthandwidth=\skip87
-\localshortjournalwidth=\skip88
-\localshortserieswidth=\skip89
-\localshorttitlewidth=\skip90
-\localshortauthorwidth=\skip91
-\localshorteditorwidth=\skip92
+\c@afterword=\count362
+\c@savedafterword=\count363
+\c@annotator=\count364
+\c@savedannotator=\count365
+\c@author=\count366
+\c@savedauthor=\count367
+\c@bookauthor=\count368
+\c@savedbookauthor=\count369
+\c@commentator=\count370
+\c@savedcommentator=\count371
+\c@editor=\count372
+\c@savededitor=\count373
+\c@editora=\count374
+\c@savededitora=\count375
+\c@editorb=\count376
+\c@savededitorb=\count377
+\c@editorc=\count378
+\c@savededitorc=\count379
+\c@foreword=\count380
+\c@savedforeword=\count381
+\c@holder=\count382
+\c@savedholder=\count383
+\c@introduction=\count384
+\c@savedintroduction=\count385
+\c@namea=\count386
+\c@savednamea=\count387
+\c@nameb=\count388
+\c@savednameb=\count389
+\c@namec=\count390
+\c@savednamec=\count391
+\c@translator=\count392
+\c@savedtranslator=\count393
+\c@shortauthor=\count394
+\c@savedshortauthor=\count395
+\c@shorteditor=\count396
+\c@savedshorteditor=\count397
+\c@labelname=\count398
+\c@savedlabelname=\count399
+\c@institution=\count400
+\c@savedinstitution=\count401
+\c@lista=\count402
+\c@savedlista=\count403
+\c@listb=\count404
+\c@savedlistb=\count405
+\c@listc=\count406
+\c@savedlistc=\count407
+\c@listd=\count408
+\c@savedlistd=\count409
+\c@liste=\count410
+\c@savedliste=\count411
+\c@listf=\count412
+\c@savedlistf=\count413
+\c@location=\count414
+\c@savedlocation=\count415
+\c@organization=\count416
+\c@savedorganization=\count417
+\c@origlocation=\count418
+\c@savedoriglocation=\count419
+\c@origpublisher=\count420
+\c@savedorigpublisher=\count421
+\c@publisher=\count422
+\c@savedpublisher=\count423
+\c@language=\count424
+\c@savedlanguage=\count425
+\c@origlanguage=\count426
+\c@savedoriglanguage=\count427
+\c@pageref=\count428
+\c@savedpageref=\count429
+\shorthandwidth=\skip86
+\shortjournalwidth=\skip87
+\shortserieswidth=\skip88
+\shorttitlewidth=\skip89
+\shortauthorwidth=\skip90
+\shorteditorwidth=\skip91
+\locallabelnumberwidth=\skip92
+\locallabelalphawidth=\skip93
+\localshorthandwidth=\skip94
+\localshortjournalwidth=\skip95
+\localshortserieswidth=\skip96
+\localshorttitlewidth=\skip97
+\localshortauthorwidth=\skip98
+\localshorteditorwidth=\skip99
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (D:\MiTek\tex/latex/biblatex\blx-compat.def
@@ -574,19 +868,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (D:\MiTek\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count385
-\c@textcitetotal=\count386
-\c@textcitemaxnames=\count387
-\c@biburlbigbreakpenalty=\count388
-\c@biburlbreakpenalty=\count389
-\c@biburlnumpenalty=\count390
-\c@biburlucpenalty=\count391
-\c@biburllcpenalty=\count392
-\biburlbigskip=\muskip17
-\biburlnumskip=\muskip18
-\biburlucskip=\muskip19
-\biburllcskip=\muskip20
-\c@smartand=\count393
+\c@textcitecount=\count430
+\c@textcitetotal=\count431
+\c@textcitemaxnames=\count432
+\c@biburlbigbreakpenalty=\count433
+\c@biburlbreakpenalty=\count434
+\c@biburlnumpenalty=\count435
+\c@biburlucpenalty=\count436
+\c@biburllcpenalty=\count437
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count438
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -596,8 +890,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (D:\MiTek\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count394
-\c@bbx:relatedtotal=\count395
+\c@bbx:relatedcount=\count439
+\c@bbx:relatedtotal=\count440
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -626,8 +920,8 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-01-04 L3 programming layer (loader) 
  (D:\MiTek\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count396
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count441
+\l__pdf_internal_box=\box76
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-01-04 L3 programming layer (loader) 
@@ -656,11 +950,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (D:\MiTek\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count397
+\c@section@level=\count442
 )
-\@linkdim=\dimen175
-\Hy@linkcounter=\count398
-\Hy@pagecounter=\count399
+\@linkdim=\dimen307
+\Hy@linkcounter=\count443
+\Hy@pagecounter=\count444
  (D:\MiTek\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -668,7 +962,7 @@ Now handling font encoding PD1 ...
 ) (D:\MiTek\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count400
+\Hy@SavedSpaceFactor=\count445
  (D:\MiTek\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -682,17 +976,17 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count401
+\c@Hy@tempcnt=\count446
 LaTeX Info: Redefining \url on input line 4786.
-\XeTeXLinkMargin=\dimen176
+\XeTeXLinkMargin=\dimen308
  (D:\MiTek\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (D:\MiTek\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count402
-\Field@Width=\dimen177
-\Fld@charsize=\dimen178
+\Fld@menulength=\count447
+\Field@Width=\dimen309
+\Fld@charsize=\dimen310
 Package hyperref Info: Hyper figures OFF on input line 6065.
 Package hyperref Info: Link nesting OFF on input line 6070.
 Package hyperref Info: Hyper index ON on input line 6073.
@@ -704,9 +998,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count403
-\c@Item=\count404
-\c@Hfootnote=\count405
+\Hy@abspage=\count448
+\c@Item=\count449
+\c@Hfootnote=\count450
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (D:\MiTek\tex/latex/hyperref\hpdftex.def
@@ -715,8 +1009,8 @@ File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count406
-\c@bookmark@seq@number=\count407
+\Fld@listcount=\count451
+\c@bookmark@seq@number=\count452
  (D:\MiTek\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (D:\MiTek\tex/generic/uniquecounter\uniquecounter.sty
@@ -724,146 +1018,65 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip93
-) (D:\MiTek\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (D:\MiTek\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (D:\MiTek\tex/latex/graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-)
-\Gin@req@height=\dimen179
-\Gin@req@width=\dimen180
+\Hy@SectionHShift=\skip100
 ) (D:\MiTek\tex/latex/listings\listings.sty
-\lst@mode=\count408
-\lst@gtempboxa=\box58
-\lst@token=\toks25
-\lst@length=\count409
-\lst@currlwidth=\dimen181
-\lst@column=\count410
-\lst@pos=\count411
-\lst@lostspace=\dimen182
-\lst@width=\dimen183
-\lst@newlines=\count412
-\lst@lineno=\count413
-\lst@maxwidth=\dimen184
+\lst@mode=\count453
+\lst@gtempboxa=\box77
+\lst@token=\toks49
+\lst@length=\count454
+\lst@currlwidth=\dimen311
+\lst@column=\count455
+\lst@pos=\count456
+\lst@lostspace=\dimen312
+\lst@width=\dimen313
+\lst@newlines=\count457
+\lst@lineno=\count458
+\lst@maxwidth=\dimen314
  (D:\MiTek\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count414
-\lst@skipnumbers=\count415
-\lst@framebox=\box59
+\c@lstnumber=\count459
+\lst@skipnumbers=\count460
+\lst@framebox=\box78
 ) (D:\MiTek\tex/latex/listings\listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (D:\MiTek\tex/latex/graphics\color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (D:\MiTek\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
- (D:\MiTek\tex/latex/graphics\mathcolor.ltx)) (D:\MiTek\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip94
-
-For additional information on amsmath, use the `?' option.
-(D:\MiTek\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
- (D:\MiTek\tex/latex/amsmath\amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
-\ex@=\dimen185
-)) (D:\MiTek\tex/latex/amsmath\amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen186
-) (D:\MiTek\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count416
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count417
-\leftroot@=\count418
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count419
-\DOTSCASE@=\count420
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box60
-\strutbox@=\box61
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen187
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count421
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count422
-\dotsspace@=\muskip21
-\c@parentequation=\count423
-\dspbrk@lvl=\count424
-\tag@help=\toks27
-\row@=\count425
-\column@=\count426
-\maxfields@=\count427
-\andhelp@=\toks28
-\eqnshift@=\dimen188
-\alignsep@=\dimen189
-\tagshift@=\dimen190
-\tagwidth@=\dimen191
-\totwidth@=\dimen192
-\lineht@=\dimen193
-\@envbody=\toks29
-\multlinegap=\skip95
-\multlinetaggap=\skip96
-\mathdisplay@stack=\toks30
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
-) (D:\MiTek\tex/latex/algorithms\algorithm.sty
+ (D:\MiTek\tex/latex/algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (D:\MiTek\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count428
-\float@exts=\toks31
-\float@box=\box62
-\@float@everytoks=\toks32
-\@floatcapt=\box63
+\c@float@type=\count461
+\float@exts=\toks50
+\float@box=\box79
+\@float@everytoks=\toks51
+\@floatcapt=\box80
 )
-\@float@every@algorithm=\toks33
-\c@algorithm=\count429
+\@float@every@algorithm=\toks52
+\c@algorithm=\count462
 ) (D:\MiTek\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
  (D:\MiTek\tex/latex/algorithmicx\algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count430
-\c@ALG@rem=\count431
-\c@ALG@nested=\count432
-\ALG@tlm=\skip97
-\ALG@thistlm=\skip98
-\c@ALG@Lnr=\count433
-\c@ALG@blocknr=\count434
-\c@ALG@storecount=\count435
-\c@ALG@tmpcounter=\count436
-\ALG@tmplength=\skip99
+\c@ALG@line=\count463
+\c@ALG@rem=\count464
+\c@ALG@nested=\count465
+\ALG@tlm=\skip101
+\ALG@thistlm=\skip102
+\c@ALG@Lnr=\count466
+\c@ALG@blocknr=\count467
+\c@ALG@storecount=\count468
+\c@ALG@tmpcounter=\count469
+\ALG@tmplength=\skip103
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (D:\MiTek\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip100
-\multirow@cntb=\count437
-\multirow@dima=\skip101
-\bigstrutjot=\dimen194
+\multirow@colwidth=\skip104
+\multirow@cntb=\count470
+\multirow@dima=\skip105
+\bigstrutjot=\dimen315
 ) (D:\MiTek\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (D:\MiTek\tex/latex/tools\indentfirst.sty
@@ -873,271 +1086,80 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (D:\MiTek\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count438
-\Gm@cntv=\count439
-\c@Gm@tempcnt=\count440
-\Gm@bindingoffset=\dimen195
-\Gm@wd@mp=\dimen196
-\Gm@odd@mp=\dimen197
-\Gm@even@mp=\dimen198
-\Gm@layoutwidth=\dimen199
-\Gm@layoutheight=\dimen256
-\Gm@layouthoffset=\dimen257
-\Gm@layoutvoffset=\dimen258
-\Gm@dimlist=\toks34
- (D:\MiTek\tex/latex/geometry\geometry.cfg)) (D:\MiTek\tex/latex/pgf/frontendlayer\tikz.sty (D:\MiTek\tex/latex/pgf/basiclayer\pgf.sty (D:\MiTek\tex/latex/pgf/utilities\pgfrcs.sty (D:\MiTek\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks35
-\pgfutil@tempdima=\dimen259
-\pgfutil@tempdimb=\dimen260
-) (D:\MiTek\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box64
-) (D:\MiTek\tex/generic/pgf/utilities\pgfrcs.code.tex (D:\MiTek\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
-))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (D:\MiTek\tex/latex/pgf/basiclayer\pgfcore.sty (D:\MiTek\tex/latex/pgf/systemlayer\pgfsys.sty (D:\MiTek\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (D:\MiTek\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
- (D:\MiTek\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks38
-))
-\pgf@x=\dimen261
-\pgf@y=\dimen262
-\pgf@xa=\dimen263
-\pgf@ya=\dimen264
-\pgf@xb=\dimen265
-\pgf@yb=\dimen266
-\pgf@xc=\dimen267
-\pgf@yc=\dimen268
-\pgf@xd=\dimen269
-\pgf@yd=\dimen270
-\w@pgf@writea=\write4
-\r@pgf@reada=\read3
-\c@pgf@counta=\count441
-\c@pgf@countb=\count442
-\c@pgf@countc=\count443
-\c@pgf@countd=\count444
-\t@pgf@toka=\toks39
-\t@pgf@tokb=\toks40
-\t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count445
- (D:\MiTek\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
-)
-Driver file for pgf: pgfsys-pdftex.def
- (D:\MiTek\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (D:\MiTek\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (D:\MiTek\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count446
-\pgfsyssoftpath@bigbuffer@items=\count447
-) (D:\MiTek\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (D:\MiTek\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (D:\MiTek\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 274.
-LaTeX Info: Redefining \color on input line 758.
- (D:\MiTek\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcore.code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (D:\MiTek\tex/generic/pgf/math\pgfmath.code.tex (D:\MiTek\tex/generic/pgf/math\pgfmathutil.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen271
-\pgfmath@count=\count448
-\pgfmath@box=\box65
-\pgfmath@toks=\toks42
-\pgfmath@stack@operand=\toks43
-\pgfmath@stack@operation=\toks44
-) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathcalc.code.tex) (D:\MiTek\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count449
-)) (D:\MiTek\tex/generic/pgf/math\pgfint.code.tex) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen272
-\pgf@picmaxx=\dimen273
-\pgf@picminy=\dimen274
-\pgf@picmaxy=\dimen275
-\pgf@pathminx=\dimen276
-\pgf@pathmaxx=\dimen277
-\pgf@pathminy=\dimen278
-\pgf@pathmaxy=\dimen279
-\pgf@xx=\dimen280
-\pgf@xy=\dimen281
-\pgf@yx=\dimen282
-\pgf@yy=\dimen283
-\pgf@zx=\dimen284
-\pgf@zy=\dimen285
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen286
-\pgf@path@lasty=\dimen287
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen288
-\pgf@shorten@start@additional=\dimen289
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count450
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen290
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen291
-\pgf@pt@y=\dimen292
-\pgf@pt@temp=\dimen293
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen294
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen295
-\pgf@sys@shading@range@num=\count451
-\pgf@shadingcount=\count452
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box69
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\MiTek\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (D:\MiTek\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box70
-) (D:\MiTek\tex/generic/pgf/modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (D:\MiTek\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen296
-\pgf@nodesepend=\dimen297
-) (D:\MiTek\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (D:\MiTek\tex/latex/pgf/utilities\pgffor.sty (D:\MiTek\tex/latex/pgf/utilities\pgfkeys.sty (D:\MiTek\tex/generic/pgf/utilities\pgfkeys.code.tex)) (D:\MiTek\tex/latex/pgf/math\pgfmath.sty (D:\MiTek\tex/generic/pgf/math\pgfmath.code.tex)) (D:\MiTek\tex/generic/pgf/utilities\pgffor.code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen298
-\pgffor@skip=\dimen299
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
-)) (D:\MiTek\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (D:\MiTek\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count453
-\pgfplotmarksize=\dimen300
-)
-\tikz@lastx=\dimen301
-\tikz@lasty=\dimen302
-\tikz@lastxsaved=\dimen303
-\tikz@lastysaved=\dimen304
-\tikz@lastmovetox=\dimen305
-\tikz@lastmovetoy=\dimen306
-\tikzleveldistance=\dimen307
-\tikzsiblingdistance=\dimen308
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
-\tikztreelevel=\count454
-\tikznumberofchildren=\count455
-\tikznumberofcurrentchild=\count456
-\tikz@fig@count=\count457
- (D:\MiTek\tex/generic/pgf/modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count458
-\pgfmatrixcurrentcolumn=\count459
-\pgf@matrix@numberofcolumns=\count460
-)
-\tikz@expandcount=\count461
- (D:\MiTek\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (D:\MiTek\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+\Gm@cnth=\count471
+\Gm@cntv=\count472
+\c@Gm@tempcnt=\count473
+\Gm@bindingoffset=\dimen316
+\Gm@wd@mp=\dimen317
+\Gm@odd@mp=\dimen318
+\Gm@even@mp=\dimen319
+\Gm@layoutwidth=\dimen320
+\Gm@layoutheight=\dimen321
+\Gm@layouthoffset=\dimen322
+\Gm@layoutvoffset=\dimen323
+\Gm@dimlist=\toks53
+ (D:\MiTek\tex/latex/geometry\geometry.cfg)) (D:\MiTek\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-\@quotelevel=\count462
-\@quotereset=\count463
-LaTeX Font Info:    Trying to load font information for T5+ptm on input line 159.
- (D:\MiTek\tex/latex/vntex\t5ptm.fd
-File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
-) (main.aux (Appendix/editConfirmation.aux) (Appendix/thanks.aux) (Appendix/reassurances.aux) (Appendix/tt.aux) (Appendix/abstract.aux) (Appendix/tomtat.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux
+\@quotelevel=\count474
+\@quotereset=\count475
+ (main.aux (Appendix/thanks.aux) (Appendix/reassurances.aux) (Appendix/tt.aux) (Appendix/abstract.aux) (Appendix/viettat.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux
 
 LaTeX Warning: Label `fig:curve' multiply defined.
 
 ) (Chapter4/chapter4.aux) (Chapter5/chapter5.aux) (Appendix/publish.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
  (D:\MiTek\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count464
-\scratchdimen=\dimen309
-\scratchbox=\box75
-\nofMPsegments=\count465
-\nofMParguments=\count466
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count467
-\MPscratchDim=\dimen310
-\MPnumerator=\count468
-\makeMPintoPDFobject=\count469
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count476
+\scratchdimen=\dimen324
+\scratchbox=\box81
+\nofMPsegments=\count477
+\nofMParguments=\count478
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count479
+\MPscratchDim=\dimen325
+\MPnumerator=\count480
+\makeMPintoPDFobject=\count481
+\everyMPtoPDFconversion=\toks55
 ) (D:\MiTek\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (D:\MiTek\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+(D:\MiTek\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (D:\MiTek\tex/latex/biblatex/lbx\english.lbx
@@ -1149,19 +1171,25 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout3 = `main-blx.bib'.
+\openout4 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
-Package biblatex Info: Reference section=0 on input line 159.
-Package biblatex Info: Reference segment=0 on input line 159.
-Package hyperref Info: Link coloring OFF on input line 159.
+ (main.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'hardware':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 164.
+Package biblatex Info: Reference segment=0 on input line 164.
+Package hyperref Info: Link coloring OFF on input line 164.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-\c@lstlisting=\count470
+\c@lstlisting=\count482
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1199,29 +1227,45 @@ Package hyperref Info: Link coloring OFF on input line 159.
 
 (Title/title.tex [1
 
-{C:/Users/Hii/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/MiTek/fonts/enc/dvips/vntex/t5.enc}] [2])
-\openout2 = `Appendix/editConfirmation.aux'.
+{C:/Users/Hii/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2])
+\openout2 = `Appendix/thanks.aux'.
 
- (Appendix/editConfirmation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
+ (Appendix/thanks.tex
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 30.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 30.
 
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
+(Font)              size <12> substituted on input line 30.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 30.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 30.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 30.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+(D:\MiTek\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+ (D:\MiTek\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 30--36
+[][] 
  []
 
 ) [1
-
-
-
-
-]
-\openout2 = `Appendix/thanks.aux'.
-
- (Appendix/thanks.tex) [2
-
 
 
 
@@ -1231,39 +1275,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 \openout2 = `Appendix/reassurances.aux'.
 
  (Appendix/reassurances.tex
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 11.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 11.
- (D:\MiTek\tex/latex/psnfss\ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 11.
- (D:\MiTek\tex/latex/psnfss\omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 11.
- (D:\MiTek\tex/latex/psnfss\omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 11.
- (D:\MiTek\tex/latex/psnfss\omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 11.
- (D:\MiTek\tex/latex/psnfss\ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.62007> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.80008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 11--19
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 10--18
 [][] 
  []
 
-) [3
+) [2
+
 
 
 
@@ -1273,7 +1290,8 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 11--19
 ]
 \openout2 = `Appendix/tt.aux'.
 
- (Appendix/tt.tex) [4
+ (Appendix/tt.tex) [3
+
 
 
 
@@ -1283,14 +1301,16 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 11--19
 ]
 \openout2 = `Appendix/abstract.aux'.
 
- (Appendix/abstract.tex) [5
+ (Appendix/abstract.tex) [4
 
 
 
 
 
 
-] (main.toc [6
+
+] (main.toc [5
+
 
 
 
@@ -1300,37 +1320,44 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 11--19
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [7] (main.lof [8
+ [6] (main.lof [7
 
 
 
-{D:/MiTek/fonts/enc/dvips/base/8r.enc}])
+
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [9] (main.lot)
+ [8] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [10
+ [9
+
 
 
 
 ]
-\openout2 = `Appendix/tomtat.aux'.
+\openout2 = `Appendix/viettat.aux'.
+
+ (Appendix/viettat.tex) [10
 
 
-No file Appendix/tomtat.tex.
+
+
+
+]
 \openout2 = `Chapter1/chapter1.aux'.
 
-(Chapter1/chapter1.tex
+ (Chapter1/chapter1.tex
 ChÆ°Æ¡ng 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 D
-      o Ä‘Ã³, viá»‡c nghiÃªn cá»©u vÃ  phÃ¡t triá»ƒn cÃ¡c giáº£i phÃ¡p báº£o... [1
+l.14 
+      [1
 
 
 
@@ -1345,25 +1372,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.28 
       [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 33.
- (D:\MiTek\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) [3]
+
+LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 33.
+
+[3]) [4]
 \openout2 = `Chapter2/chapter2.aux'.
 
  (Chapter2/chapter2.tex
 ChÆ°Æ¡ng 2.
-[4
+[5
 
 
 
 
 
 
-] [5] [6] [7]
+
+] [6] [7] [8]
 
 pdfTeX warning: pdflatex (file ./images/MITM2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/MITM2.pdf, id=452, 337.26pt x 136.5903pt>
+<images/MITM2.pdf, id=455, 337.26pt x 136.5903pt>
 File: images/MITM2.pdf Graphic file (type pdf)
 <use images/MITM2.pdf>
 Package pdftex.def Info: images/MITM2.pdf  used on input line 56.
@@ -1371,20 +1400,23 @@ Package pdftex.def Info: images/MITM2.pdf  used on input line 56.
 
 
 pdfTeX warning: pdflatex (file ./images/MITM1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/MITM1.pdf, id=453, 340.3917pt x 211.7511pt>
+<images/MITM1.pdf, id=456, 340.3917pt x 211.7511pt>
 File: images/MITM1.pdf Graphic file (type pdf)
 <use images/MITM1.pdf>
 Package pdftex.def Info: images/MITM1.pdf  used on input line 63.
 (pdftex.def)             Requested size: 318.66948pt x 198.24474pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 pdfTeX warning: pdflatex (file ./images/replay.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/replay.pdf, id=456, 337.26pt x 144.54pt>
+<images/replay.pdf, id=459, 337.26pt x 144.54pt>
 File: images/replay.pdf Graphic file (type pdf)
 <use images/replay.pdf>
 Package pdftex.def Info: images/replay.pdf  used on input line 72.
 (pdftex.def)             Requested size: 318.66948pt x 136.57556pt.
-[8 <./images/MITM2.pdf> <./images/MITM1.pdf>]) [9 <./images/replay.pdf>]
+[9 <./images/MITM2.pdf>] [10 <./images/MITM1.pdf> <./images/replay.pdf>]) [11]
 \openout2 = `Chapter3/chapter3.aux'.
 
  (Chapter3/chapter3.tex
@@ -1392,218 +1424,205 @@ ChÆ°Æ¡ng 3.
 
 
 pdfTeX warning: pdflatex (file ./images/4layer.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/4layer.pdf, id=555, 349.305pt x 325.215pt>
+<images/4layer.pdf, id=563, 349.305pt x 325.215pt>
 File: images/4layer.pdf Graphic file (type pdf)
 <use images/4layer.pdf>
 Package pdftex.def Info: images/4layer.pdf  used on input line 11.
 (pdftex.def)             Requested size: 341.43307pt x 317.90462pt.
-[10
+[12
 
 
 
 
 
 
- <./images/4layer.pdf>]
 
-pdfTeX warning: pdflatex (file ./mqtt.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<mqtt.pdf, id=574, 362.3136pt x 179.7114pt>
-File: mqtt.pdf Graphic file (type pdf)
-<use mqtt.pdf>
-Package pdftex.def Info: mqtt.pdf  used on input line 29.
+ <./images/4layer.pdf>] [13]
+
+pdfTeX warning: pdflatex (file ./Images/mqtt.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/mqtt.pdf, id=591, 362.3136pt x 179.7114pt>
+File: Images/mqtt.pdf Graphic file (type pdf)
+<use Images/mqtt.pdf>
+Package pdftex.def Info: Images/mqtt.pdf  used on input line 29.
 (pdftex.def)             Requested size: 386.96027pt x 191.93553pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11]
-<ascon-aes.png, id=585, 718.685pt x 430.60875pt>
-File: ascon-aes.png Graphic file (type png)
-<use ascon-aes.png>
-Package pdftex.def Info: ascon-aes.png  used on input line 44.
+<Images/ascon-aes.png, id=594, 718.685pt x 430.60875pt>
+File: Images/ascon-aes.png Graphic file (type png)
+<use Images/ascon-aes.png>
+Package pdftex.def Info: Images/ascon-aes.png  used on input line 44.
 (pdftex.def)             Requested size: 318.66948pt x 190.94023pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./mqtt.pdf>] [13 <./ascon-aes.png>]
-<ascon_process.png, id=612, 1117.17375pt x 316.18124pt>
-File: ascon_process.png Graphic file (type png)
-<use ascon_process.png>
-Package pdftex.def Info: ascon_process.png  used on input line 68.
+[14 <./Images/mqtt.pdf>] [15 <./Images/ascon-aes.png>]
+<Images/ascon_process.png, id=620, 1117.17375pt x 316.18124pt>
+File: Images/ascon_process.png Graphic file (type png)
+<use Images/ascon_process.png>
+Package pdftex.def Info: Images/ascon_process.png  used on input line 68.
 (pdftex.def)             Requested size: 409.71692pt x 115.9576pt.
-<s-box.png, id=614, 705.63625pt x 478.78876pt>
-File: s-box.png Graphic file (type png)
-<use s-box.png>
-Package pdftex.def Info: s-box.png  used on input line 81.
+ [16 <./Images/ascon_process.png>]
+<Images/s-box.png, id=632, 705.63625pt x 478.78876pt>
+File: Images/s-box.png Graphic file (type png)
+<use Images/s-box.png>
+Package pdftex.def Info: Images/s-box.png  used on input line 81.
 (pdftex.def)             Requested size: 273.14923pt x 185.33878pt.
 LaTeX Font Info:    Calculating math sizes for size <11.86258> on input line 94.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.86258> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.77837> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.11761> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
- [14 <./ascon_process.png>]
-<curve.png, id=625, 342.27875pt x 343.2825pt>
-File: curve.png Graphic file (type png)
-<use curve.png>
-Package pdftex.def Info: curve.png  used on input line 118.
-(pdftex.def)             Requested size: 182.09486pt x 182.63026pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./s-box.png>]
+ [17 <./Images/s-box.png>]
+NOTE: coordinate (2Y2.2e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1778897e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1557794e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1336691e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1115588e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.2e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1778897e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1557794e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1336691e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1115588e0],3Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
+[18]
 
 pdfTeX warning: pdflatex (file ./images/keyexchange.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/keyexchange.pdf, id=632, 278.96219pt x 283.0575pt>
+<images/keyexchange.pdf, id=649, 278.96219pt x 283.0575pt>
 File: images/keyexchange.pdf Graphic file (type pdf)
 <use images/keyexchange.pdf>
-Package pdftex.def Info: images/keyexchange.pdf  used on input line 137.
+Package pdftex.def Info: images/keyexchange.pdf  used on input line 171.
 (pdftex.def)             Requested size: 295.90588pt x 300.27274pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16 <./curve.png>]
-
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 152.
+(Font)              size <12> substituted on input line 186.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 186.
 
-[17 <./images/keyexchange.pdf>] [18]
-<Images/ascon_hash.png, id=696, 495.65175pt x 197.538pt>
+[19 <./images/keyexchange.pdf>] [20]
+<Images/ascon_hash.png, id=703, 495.65175pt x 197.538pt>
 File: Images/ascon_hash.png Graphic file (type png)
 <use Images/ascon_hash.png>
-Package pdftex.def Info: Images/ascon_hash.png  used on input line 207.
+Package pdftex.def Info: Images/ascon_hash.png  used on input line 241.
 (pdftex.def)             Requested size: 364.19667pt x 145.154pt.
+ [21 <./Images/ascon_hash.png>]
 
-
-pdfTeX warning: pdflatex (file ./realsystem.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<realsystem.pdf, id=701, 583.21887pt x 449.76028pt>
-File: realsystem.pdf Graphic file (type pdf)
-<use realsystem.pdf>
-Package pdftex.def Info: realsystem.pdf  used on input line 225.
+pdfTeX warning: pdflatex (file ./Images/realsystem.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/realsystem.pdf, id=717, 583.21887pt x 449.76028pt>
+File: Images/realsystem.pdf Graphic file (type pdf)
+<use Images/realsystem.pdf>
+Package pdftex.def Info: Images/realsystem.pdf  used on input line 259.
 (pdftex.def)             Requested size: 455.24411pt x 351.0861pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (7.73654pt too wide) in paragraph at lines 231--232
-[]\T5/ptm/m/n/13 Vi ^^_i·u khiºn STM32F411VET6 ^^_÷ñc ph¡t triºn düa tr¶n bë cæng cö STM32CubeIDE
+Overfull \hbox (34.26334pt too wide) in paragraph at lines 265--266
+[]\T5/cmr/m/n/13 Vi ^^_i·u khiºn STM32F411VET6 ^^_÷ñc ph¡t triºn düa tr¶n bë cæng cö STM32CubeIDE
  []
 
-[19 <./Images/ascon_hash.png>] [20 <./realsystem.pdf>] [21]
+[22 <./Images/realsystem.pdf>] [23]
 
 pdfTeX warning: pdflatex (file ./images/system.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/system.pdf, id=761, 455.78279pt x 280.1667pt>
+<images/system.pdf, id=769, 455.78279pt x 280.1667pt>
 File: images/system.pdf Graphic file (type pdf)
 <use images/system.pdf>
-Package pdftex.def Info: images/system.pdf  used on input line 250.
+Package pdftex.def Info: images/system.pdf  used on input line 284.
 (pdftex.def)             Requested size: 386.96027pt x 237.86067pt.
-[22 <./images/system.pdf>]
+[24] [25 <./images/system.pdf>]
 
-pdfTeX warning: pdflatex (file ./trans-sys.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<trans-sys.pdf, id=818, 587.3142pt x 670.42468pt>
-File: trans-sys.pdf Graphic file (type pdf)
-<use trans-sys.pdf>
-Package pdftex.def Info: trans-sys.pdf  used on input line 263.
+pdfTeX warning: pdflatex (file ./Images/trans-sys.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/trans-sys.pdf, id=831, 587.3142pt x 670.42468pt>
+File: Images/trans-sys.pdf Graphic file (type pdf)
+<use Images/trans-sys.pdf>
+Package pdftex.def Info: Images/trans-sys.pdf  used on input line 299.
 (pdftex.def)             Requested size: 455.24411pt x 519.6556pt.
 
 
-pdfTeX warning: pdflatex (file ./skey.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<skey.pdf, id=821, 559.12888pt x 277.035pt>
-File: skey.pdf Graphic file (type pdf)
-<use skey.pdf>
-Package pdftex.def Info: skey.pdf  used on input line 276.
+pdfTeX warning: pdflatex (file ./Images/skey.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/skey.pdf, id=834, 559.12888pt x 277.035pt>
+File: Images/skey.pdf Graphic file (type pdf)
+<use Images/skey.pdf>
+Package pdftex.def Info: Images/skey.pdf  used on input line 312.
 (pdftex.def)             Requested size: 455.24411pt x 225.5596pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23] [24 <./trans-sys.pdf>]
+[26] [27 <./Images/trans-sys.pdf>]
 
 pdfTeX warning: pdflatex (file ./Images/gframe.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/gframe.pdf, id=873, 575.2692pt x 85.2786pt>
+<Images/gframe.pdf, id=886, 575.2692pt x 85.2786pt>
 File: Images/gframe.pdf Graphic file (type pdf)
 <use Images/gframe.pdf>
-Package pdftex.def Info: Images/gframe.pdf  used on input line 297.
+Package pdftex.def Info: Images/gframe.pdf  used on input line 333.
 (pdftex.def)             Requested size: 409.71692pt x 60.73819pt.
-[25 <./skey.pdf>]
+[28 <./Images/skey.pdf>]
 
-pdfTeX warning: pdflatex (file ./init-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<init-frame.pdf, id=918, 312.20638pt x 100.45529pt>
-File: init-frame.pdf Graphic file (type pdf)
-<use init-frame.pdf>
-Package pdftex.def Info: init-frame.pdf  used on input line 312.
+pdfTeX warning: pdflatex (file ./Images/init-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/init-frame.pdf, id=930, 312.20638pt x 100.45529pt>
+File: Images/init-frame.pdf Graphic file (type pdf)
+<use Images/init-frame.pdf>
+Package pdftex.def Info: Images/init-frame.pdf  used on input line 348.
 (pdftex.def)             Requested size: 273.14923pt x 87.89201pt.
-[26 <./Images/gframe.pdf>] [27 <./init-frame.pdf>]
+[29 <./Images/gframe.pdf>] [30 <./Images/init-frame.pdf>]
 
-pdfTeX warning: pdflatex (file ./gp-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<gp-frame.pdf, id=955, 672.59276pt x 189.8292pt>
-File: gp-frame.pdf Graphic file (type pdf)
-<use gp-frame.pdf>
-Package pdftex.def Info: gp-frame.pdf  used on input line 330.
+pdfTeX warning: pdflatex (file ./Images/gp-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/gp-frame.pdf, id=967, 672.59276pt x 189.8292pt>
+File: Images/gp-frame.pdf Graphic file (type pdf)
+<use Images/gp-frame.pdf>
+Package pdftex.def Info: Images/gp-frame.pdf  used on input line 366.
 (pdftex.def)             Requested size: 455.24411pt x 128.49124pt.
 
 
-pdfTeX warning: pdflatex (file ./pg-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pg-frame.pdf, id=957, 530.94356pt x 94.4328pt>
-File: pg-frame.pdf Graphic file (type pdf)
-<use pg-frame.pdf>
-Package pdftex.def Info: pg-frame.pdf  used on input line 339.
+pdfTeX warning: pdflatex (file ./Images/pg-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/pg-frame.pdf, id=969, 530.94356pt x 94.4328pt>
+File: Images/pg-frame.pdf Graphic file (type pdf)
+<use Images/pg-frame.pdf>
+Package pdftex.def Info: Images/pg-frame.pdf  used on input line 375.
 (pdftex.def)             Requested size: 409.71692pt x 72.87196pt.
-[28 <./gp-frame.pdf> <./pg-frame.pdf>]
+[31 <./Images/gp-frame.pdf> <./Images/pg-frame.pdf>]
 
-pdfTeX warning: pdflatex (file ./auth_t.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<auth_t.pdf, id=992, 481.8pt x 57.09329pt>
-File: auth_t.pdf Graphic file (type pdf)
-<use auth_t.pdf>
-Package pdftex.def Info: auth_t.pdf  used on input line 352.
+pdfTeX warning: pdflatex (file ./Images/auth_t.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/auth_t.pdf, id=1005, 481.8pt x 57.09329pt>
+File: Images/auth_t.pdf Graphic file (type pdf)
+<use Images/auth_t.pdf>
+Package pdftex.def Info: Images/auth_t.pdf  used on input line 388.
 (pdftex.def)             Requested size: 386.96027pt x 45.85588pt.
-[29 <./auth_t.pdf>]
+[32 <./Images/auth_t.pdf>]
 
-pdfTeX warning: pdflatex (file ./gs-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<gs-frame.pdf, id=1006, 660.54776pt x 388.33081pt>
-File: gs-frame.pdf Graphic file (type pdf)
-<use gs-frame.pdf>
-Package pdftex.def Info: gs-frame.pdf  used on input line 365.
+pdfTeX warning: pdflatex (file ./Images/gs-frame.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/gs-frame.pdf, id=1019, 660.54776pt x 388.33081pt>
+File: Images/gs-frame.pdf Graphic file (type pdf)
+<use Images/gs-frame.pdf>
+Package pdftex.def Info: Images/gs-frame.pdf  used on input line 401.
 (pdftex.def)             Requested size: 455.24411pt x 267.64041pt.
-[30 <./gs-frame.pdf>]
+[33 <./Images/gs-frame.pdf>]
 
-pdfTeX warning: pdflatex (file ./frameparsing1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<frameparsing1.pdf, id=1029, 310.27919pt x 227.89139pt>
-File: frameparsing1.pdf Graphic file (type pdf)
-<use frameparsing1.pdf>
-Package pdftex.def Info: frameparsing1.pdf  used on input line 374.
+pdfTeX warning: pdflatex (file ./Images/frameparsing1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/frameparsing1.pdf, id=1042, 310.27919pt x 227.89139pt>
+File: Images/frameparsing1.pdf Graphic file (type pdf)
+<use Images/frameparsing1.pdf>
+Package pdftex.def Info: Images/frameparsing1.pdf  used on input line 410.
 (pdftex.def)             Requested size: 318.66948pt x 234.07352pt.
 
 
-pdfTeX warning: pdflatex (file ./frameparse.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<frameparse.pdf, id=1030, 555.99718pt x 437.71529pt>
-File: frameparse.pdf Graphic file (type pdf)
-<use frameparse.pdf>
-Package pdftex.def Info: frameparse.pdf  used on input line 381.
-(pdftex.def)             Requested size: 455.24411pt x 358.40788pt.
-[31 <./frameparsing1.pdf>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 394.
- [32 <./frameparse.pdf>]) [33]
+pdfTeX warning: pdflatex (file ./Images/frameparse.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/frameparse.pdf, id=1043, 555.99718pt x 437.71529pt>
+File: Images/frameparse.pdf Graphic file (type pdf)
+<use Images/frameparse.pdf>
+Package pdftex.def Info: Images/frameparse.pdf  used on input line 418.
+(pdftex.def)             Requested size: 500.77129pt x 394.25401pt.
+[34 <./Images/frameparsing1.pdf>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 433.
+ [35 <./Images/frameparse.pdf>] [36]) [37]
 \openout2 = `Chapter4/chapter4.aux'.
 
  (Chapter4/chapter4.tex
 ChÆ°Æ¡ng 4.
 
 
-pdfTeX warning: pdflatex (file ./stm32log.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<stm32log.pdf, id=1070, 492.88138pt x 205.72859pt>
-File: stm32log.pdf Graphic file (type pdf)
-<use stm32log.pdf>
-Package pdftex.def Info: stm32log.pdf  used on input line 31.
+pdfTeX warning: pdflatex (file ./Images/stm32log.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/stm32log.pdf, id=1092, 492.88138pt x 205.72859pt>
+File: Images/stm32log.pdf Graphic file (type pdf)
+<use Images/stm32log.pdf>
+Package pdftex.def Info: Images/stm32log.pdf  used on input line 31.
 (pdftex.def)             Requested size: 364.19667pt x 152.01701pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34
+[38
+
 
 
 
@@ -1612,126 +1631,192 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 
-pdfTeX warning: pdflatex (file ./initlog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<initlog.pdf, id=1076, 506.85359pt x 257.04028pt>
-File: initlog.pdf Graphic file (type pdf)
-<use initlog.pdf>
-Package pdftex.def Info: initlog.pdf  used on input line 40.
+pdfTeX warning: pdflatex (file ./Images/initlog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/initlog.pdf, id=1098, 506.85359pt x 257.04028pt>
+File: Images/initlog.pdf Graphic file (type pdf)
+<use Images/initlog.pdf>
+Package pdftex.def Info: Images/initlog.pdf  used on input line 40.
 (pdftex.def)             Requested size: 455.24411pt x 230.8713pt.
 
 
-pdfTeX warning: pdflatex (file ./ecdhlog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<ecdhlog.pdf, id=1078, 488.78609pt x 252.945pt>
-File: ecdhlog.pdf Graphic file (type pdf)
-<use ecdhlog.pdf>
-Package pdftex.def Info: ecdhlog.pdf  used on input line 49.
-(pdftex.def)             Requested size: 455.24411pt x 235.58765pt.
+pdfTeX warning: pdflatex (file ./Images/ecdhlog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/ecdhlog.pdf, id=1100, 651.39355pt x 344.2461pt>
+File: Images/ecdhlog.pdf Graphic file (type pdf)
+<use Images/ecdhlog.pdf>
+Package pdftex.def Info: Images/ecdhlog.pdf  used on input line 49.
+(pdftex.def)             Requested size: 455.24411pt x 240.58716pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-pdfTeX warning: pdflatex (file ./datalog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<datalog.pdf, id=1083, 480.83638pt x 250.0542pt>
-File: datalog.pdf Graphic file (type pdf)
-<use datalog.pdf>
-Package pdftex.def Info: datalog.pdf  used on input line 58.
-(pdftex.def)             Requested size: 455.24411pt x 236.75269pt.
-[35 <./stm32log.pdf> <./initlog.pdf>] [36 <./ecdhlog.pdf> <./datalog.pdf>]
+pdfTeX warning: pdflatex (file ./Images/datalog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/datalog.pdf, id=1104, 636.45775pt x 332.2011pt>
+File: Images/datalog.pdf Graphic file (type pdf)
+<use Images/datalog.pdf>
+Package pdftex.def Info: Images/datalog.pdf  used on input line 58.
+(pdftex.def)             Requested size: 455.24411pt x 237.61829pt.
+[39 <./Images/stm32log.pdf> <./Images/initlog.pdf>] [40 <./Images/ecdhlog.pdf> <./Images/datalog.pdf>]
 
-pdfTeX warning: pdflatex (file ./sclog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<sclog.pdf, id=1124, 1372.16632pt x 701.7417pt>
-File: sclog.pdf Graphic file (type pdf)
-<use sclog.pdf>
-Package pdftex.def Info: sclog.pdf  used on input line 67.
+pdfTeX warning: pdflatex (file ./Images/sclog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images/sclog.pdf, id=1145, 1372.16632pt x 701.7417pt>
+File: Images/sclog.pdf Graphic file (type pdf)
+<use Images/sclog.pdf>
+Package pdftex.def Info: Images/sclog.pdf  used on input line 67.
 (pdftex.def)             Requested size: 455.24411pt x 232.81757pt.
-[37 <./sclog.pdf>]
-<stm32-2.png, id=1144, 394.638pt x 191.187pt>
-File: stm32-2.png Graphic file (type png)
-<use stm32-2.png>
-Package pdftex.def Info: stm32-2.png  used on input line 82.
-(pdftex.def)             Requested size: 341.43307pt x 165.41531pt.
-<ke.png, id=1145, 361.35pt x 125.706pt>
-File: ke.png Graphic file (type png)
-<use ke.png>
-Package pdftex.def Info: ke.png  used on input line 89.
-(pdftex.def)             Requested size: 341.43307pt x 118.77745pt.
-<esp32.png, id=1146, 401.646pt x 197.976pt>
-File: esp32.png Graphic file (type png)
-<use esp32.png>
-Package pdftex.def Info: esp32.png  used on input line 96.
-(pdftex.def)             Requested size: 341.43307pt x 168.30453pt.
- [38 <./stm32-2.png> <./ke.png>]
-<packet2.png, id=1156, 620.7993pt x 228.3732pt>
-File: packet2.png Graphic file (type png)
-<use packet2.png>
-Package pdftex.def Info: packet2.png  used on input line 116.
-(pdftex.def)             Requested size: 364.19667pt x 133.97935pt.
- [39 <./esp32.png>]
-<pdr2.png, id=1162, 630.1944pt x 228.3732pt>
-File: pdr2.png Graphic file (type png)
-<use pdr2.png>
-Package pdftex.def Info: pdr2.png  used on input line 123.
-(pdftex.def)             Requested size: 364.19667pt x 131.97914pt.
- [40 <./packet2.png> <./pdr2.png>]
-<images/stm32flash.png, id=1172, 219.0pt x 212.649pt>
+[41 <./Images/sclog.pdf>]
+<Images/ke.png, id=1164, 361.35pt x 125.706pt>
+File: Images/ke.png Graphic file (type png)
+<use Images/ke.png>
+Package pdftex.def Info: Images/ke.png  used on input line 82.
+(pdftex.def)             Requested size: 364.19667pt x 126.69734pt.
+<Images/esp32.png, id=1165, 401.646pt x 197.976pt>
+File: Images/esp32.png Graphic file (type png)
+<use Images/esp32.png>
+Package pdftex.def Info: Images/esp32.png  used on input line 89.
+(pdftex.def)             Requested size: 364.19667pt x 179.52403pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Images/stm32-2.png, id=1166, 394.638pt x 191.187pt>
+File: Images/stm32-2.png Graphic file (type png)
+<use Images/stm32-2.png>
+Package pdftex.def Info: Images/stm32-2.png  used on input line 96.
+(pdftex.def)             Requested size: 364.19667pt x 176.44261pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42 <./Images/ke.png>] [43 <./Images/esp32.png> <./Images/stm32-2.png>]
+<Images/packet.png, id=1182, 901.2069pt x 339.669pt>
+File: Images/packet.png Graphic file (type png)
+<use Images/packet.png>
+Package pdftex.def Info: Images/packet.png  used on input line 116.
+(pdftex.def)             Requested size: 409.71692pt x 154.42525pt.
+<Images/pdr.png, id=1183, 916.3836pt x 339.669pt>
+File: Images/pdr.png Graphic file (type png)
+<use Images/pdr.png>
+Package pdftex.def Info: Images/pdr.png  used on input line 123.
+(pdftex.def)             Requested size: 409.71692pt x 151.86487pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44 <./Images/packet.png> <./Images/pdr.png>]
+<images/stm32flash.png, id=1193, 219.0pt x 212.649pt>
 File: images/stm32flash.png Graphic file (type png)
 <use images/stm32flash.png>
 Package pdftex.def Info: images/stm32flash.png  used on input line 168.
-(pdftex.def)             Requested size: 204.85846pt x 198.92963pt.
-<images/stm32ram.png, id=1173, 216.81pt x 212.649pt>
+(pdftex.def)             Requested size: 225.3436pt x 218.82324pt.
+<images/stm32ram.png, id=1194, 216.81pt x 212.649pt>
 File: images/stm32ram.png Graphic file (type png)
 <use images/stm32ram.png>
 Package pdftex.def Info: images/stm32ram.png  used on input line 174.
-(pdftex.def)             Requested size: 204.85846pt x 200.93813pt.
-<images/esp32flash.png, id=1174, 215.715pt x 216.81pt>
+(pdftex.def)             Requested size: 225.3436pt x 221.02966pt.
+<images/esp32flash.png, id=1195, 215.715pt x 216.81pt>
 File: images/esp32flash.png Graphic file (type png)
 <use images/esp32flash.png>
 Package pdftex.def Info: images/esp32flash.png  used on input line 185.
-(pdftex.def)             Requested size: 204.85846pt x 205.90877pt.
-<images/esp32ram.png, id=1175, 217.248pt x 216.81pt>
+(pdftex.def)             Requested size: 225.3436pt x 226.49931pt.
+<images/esp32ram.png, id=1196, 217.248pt x 216.81pt>
 File: images/esp32ram.png Graphic file (type png)
 <use images/esp32ram.png>
 Package pdftex.def Info: images/esp32ram.png  used on input line 191.
-(pdftex.def)             Requested size: 204.85846pt x 204.45645pt.
-<Images/ina219.png, id=1176, 233.07076pt x 191.5155pt>
+(pdftex.def)             Requested size: 225.3436pt x 224.90143pt.
+ [45 <./images/stm32flash.png> <./images/stm32ram.png>]
+<Images/ina219.png, id=1203, 233.07076pt x 191.5155pt>
 File: Images/ina219.png Graphic file (type png)
 <use Images/ina219.png>
 Package pdftex.def Info: Images/ina219.png  used on input line 207.
 (pdftex.def)             Requested size: 91.04742pt x 74.81639pt.
- [41 <./images/stm32flash.png> <./images/stm32ram.png> <./images/esp32flash.png> <./images/esp32ram.png>]
-<Images/stm32pow.png, id=1186, 859.2903pt x 446.6286pt>
-File: Images/stm32pow.png Graphic file (type png)
-<use Images/stm32pow.png>
-Package pdftex.def Info: Images/stm32pow.png  used on input line 215.
-(pdftex.def)             Requested size: 409.71692pt x 212.95496pt.
- [42 <./Images/ina219.png> <./Images/stm32pow.png>]
-<Images/esp32pow.png, id=1194, 859.2903pt x 446.6286pt>
-File: Images/esp32pow.png Graphic file (type png)
-<use Images/esp32pow.png>
-Package pdftex.def Info: Images/esp32pow.png  used on input line 226.
-(pdftex.def)             Requested size: 409.71692pt x 212.95496pt.
-<Images/totalpow.png, id=1196, 859.2903pt x 350.5095pt>
+<Images/stm32pow2.png, id=1205, 1076.1003pt x 354.123pt>
+File: Images/stm32pow2.png Graphic file (type png)
+<use Images/stm32pow2.png>
+Package pdftex.def Info: Images/stm32pow2.png  used on input line 215.
+(pdftex.def)             Requested size: 455.24411pt x 149.81133pt.
+ [46 <./images/esp32flash.png> <./images/esp32ram.png> <./Images/ina219.png>]
+<Images/esp32pow2.png, id=1214, 1076.1003pt x 354.123pt>
+File: Images/esp32pow2.png Graphic file (type png)
+<use Images/esp32pow2.png>
+Package pdftex.def Info: Images/esp32pow2.png  used on input line 226.
+(pdftex.def)             Requested size: 455.24411pt x 149.81133pt.
+<Images/totalpow.png, id=1218, 859.2903pt x 350.5095pt>
 File: Images/totalpow.png Graphic file (type png)
 <use Images/totalpow.png>
-Package pdftex.def Info: Images/totalpow.png  used on input line 234.
+Package pdftex.def Info: Images/totalpow.png  used on input line 237.
 (pdftex.def)             Requested size: 409.71692pt x 167.12485pt.
- [43 <./Images/esp32pow.png> <./Images/totalpow.png>] [44] [45] [46] [47]) [48]
+ [47 <./Images/stm32pow2.png> <./Images/esp32pow2.png>]
+Overfull \hbox (32.75343pt too wide) in paragraph at lines 247--262
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 264.
+(D:\MiTek\tex/latex/vntex\t5cmtt.fd
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 264.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.58339> not available
+(Font)              size <8> substituted on input line 264.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.41673> not available
+(Font)              size <5> substituted on input line 264.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.58339> not available
+(Font)              size <8> substituted on input line 264.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.41673> not available
+(Font)              size <5> substituted on input line 264.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58339> not available
+(Font)              size <8> substituted on input line 264.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.41673> not available
+(Font)              size <5> substituted on input line 264.
+
+
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <7.58339> not available
+(Font)              size <8> substituted on input line 264.
+
+
+LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <5.41673> not available
+(Font)              size <5> substituted on input line 264.
+
+[48 <./Images/totalpow.png>] [49]
+<Images/chartefficiency.png, id=1243, 570.933pt x 354.123pt>
+File: Images/chartefficiency.png Graphic file (type png)
+<use Images/chartefficiency.png>
+Package pdftex.def Info: Images/chartefficiency.png  used on input line 316.
+(pdftex.def)             Requested size: 341.43307pt x 211.78378pt.
+ [50 <./Images/chartefficiency.png>] [51]
+Overfull \hbox (4.61487pt too wide) in paragraph at lines 346--347
+[]\T5/cmr/m/n/13 Qu¡ tr¼nh trao ^^_êi khâa dòng thuªt to¡n ECDH sû döng ^^_÷íng cong \T5/cmr/m/it/13 sect163k1
+ []
+
+[52]) [53]
 \openout2 = `Chapter5/chapter5.aux'.
 
  (Chapter5/chapter5.tex
 ChÆ°Æ¡ng 5.
-) [49
+[54
 
 
 
 
 
 
-] [50]
+
+]) [55]
 \openout2 = `Appendix/publish.aux'.
 
- (Appendix/publish.tex) [51
+ (Appendix/publish.tex) [56
+
 
 
 
@@ -1740,41 +1825,34 @@ ChÆ°Æ¡ng 5.
 
 ]
 
-Package biblatex Warning: Keyword 'Viet' not found on input line 233.
+Package biblatex Warning: Keyword 'Viet' not found on input line 237.
 
 
-LaTeX Warning: Empty bibliography on input line 233.
+LaTeX Warning: Empty bibliography on input line 237.
 
 
 Package biblatex Warning: Name format 'last-first' deprecated.
 (biblatex)                Please use 'family-given' instead.
 (biblatex)                Using 'family-given' now.
 
+[57
 
-Overfull \hbox (2.19708pt too wide) in paragraph at lines 238--238
-[]\T5/ptm/m/n/13 Brown, Daniel R. L. ``Stan-dards for Ef-fi-cient Cryp-tog-ra-phy SEC 2: Rec-om-mended
- []
-
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 238.
-(D:\MiTek\tex/latex/vntex\t5cmtt.fd
-File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Overfull \hbox (15.86635pt too wide) in paragraph at lines 238--238
-[]\T5/ptm/m/n/13 Online. \T5/ptm/m/it/13 Crypt-anal-y-sis\T5/ptm/m/n/13 . \T5/ptm/m/sc/13 url\T5/ptm/m/n/13 : []$\T5/cmtt/m/n/13 https : / / en . wikipedia . org / wiki / Cryptanalysis$[]
- []
-
-[52
 
 
 
 
 
 ]
-Overfull \hbox (7.14568pt too wide) in paragraph at lines 238--238
-[]\T5/ptm/m/n/13 Online. \T5/ptm/m/it/13 Related-key At-tack\T5/ptm/m/n/13 . \T5/ptm/m/sc/13 url\T5/ptm/m/n/13 : []$\T5/cmtt/m/n/13 https : / / en . wikipedia . org / wiki / Related -[]
+Overfull \hbox (12.33458pt too wide) in paragraph at lines 242--242
+[]\T5/cmr/m/n/13 Field Ef-fect. \T5/cmr/m/it/13 What is a Brute Force At-tack? \T5/cmr/m/n/13 2025. \T5/cmr/m/sc/13 url\T5/cmr/m/n/13 : []$\T5/cmtt/m/n/13 https : / / fieldeffect .
  []
 
-[53] [54] (main.aux (Appendix/editConfirmation.aux) (Appendix/thanks.aux) (Appendix/reassurances.aux) (Appendix/tt.aux) (Appendix/abstract.aux) (Appendix/tomtat.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux) (Chapter4/chapter4.aux) (Chapter5/chapter5.aux) (Appendix/publish.aux))
+[58]
+Overfull \hbox (14.01074pt too wide) in paragraph at lines 242--242
+[]\T5/cmr/m/n/13 Online. \T5/cmr/m/it/13 Cu-mu-la-tive Dis-tri-bu-tion Func-tion\T5/cmr/m/n/13 . 2025. \T5/cmr/m/sc/13 url\T5/cmr/m/n/13 : []$\T5/cmtt/m/n/13 https : / / en . wikipedia .
+ []
+
+[59] (main.aux (Appendix/thanks.aux) (Appendix/reassurances.aux) (Appendix/tt.aux) (Appendix/abstract.aux) (Appendix/viettat.aux) (Chapter1/chapter1.aux) (Chapter2/chapter2.aux) (Chapter3/chapter3.aux) (Chapter4/chapter4.aux) (Chapter5/chapter5.aux) (Appendix/publish.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1782,29 +1860,37 @@ L3 programming layer <2024-01-04>
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
+(Font)              up to 1.75pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F27DDE2E5FA6062744FAD16A6B6414B4;8994.
+(rerunfilecheck)             Checksum: F3006056D6394ECF1F3A46408D967054;8700.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35461 strings out of 474486
- 656088 string characters out of 5760645
- 1943542 words of memory out of 5000000
- 56860 multiletter control sequences out of 15000+600000
- 649336 words of font info for 170 fonts, out of 8000000 for 9000
+ 45881 strings out of 474486
+ 1006199 string characters out of 5760645
+ 1951542 words of memory out of 5000000
+ 67177 multiletter control sequences out of 15000+600000
+ 590320 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,2630b,1491s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/MiTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmtt12.pfb><D:/MiTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MiTek/fonts/type1/vntex/urwvn/utmb8v.pfb><D:/MiTek/fonts/type1/urw/times/utmr8a.pfb><D:/MiTek/fonts/type1/vntex/urwvn/utmr8v.pfb><D:/MiTek/fonts/type1/urw/times/utmri8a.pfb><D:/MiTek/fonts/type1/vntex/urwvn/utmri8v.pfb><D:/MiTek/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (66 pages, 11489781 bytes).
+ 108i,12n,107p,2261b,2142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Hii\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/MiTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmtt12.pfb><D:/MiTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnbx12.pfb><D:/MiTek/fonts/type1/vntex/vnr/vncsc10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr12.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr17.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr7.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr8.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr9.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnti10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnti12.pfb><D:/MiTek/fonts/type1/vntex/vnr/vntt10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on main.pdf (71 pages, 11901303 bytes).
 PDF statistics:
- 1396 PDF objects out of 1440 (max. 8388607)
- 221 named destinations out of 1000 (max. 500000)
- 570 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1484 PDF objects out of 1728 (max. 8388607)
+ 227 named destinations out of 1000 (max. 500000)
+ 554 words of extra memory for PDF output out of 10000 (max. 10000000)
 

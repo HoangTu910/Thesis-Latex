@@ -1,11 +1,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Bảng tham số cho ASCON}}{15}{table.caption.18}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Ratio of DH Security to EC Security at Different Security Levels}}{18}{table.caption.21}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Bảng tham số cho ASCON}}{17}{table.caption.19}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Tỉ lệ giữa bảo mật DH và bảo mật EC ở các mức độ bảo mật khác nhau}}{20}{table.caption.22}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Cấu hình máy chủ}}{34}{table.caption.35}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Bảng đánh giá hiệu năng trong 120 phút}}{40}{table.caption.46}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Dung lượng bộ nhớ RAM và FLASH}}{40}{table.caption.47}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Hiệu suất tải với các kích thước tải khác nhau}}{45}{table.caption.54}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Cấu hình máy chủ}}{38}{table.caption.36}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Bảng đánh giá hiệu năng trong 120 phút}}{44}{table.caption.47}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Dung lượng bộ nhớ RAM và FLASH}}{45}{table.caption.48}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Phân loại các thiết bị IoT dựa trên hiệu suất phần cứng}}{48}{table.caption.55}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Hiệu suất tải với các kích thước tải khác nhau}}{50}{table.caption.56}%
 \addvspace {10\p@ }

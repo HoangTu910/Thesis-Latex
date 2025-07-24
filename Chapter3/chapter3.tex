@@ -113,9 +113,43 @@ Một đường cong elliptic là một đường cong trơn (không có điểm
 \]
 trong đó $a$ và $b$ là các hằng số và $p$ là một số nguyên tố đại diện cho trường hữu hạn (finite field). Đường cong này có thể được diễn giải theo hình học và mang cấu trúc nhóm, cụ thể là một nhóm cộng với phép cộng điểm trên đường cong. Hình \ref{fig:curve} minh họa một đường cong elliptic với $a = -2$ và $b = 5$.
 
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.4\linewidth]{curve.png}
+%     \caption{Đường cong elliptic $y^2 = x^3 - 2x + 5$}
+%     \label{fig:curve}
+% \end{figure}
+
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.4\linewidth]{curve.png}
+    \begin{tikzpicture}
+    \begin{axis}[
+        axis lines = middle,
+        xlabel = $x$,
+        ylabel = $y$,
+        samples=200,
+        domain=-4:4,
+        xmin=-3, xmax=3,
+        ymin=-4, ymax=4,
+        width=8cm,
+        height=8cm,
+        title={$y^2 = x^3 - 2x + 5$},
+        legend style={draw=none},
+        xtick={-4,-3,...,4},
+        ytick={-5,-4,...,5},
+        grid=both
+    ]
+    
+    % y = sqrt(...)
+    \addplot[blue, thick, domain=-2.2:2.2, samples=200]
+        {sqrt(x^3 - 2*x + 5)};
+        
+    % y = -sqrt(...)
+    \addplot[blue, thick, domain=-2.2:2.2, samples=200]
+        {-sqrt(x^3 - 2*x + 5)};
+    
+    \end{axis}
+    \end{tikzpicture}
     \caption{Đường cong elliptic $y^2 = x^3 - 2x + 5$}
     \label{fig:curve}
 \end{figure}
@@ -123,12 +157,12 @@ trong đó $a$ và $b$ là các hằng số và $p$ là một số nguyên tố 
 Phép cộng hai điểm $P$ và $Q$ trên đường cong sẽ tạo ra một điểm thứ ba $R = P + Q$. Cách thực hiện là vẽ đường thẳng đi qua hai điểm $P$ và $Q$, tìm điểm giao thứ ba của đường thẳng đó với đường cong, sau đó phản xạ điểm này qua trục hoành (trục $x$) thể thu được điểm $R$.
 \subsubsection{Trao đổi khóa Elliptic Curve Diffie-Hellman (ECDH)}
 \label{sec:ecdh}
-Elliptic Curve Diffie-Hellman (ECDH) là một thuật toán trao đổi khóa cho phép hai bên thiết lập một khóa bí mật chung qua kênh truyền thông không an toàn, dựa trên độ phức tạp tính toán của bài toán logarit rời rạc trên đường cong elliptic. Với hiệu suất cao và mức độ an toàn mạnh mẽ, ECDH được ứng dụng rộng rãi trong các giao thức mật mã. Cho \( G \) là điểm sinh (generator point) trên đường cong với bậc \( n \). Device và Gateway sẽ là hai thiết bị thực hiện trao đổi khóa với nhau, quá trình thực hiện ECDH được tóm tắt qua các bước sau:
+Elliptic Curve Diffie-Hellman (ECDH) là một thuật toán trao đổi khóa cho phép hai bên thiết lập một khóa bí mật chung qua kênh truyền thông không an toàn, dựa trên độ phức tạp tính toán của bài toán logarit rời rạc trên đường cong elliptic. Với hiệu suất cao và mức độ an toàn mạnh mẽ, ECDH được ứng dụng rộng rãi trong các giao thức mật mã. Cho \( G \) là điểm sinh (generator point) trên đường cong với bậc \( n \). Gateway và máy chủ sẽ là hai thiết bị thực hiện trao đổi khóa với nhau, quá trình thực hiện ECDH được tóm tắt qua các bước sau:
 \begin{enumerate}
-    \item Device chọn khóa riêng (private key) \( d_A \in \mathbb{Z}_n \), và tính khóa công khai (public key) \( Q_A = d_A \cdot G \).
-    \item Gateway thực hiện quá trình tương tự, chọn khóa riêng  \( d_B \in \mathbb{Z}_n \) và tính khóa công khai \( Q_B = d_B \cdot G \).
-    \item Device và Gateway thực hiện trao đổi khóa công khai với nhau \( Q_A \) và \( Q_B \).
-    \item Device tính khóa bí mật chung \( S_A = d_A \cdot Q_B \).
+    \item Gateway chọn khóa riêng (private key) \( d_A \in \mathbb{Z}_n \), và tính khóa công khai (public key) \( Q_A = d_A \cdot G \).
+    \item Máy chủ thực hiện quá trình tương tự, chọn khóa riêng  \( d_B \in \mathbb{Z}_n \) và tính khóa công khai \( Q_B = d_B \cdot G \).
+    \item Gateway và máy chủ thực hiện trao đổi khóa công khai với nhau \( Q_A \) và \( Q_B \).
+    \item Máy chủ tính khóa bí mật chung \( S_A = d_A \cdot Q_B \).
     \item Gateway tính khóa bí mật chung  \( S_B = d_B \cdot Q_A \).
     \item Do tính chất giao hoán của phép nhân điểm trên đường cong elliptic, \( S_A = S_B = d_A \cdot d_B \cdot G \), cả hai bên đạt được khóa bí mật chung \( S \).
 \end{enumerate}
@@ -166,7 +200,7 @@ ECDH đã được chứng minh có độ an toàn tương đương với thuậ
 \begin{table}[h]
 \centering
 \small
-\caption{Ratio of DH Security to EC Security at Different Security Levels}
+\caption{Tỉ lệ giữa bảo mật DH và bảo mật EC ở các mức độ bảo mật khác nhau}
 \label{tab:dh_ec_security}
 \begin{tabular}{|c|c|}
 \hline
@@ -216,7 +250,7 @@ Dựa trên cấu trúc sponge, Ascon-Hash vận hành qua ba giai đoạn chín
 \section{Phương pháp thực hiện}
 \label{sec:phuongphap}
 \subsection{Tổng quan hệ thống IoT}
-Mô hình IoT được triển khai dựa trên kiến trúc IoT bốn lớp như trình bày ở phần \ref{sec:4layer}. Ở lớp nhận thức, vi điều khiển STM32F411VET6 được sử dụng để thu thập dữ liệu từ cảm biến. Dữ liệu sau đó được truyền tới lớp xử lý dữ liệu thông qua ESP32, thiết bị đóng vai trò như một gateway trung gian. Giao tiếp giữa STM32 và ESP32 được thực hiện thông qua giao thức UART. Trên máy chủ Linux, các thành phần được triển khai bao gồm MQTT Broker và Backend chịu trách nhiệm tiếp nhận dữ liệu từ gateway, xử lý và phân giải các gói tin, kiểm tra tính hợp lệ của gói tin. Hình \ref{fig:realsystem} trình bày mô hình tổng quan của hệ thống. Phần dưới đây sẽ trình bày từng thành phần trong hệ thống, các khái niệm về khung truyền được đề cập tới sẽ trình bày chi tiết ở các phần \ref{sec:tongquan} và \ref{sec:frame}.
+Mô hình IoT được triển khai dựa trên kiến trúc IoT bốn lớp như trình bày ở phần \ref{sec:4layer}. Ở lớp nhận thức, vi điều khiển STM32F411VET6 được sử dụng để thu thập dữ liệu từ cảm biến. Dữ liệu sau đó được truyền tới lớp xử lý dữ liệu thông qua ESP32, thiết bị đóng vai trò như một gateway trung gian. Giao tiếp giữa STM32 và ESP32 được thực hiện thông qua giao thức UART. Trên máy chủ, các thành phần được triển khai bao gồm MQTT Broker và Backend chịu trách nhiệm tiếp nhận dữ liệu từ gateway, xử lý và phân giải các gói tin, kiểm tra tính hợp lệ của gói tin. Hình \ref{fig:realsystem} trình bày mô hình tổng quan của hệ thống. Phần dưới đây sẽ trình bày từng thành phần trong hệ thống, các khái niệm về khung truyền được đề cập tới sẽ trình bày chi tiết ở các phần \ref{sec:tongquan} và \ref{sec:frame}.
 
  % MQTT Broker đảm nhiệm việc thiết lập và duy trì kênh giao tiếp theo giao thức MQTT giữa gateway và máy chủ. Trong khi đó, Backend thực hiện xử lý nội dung dữ liệu, giải mã thông tin và quản lý cơ chế trao đổi khóa bảo mật với gateway. Những gói tin không hợp lệ sẽ được Backend Server phát hiện và từ chối ngay lập tức nhằm đảm bảo tính ổn định và an toàn cho người dùng cuối. 
 
@@ -243,7 +277,7 @@ Hệ thống Backend chính là nơi tiếp nhận dữ liệu từ gateway và 
 
 \subsection{Mô hình giao tiếp của hệ thống}
 \label{sec:tongquan}
-Hệ thống IoT được chia thành ba quá trình giao tiếp: khởi tạo, trao đổi khóa và truyền dữ liệu. Tất cả dữ liệu trên đường truyền được đảm bảo mã hóa và xác thực. Ngoài ra, tất cả quá trình truyền sẽ được đóng gói thành các khung truyền được cấu hình độc nhất cho mỗi gói tin trình bày ở phần \ref{sec:4layer}. Hình \ref{fig:system} minh họa mô hình giao tiếp của hệ thống.
+Hệ thống IoT được chia thành ba quá trình giao tiếp: khởi tạo, trao đổi khóa và truyền dữ liệu. Tất cả dữ liệu trên đường truyền được đảm bảo mã hóa và xác thực. Ngoài ra, tất cả quá trình truyền sẽ được đóng gói thành các khung truyền được cấu hình độc nhất cho mỗi gói tin trình bày ở phần \ref{sec:frame}. Hình \ref{fig:system} minh họa mô hình giao tiếp của hệ thống.
 
 \begin{figure}[h]
     \centering
@@ -254,7 +288,9 @@ Hệ thống IoT được chia thành ba quá trình giao tiếp: khởi tạo, 
 
 Mỗi khi thiết bị khởi động hoặc reboot, phiên khởi tạo sẽ được kích hoạt. Trong phiên này, máy chủ sẽ truyền các thông tin đồng bộ, bao gồm \textit{safe counter} và \textit{key index} đến thiết bị. Những dữ liệu này đóng vai trò thiết yếu trong việc đảm bảo đồng bộ hóa, khôi phục trạng thái hệ thống, và duy trì tính toàn vẹn của quá trình truyền dữ liệu. Phần \ref{sec:safe_counter} sẽ trình bày ý nghĩa của \textit{safe counter} và phần \ref{sec:key} sẽ trình bày chi tiết về cách hoạt động của \textit{key index}.
 
-Trong quá trình trao đổi khóa, gateway và máy chủ sẽ trao đổi khóa với nhau bằng thuật toán ECDH để có thể tạo ra hai khóa bí mật sử dụng cho mã hóa và giải mã. Dữ liệu sẽ được mã hóa ngay tại lớp nhận thức, vì vậy sau khi sinh thành công khóa bí mật, gateway sẽ chuyển khóa này đến lớp giao thức để tiến hành mã hóa dữ liệu. Để tránh lộ khóa bí mật, gateway tiến hành mã hóa khóa này bằng một khóa chia sẻ trước (pre-shared key) trước khi truyền xuống lớp nhận thức. Tại lớp nhận thức, khóa được giải mã và sử dụng cho quá trình mã hóa dữ liệu. Cơ chế này giúp đảm bảo khóa bí mật không bị lộ hoặc đánh chặn trong quá trình trao đổi khóa, qua đó tăng cường tính an toàn cho hệ thống.
+Trong quá trình trao đổi khóa, gateway và máy chủ sẽ trao đổi khóa với nhau bằng thuật toán ECDH để có thể tạo ra hai khóa bí mật sử dụng cho mã hóa và giải mã. Dữ liệu sẽ được mã hóa ngay tại lớp nhận thức, vì vậy sau khi sinh thành công khóa bí mật, gateway sẽ chuyển khóa này đến lớp nhận thức để tiến hành mã hóa dữ liệu. Để tránh lộ khóa bí mật, gateway tiến hành mã hóa khóa này bằng một khóa chia sẻ trước (pre-shared key) trước khi truyền xuống lớp nhận thức. 
+Trong kiến trúc này, mỗi thiết bị đều được cấu hình với một khóa chia sẻ trước, đã được đăng ký với máy chủ, nhằm phục vụ cho các hoạt động bảo mật.
+Tại lớp nhận thức, khóa được giải mã và sử dụng cho quá trình mã hóa dữ liệu. Cơ chế này giúp đảm bảo khóa bí mật không bị lộ hoặc đánh chặn trong quá trình trao đổi khóa, qua đó tăng cường tính an toàn cho hệ thống.
 
 Phần lớn thời gian STM32 tại lớp nhận thức sẽ ở trong chế độ ngủ (Sleep Mode) để có thể tiết kiệm năng lượng. Vì vậy, để bắt đầu quá trình truyền dữ liệu, gateway trước tiên sẽ gửi một tín hiệu kích hoạt (trigger signal) cho lớp nhận thức. Khi nhận được tín hiệu, lớp nhận thức sẽ thoát khỏi sleep mode để tiến hành thu thập và mã hóa dữ liệu thu được bằng các khóa phiên được băm từ khóa bí mật (như trình bày ở phần \ref{sec:ascon-hash}) và gửi lên cho gateway. Gateway sẽ tiếp tục chuyển tiếp dữ liệu này lên cho máy chủ để xử lý. Nếu máy chủ có thể giải mã dữ liệu thành công, máy chủ sẽ gửi lại cho gateway một tín hiệu ACK nhằm thông báo phiên truyền dữ liệu thành công và tiếp tục bắt đầu phiên truyền mới. Trong trường hợp gateway không nhận được tín hiệu ACK từ máy chủ sau một khoảng thời gian nhất định (timeout), điều này có nghĩa dữ liệu đã không được truyền thành công hoặc giải mã không thành công, gateway sẽ gửi một gói tin thông báo cho STM32 ở lớp nhận thức để STM32 đồng bộ lại dữ liệu và bắt đầu lại phiên truyền. Hình \ref{fig:trans-sys} mô tả chi tiết toàn bộ quá trình giao tiếp của hệ thống bao gồm các khung truyền sẽ được trình bày chi tiết trong phần \ref{sec:frame}.
 
@@ -299,7 +335,7 @@ bày trong hình \ref{fig:gframe}.
     \label{fig:gframe}
 \end{figure}
 
-Khung truyền bắt đầu và kết thúc bằng các trường đồng bộ, bao gồm 2 byte Start of Frame (SOF) đánh dấu bắt đầu khung và 2 byte End of Frame (EOF) đánh dấu kết thúc. Các trường này giúp thiết bị nhận xác định ranh giới hợp lệ của một khung dữ liệu.
+Khung truyền bắt đầu và kết thúc bằng các trường đồng bộ (synchronize), bao gồm 2 byte Start of Frame (SOF) đánh dấu bắt đầu khung và 2 byte End of Frame (EOF) đánh dấu kết thúc. Các trường này giúp thiết bị nhận xác định ranh giới hợp lệ của một khung dữ liệu.
 Tiếp theo là trường định danh thiết bị (Identifier) dài 4 byte, được sử dụng để định danh duy nhất thiết bị gửi hoặc nhận.
 Trường dữ liệu (Data) mang thông tin chính cần truyền đi. Trường này cũng có thể bao gồm các tham số liên quan đến quá trình mã hóa và giải mã, chẳng hạn như nonce hoặc associated data.
 Cuối cùng là trường kiểm tra toàn vẹn (Integrity Check), đảm bảo rằng dữ liệu nhận được không bị lỗi hoặc bị thay đổi trong quá trình truyền. Trường này có thể chứa mã xác thực (ví dụ: Auth Tag từ các hàm mã hóa xác thực) hoặc mã kiểm lỗi như CRC, tùy theo loại khung.
@@ -316,7 +352,7 @@ Khung truyền khởi tạo này có kiến trúc rất đơn giản, chỉ bao 
 \subsubsection{Khung truyền trong giao tiếp giữa lớp nhận thức và lớp mạng}
 Phần này mô tả chi tiết cấu trúc khung truyền trong quá trình giao tiếp giữa lớp nhận thức và lớp mạng. Hình \ref{fig:gp} minh họa khung truyền được sử dụng khi dữ liệu được gửi từ lớp mạng xuống lớp nhận thức, ký hiệu là GP. Trong khung truyền này, một trường 1 byte có tên là \textit{packet type} được thêm vào để xác định loại dữ liệu đang được truyền. Hai loại khung chính được định nghĩa: một dành cho việc truyền khóa bí mật (GP1), và một dành cho truyền tín hiệu kích hoạt (GP2). 
 
-Với khung truyền GP2, trường dữ liệu của khung sẽ chỉ chứa 16-byte $AAD_{data}$ dùng cho mã hóa dữ liệu, tức là, lớp nhận thức sẽ sử dụng 16-byte $AAD_{data}$ này cho việc mã hóa dữ liệu trước khi truyền đi. Ngoài ra, 2-byte CRC được thêm vào để kiểm tra lỗi trong quá trình truyền. Các trường chuẩn của GP2 vẫn được giữ nguyên.
+Với khung truyền GP2, trường dữ liệu của khung sẽ chỉ chứa 16-byte $AAD_{data}$ dùng cho mã hóa dữ liệu, tức là, lớp nhận thức sẽ sử dụng 16-byte $AAD_{data}$ này cho việc mã hóa dữ liệu trước khi truyền đi. Ngoài ra, 2-byte \textit{Cyclic Redundancy Check} (CRC) được thêm vào để kiểm tra lỗi trong quá trình truyền. Các trường chuẩn của GP2 vẫn được giữ nguyên.
 
 Khung truyền GP1 sẽ có sự phức tạp hơn do đây là khung đảm nhận vai trò truyền khóa bí mật xuống lớp nhận thức, vì đây là dữ liệu nhạy cảm nên một số trường bổ sung được thêm vào. Trường dữ liệu của GP1 sẽ bao gồm 16-byte \textit{Nonce} và $AAD_{data}$, $AAD_{data}$ vẫn sẽ được sử dụng trong mã hóa dữ liệu trước khi truyền. \textit{Nonce} và $AAD_{key}$ là hai dữ liệu quan trọng để lớp nhận thức có thể giải mã khóa bí mật (khóa bí mật sẽ được mã hóa bởi gateway trước khi truyền xuống lớp nhận thức như trình bày ở phần \ref{sec:tongquan}) với $AAD_{key}$ đã được cấu hình tĩnh trước cho cả lớp giao thức và gateway. Tiếp theo đó, sẽ là 1-byte \textit{secret key length} và phần tải chứa khóa bí mật đã được mã hóa, trong đó 1-byte \textit{secret key length} biểu thị độ dài của khóa bí mật. Một trường quan trọng được bổ sung vào khung GP1 đó chính là 16-byte \textit{authentication tag} (Auth Tag), được sinh ra trong quá trình mã hóa khóa bí mật với Ascon-128a. Phần \ref{sec:mitm} đã trình bày việc tấn công Man-in-the-Middle có thể đánh tráo khóa trên đường truyền, vì vậy Auth Tag được thêm vào để đảm bảo dữ liệu được xác thực, nếu việc tính toán Auth Tag sai và không trùng khớp, lớp nhận thức sẽ ngay lập tức từ chối khóa bí mật này, tránh việc sử dụng khóa giả mạo cho việc mã hóa và giải mã.
 
@@ -332,7 +368,7 @@ Về cách tính $AAD_{data}$ trong GP1 và GP2, $AAD_{data}$ được ghép t�
     \label{fig:gp}
 \end{figure}
 
-Khi nhận tín hiệu kích hoạt (khung GP2) từ gateway, lớp nhận thức sẽ tạo khung PG1 chứa dữ liệu mã hóa và gửi cho gateway (minh họa hình \ref{fig:pg-frame}). Trường dữ liệu của khung PG1 chứa 16-byte \textit{Nonce}, đây là \textit{Nonce} được dùng trong mã hóa dữ liệu và phía máy chủ sẽ dùng \textit{Nonce} này cho giải mã. Tiếp theo, 16-byte Auth Tag sẽ được gửi nhằm xác thực dữ liệu mã hóa, máy chủ sau khi giải mã sẽ so sánh Auth Tag, nếu có sự khác biệt về Auth Tag, máy chủ sẽ từ chối gói tin đó. Ngoài ra, 2-byte \textit{Cyclic Redundancy Check} (CRC) giúp phát hiện có sự sai lệch hay mất mác dữ liệu nào trong quá trình truyền.
+Khi nhận tín hiệu kích hoạt (khung GP2) từ gateway, lớp nhận thức sẽ tạo khung PG1 chứa dữ liệu mã hóa và gửi cho gateway (minh họa hình \ref{fig:pg-frame}). Trường dữ liệu của khung PG1 chứa 16-byte \textit{Nonce}, đây là \textit{Nonce} được dùng trong mã hóa dữ liệu và phía máy chủ sẽ dùng \textit{Nonce} này cho giải mã. Tiếp theo, 16-byte Auth Tag sẽ được gửi nhằm xác thực dữ liệu mã hóa, máy chủ sau khi giải mã sẽ so sánh Auth Tag, nếu có sự khác biệt về Auth Tag, máy chủ sẽ từ chối gói tin đó. Ngoài ra, 2-byte CRC giúp phát hiện có sự sai lệch hay mất mác dữ liệu nào trong quá trình truyền.
 
 \begin{figure}[H]
     \centering
@@ -369,7 +405,7 @@ Cuối cùng là một loại khung truyền đặc biệt, dùng để gửi c�
 \subsubsection{Quá trình phân giải khung truyền}
 Quá trình phân giải khung truyền được trình bày trong hình \ref{fig:parsing} và \ref{fig:parse-function}. Tất cả các khung truyền được sử dụng trong hệ thống đều áp dụng chung quá trình phân giải này. Vì vậy, để đảm bảo tính ngắn gọn cũng như dễ hiểu trong báo cáo, khung truyền GS2 sẽ được minh họa trong hình để trình bày về quá trình phân giải khung truyền. Việc phân giải bắt đầu từ việc nhận dữ liệu từ thiết bị đích và lưu trữ vào trong một bộ đệm nội bộ (internal buffer), để chuẩn bị cho quá trình phân giải. Mỗi byte trong bộ đệm sẽ được luân phiên đưa vào hàm phân giải khung truyền (Hình \ref{fig:parse-function}). Trong mỗi hàm phân giải, các điều kiện ở mỗi trường trong khung truyền được cấu hình sẵn. Từ đó, hàm phân giải sẽ kiểm tra số byte tương ứng trong bộ đệm nội bộ với điều kiện; nếu điều kiện đúng, hàm phân giải sẽ tiến hành kiểm tra trường tiếp theo; ngược lại, sẽ ngừng quá trình phân giải và trả về mã lỗi. Nếu hàm phân giải có thể phân giải được tất cả các trường trong bộ đệm, quá trình phân giải sẽ hoàn tất. Việc mã hóa dữ liệu sẽ được diễn ra trong quá trình phân giải này, cụ thể là trong bước tính thẻ xác thực. Ở bước này, dữ liệu sẽ được mã hóa, từ đó sinh ra thẻ xác thực, sau đó so sánh với thẻ xác thực nhận được để kiểm tra tính toàn vẹn của dữ liệu. 
 
-\begin{figure}[H]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.7\linewidth]{frameparsing1.pdf}
     \caption{Quá trình phân giải khung truyền}
@@ -377,15 +413,18 @@ Quá trình phân giải khung truyền được trình bày trong hình \ref{fi
 \end{figure}
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{frameparse.pdf}
+    \raggedright
+    \hspace{-1.7cm}
+    \includegraphics[width=1.1\linewidth]{frameparse.pdf}
     \caption{Hàm phân giải khung truyền GS2}
     \label{fig:parsing}
 \end{figure}
 
 \subsection{Cơ chế safe counter}
 \label{sec:safe_counter}
-Như đã đề cập ở phần \ref{sec:gs}, khung truyền GS2 được cấu hình thêm 4-byte \textit{sequence number} để hạn chế khả năng tấn công phát lại (replay attack) và tấn công xen giữa (Man-in-the-Middle). Tuy nhiên, một số trường hợp kẻ tấn công có thể gửi rất nhiều gói tin với các \textit{sequence number} khác nhau nhằm cố gắng brute-force thành công \textit{sequence number} hiện tại của hệ thống. Có thể thấy rằng với 4 byte \textit{sequence number}, sau khi toàn bộ không gian $2^{32}$ giá trị được thử, xác suất brute-force thành công sẽ đạt 100\%. Vấn đề đặt ra ở đây là xác suất thành công của brute-force tăng dần theo số lần thử — tức là bài toán mang tính xác suất tích lũy \cite{cumulative}. Để khắc phục điều này, cơ chế \textit{safe counter} được triển khai nhằm chuyển bài toán từ dạng có xác suất tăng dần thành một quá trình với xác suất thành công cố định ở mỗi lần thử, từ đó làm cho brute-force trở nên kém hiệu quả hơn. \textit{Safe counter} thực chất là một biến đếm 32-bit đồng bộ giữa gateway và máy chủ, biến đếm này sẽ được cập nhật liên tục trong quá trình truyền dữ liệu. Trong trường hợp bị brute-force, máy chủ sẽ từ chối các gói tin sai về \textit{sequence number} trong quá trình phân giải, số gói tin mà máy chủ từ chối sẽ được gọi là $R$. Ở máy chủ, một ngưỡng được đặt ra gọi là \(T_{\text{reject}} \), nếu máy chủ từ chối một số lượng gói tin chạm ngưỡng \(T_{\text{reject}} \), hay nói cách khác nếu $R \geq T_{reject}$, máy chủ sẽ ngay lập tức gửi một tín hiệu tới gateway bằng khung truyền SG1 và thực hiện việc cập nhật \textit{sequence number} mới dựa trên \textit{safe counter} hiện tại của hệ thống. Vì \textit{safe counter} được đồng bộ giữa gateway và máy chủ, việc tính toán lại \textit{sequence number} sẽ cho ra kết quả giống nhau, đảm bảo việc truyền dữ liệu giữa gateway và máy chủ vẫn diễn ra bình thường với \textit{sequence number} mới. Thuật toán \ref{alg:safe_counter} trình bày chi tiết cách tính \textit{sequence number} mới dựa trên \textit{safe counter}.
+Như đã đề cập ở phần \ref{sec:gs}, khung truyền GS2 được cấu hình thêm 4-byte \textit{sequence number} để hạn chế khả năng tấn công phát lại (replay attack) và tấn công xen giữa (Man-in-the-Middle). Tuy nhiên, một số trường hợp kẻ tấn công có thể gửi rất nhiều gói tin với các \textit{sequence number} khác nhau nhằm cố gắng brute-force thành công \textit{sequence number} hiện tại của hệ thống. Có thể thấy rằng với 4 byte \textit{sequence number}, sau khi toàn bộ không gian $2^{32}$ giá trị được thử, xác suất brute-force thành công sẽ đạt 100\%. Vấn đề đặt ra ở đây là xác suất thành công của brute-force tăng dần theo số lần thử — tức là bài toán mang tính xác suất tích lũy \cite{cumulative}. 
+
+Để khắc phục điều này, cơ chế \textit{safe counter} được triển khai nhằm chuyển bài toán từ dạng có xác suất tăng dần thành một quá trình với xác suất thành công cố định ở mỗi lần thử, từ đó làm cho brute-force trở nên kém hiệu quả hơn. \textit{Safe counter} thực chất là một biến đếm 32-bit đồng bộ giữa gateway và máy chủ, biến đếm này sẽ được cập nhật liên tục trong quá trình truyền dữ liệu. Trong trường hợp bị brute-force, máy chủ sẽ từ chối các gói tin sai về \textit{sequence number} trong quá trình phân giải, số gói tin mà máy chủ từ chối sẽ được gọi là $R$. Ở máy chủ, một ngưỡng được đặt ra gọi là \(T_{\text{reject}} \), nếu máy chủ từ chối một số lượng gói tin chạm ngưỡng \(T_{\text{reject}} \), hay nói cách khác nếu $R \geq T_{reject}$, máy chủ sẽ ngay lập tức gửi một tín hiệu tới gateway bằng khung truyền SG1 và thực hiện việc cập nhật \textit{sequence number} mới dựa trên \textit{safe counter} hiện tại của hệ thống. Vì \textit{safe counter} được đồng bộ giữa gateway và máy chủ, việc tính toán lại \textit{sequence number} sẽ cho ra kết quả giống nhau, đảm bảo việc truyền dữ liệu giữa gateway và máy chủ vẫn diễn ra bình thường với \textit{sequence number} mới. Thuật toán \ref{alg:safe_counter} trình bày chi tiết cách tính \textit{sequence number} mới dựa trên \textit{safe counter}.
 Đối với cách cập nhật \textit{safe counter}, các phép toán dịch bit và \textit{XOR} bit được sử dụng nhằm loại bỏ tính tuyến tính và tăng tính ngẫu nhiên của việc cập nhật. Kết 
 quả cuối cùng được \textit{mod} với $2^{32}$ để đảm bảo kết quả luôn nằm trong phạm vi 32 bit. Cách tính này sẽ giúp \textit{safe counter} có tính ngẫu nhiên nhẹ, chống lại
 việc đoán giá trị tiếp theo. Để tạo \textit{sequence number} mới, \textit{safe counter} sẽ được kết hợp với khóa bí mật ($K_{master}$) đã được trao đổi trước đó bằng phép toán \textit{XOR},

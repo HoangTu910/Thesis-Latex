@@ -8,23 +8,28 @@
 % Trước khi build, xóa hết các file được tạo ra trong quá trình build trước đó, và build theo thứ tự: BIB > PDF > PDF.
 % Nếu cập nhật tài liệu tham khảo, cũng cần build lại theo cách trên.
 
-\documentclass[oneside,a4paper,14pt]{extreport}
+\documentclass[oneside,a4paper, 14pt,openright]{extreport}
 \usepackage[fontsize=13pt]{scrextend}
 % Font tiếng Việt
 \usepackage[T5]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{mathptmx}
+% \usepackage{mathptmx}
 \usepackage{fancyhdr}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{amsmath}
 \usepackage{subcaption}
 \usepackage{titlesec}
 \usepackage{diagbox}
 \usepackage{amssymb}
+\usepackage{longtable}
+
 \setcounter{secnumdepth}{4}
 \DeclareTextSymbolDefault{\DH}{T1}
 
 % Tài liệu tham khảo
 \usepackage[
-	sorting=nty,
+	sorting=none,
 	backend=bibtex,
 	defernumbers=true]{biblatex}
 \usepackage[unicode]{hyperref} % Bookmark tiếng Việt
@@ -182,7 +187,7 @@
 
 \pagenumbering{roman} % Đánh số i, ii, iii, ...
 
-\include{Appendix/editConfirmation}
+% \include{Appendix/editConfirmation}
 
 \addcontentsline{toc}{chapter}{Lời cảm ơn}
 \include{Appendix/thanks}
@@ -203,8 +208,7 @@
 \listoffigures
 \listoftables
 
-\addcontentsline{toc}{chapter}{Tóm tắt}
-\include{Appendix/tomtat}
+\include{Appendix/viettat}
 
 \clearpage
 

@@ -5,8 +5,6 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: biblatex.bst
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 Reallocating 'name_of_file' (item size: 1) to 22 items.
-Reallocating 'name_of_file' (item size: 1) to 30 items.
-A level-1 auxiliary file: Appendix/editConfirmation.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: Appendix/thanks.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
@@ -15,8 +13,8 @@ Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: Appendix/tt.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: Appendix/abstract.aux
-Reallocating 'name_of_file' (item size: 1) to 20 items.
-A level-1 auxiliary file: Appendix/tomtat.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: Appendix/viettat.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: Chapter1/chapter1.aux
 Reallocating 'name_of_file' (item size: 1) to 22 items.
@@ -46,47 +44,50 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
 Database file #2: References/references.bib
+Warning--entry type for "AESvsAscon" isn't style-file defined
+--line 192 of file References/references.bib
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 33 entries,
+You've used 31 entries,
             6399 wiz_defined-function locations,
-            1352 strings with 13446 characters,
-and the built_in function-call counts, 201844 in all, are:
-= -- 12885
-> -- 7336
-< -- 1081
-+ -- 8218
-- -- 4711
-* -- 12863
-:= -- 23175
+            1381 strings with 14276 characters,
+and the built_in function-call counts, 205918 in all, are:
+= -- 16121
+> -- 3132
+< -- 666
++ -- 6039
+- -- 1166
+* -- 13850
+:= -- 23684
 add.period$ -- 0
-call.type$ -- 33
-change.case$ -- 277
-chr.to.int$ -- 402
-cite$ -- 64
-duplicate$ -- 20936
-empty$ -- 17055
-format.name$ -- 2018
-if$ -- 38625
+call.type$ -- 31
+change.case$ -- 263
+chr.to.int$ -- 133
+cite$ -- 60
+duplicate$ -- 22517
+empty$ -- 18189
+format.name$ -- 1935
+if$ -- 41278
 int.to.chr$ -- 0
-int.to.str$ -- 94
+int.to.str$ -- 70
 missing$ -- 0
-newline$ -- 856
-num.names$ -- 1402
-pop$ -- 11185
+newline$ -- 911
+num.names$ -- 1221
+pop$ -- 10826
 preamble$ -- 1
-purify$ -- 410
+purify$ -- 455
 quote$ -- 0
-skip$ -- 5886
+skip$ -- 4989
 stack$ -- 0
-substring$ -- 22195
-swap$ -- 4440
-text.length$ -- 1051
-text.prefix$ -- 32
+substring$ -- 28898
+swap$ -- 3862
+text.length$ -- 676
+text.prefix$ -- 0
 top$ -- 1
-type$ -- 1110
+type$ -- 1036
 warning$ -- 0
-while$ -- 2678
+while$ -- 3027
 width$ -- 0
-write$ -- 824
+write$ -- 881
+(There was 1 warning)
