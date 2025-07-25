@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {4.1}Mô hình thực nghiệm}{38}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Kết quả, phân tích và đánh giá}{38}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Kết quả thực hiện}{38}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Đánh giá}{41}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Đánh giá}{40}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Phân tích công suất tiêu thụ}{46}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Phân tích thông lượng và hiệu suất tải dữ liệu}{48}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}Phân tích khả năng bảo mật của hệ thống}{51}{subsection.4.2.5}%

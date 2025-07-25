@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.30)  25 JUL 2025 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.30)  25 JUL 2025 21:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1526,16 +1526,26 @@ pdfTeX warning: pdflatex (file ./Images/trans-sys.pdf): PDF inclusion: found PDF
 <Images/trans-sys.pdf, id=831, 587.3142pt x 670.42468pt>
 File: Images/trans-sys.pdf Graphic file (type pdf)
 <use Images/trans-sys.pdf>
-Package pdftex.def Info: Images/trans-sys.pdf  used on input line 299.
-(pdftex.def)             Requested size: 455.24411pt x 519.6556pt.
+Package pdftex.def Info: Images/trans-sys.pdf  used on input line 300.
+(pdftex.def)             Requested size: 500.77129pt x 571.63342pt.
+
+Overfull \hbox (19.90245pt too wide) in paragraph at lines 299--301
+ []|  [] 
+ []
+
 
 
 pdfTeX warning: pdflatex (file ./Images/skey.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <Images/skey.pdf, id=834, 559.12888pt x 277.035pt>
 File: Images/skey.pdf Graphic file (type pdf)
 <use Images/skey.pdf>
-Package pdftex.def Info: Images/skey.pdf  used on input line 312.
-(pdftex.def)             Requested size: 455.24411pt x 225.5596pt.
+Package pdftex.def Info: Images/skey.pdf  used on input line 314.
+(pdftex.def)             Requested size: 500.77129pt x 248.12021pt.
+
+Overfull \hbox (19.90245pt too wide) in paragraph at lines 313--315
+ []|  [] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1545,7 +1555,7 @@ pdfTeX warning: pdflatex (file ./Images/gframe.pdf): PDF inclusion: found PDF ve
 <Images/gframe.pdf, id=886, 575.2692pt x 85.2786pt>
 File: Images/gframe.pdf Graphic file (type pdf)
 <use Images/gframe.pdf>
-Package pdftex.def Info: Images/gframe.pdf  used on input line 333.
+Package pdftex.def Info: Images/gframe.pdf  used on input line 335.
 (pdftex.def)             Requested size: 409.71692pt x 60.73819pt.
 [28 <./Images/skey.pdf>]
 
@@ -1553,7 +1563,7 @@ pdfTeX warning: pdflatex (file ./Images/init-frame.pdf): PDF inclusion: found PD
 <Images/init-frame.pdf, id=930, 312.20638pt x 100.45529pt>
 File: Images/init-frame.pdf Graphic file (type pdf)
 <use Images/init-frame.pdf>
-Package pdftex.def Info: Images/init-frame.pdf  used on input line 348.
+Package pdftex.def Info: Images/init-frame.pdf  used on input line 350.
 (pdftex.def)             Requested size: 273.14923pt x 87.89201pt.
 [29 <./Images/gframe.pdf>] [30 <./Images/init-frame.pdf>]
 
@@ -1561,7 +1571,7 @@ pdfTeX warning: pdflatex (file ./Images/gp-frame.pdf): PDF inclusion: found PDF 
 <Images/gp-frame.pdf, id=967, 672.59276pt x 189.8292pt>
 File: Images/gp-frame.pdf Graphic file (type pdf)
 <use Images/gp-frame.pdf>
-Package pdftex.def Info: Images/gp-frame.pdf  used on input line 366.
+Package pdftex.def Info: Images/gp-frame.pdf  used on input line 368.
 (pdftex.def)             Requested size: 455.24411pt x 128.49124pt.
 
 
@@ -1569,7 +1579,7 @@ pdfTeX warning: pdflatex (file ./Images/pg-frame.pdf): PDF inclusion: found PDF 
 <Images/pg-frame.pdf, id=969, 530.94356pt x 94.4328pt>
 File: Images/pg-frame.pdf Graphic file (type pdf)
 <use Images/pg-frame.pdf>
-Package pdftex.def Info: Images/pg-frame.pdf  used on input line 375.
+Package pdftex.def Info: Images/pg-frame.pdf  used on input line 377.
 (pdftex.def)             Requested size: 409.71692pt x 72.87196pt.
 [31 <./Images/gp-frame.pdf> <./Images/pg-frame.pdf>]
 
@@ -1577,7 +1587,7 @@ pdfTeX warning: pdflatex (file ./Images/auth_t.pdf): PDF inclusion: found PDF ve
 <Images/auth_t.pdf, id=1005, 481.8pt x 57.09329pt>
 File: Images/auth_t.pdf Graphic file (type pdf)
 <use Images/auth_t.pdf>
-Package pdftex.def Info: Images/auth_t.pdf  used on input line 388.
+Package pdftex.def Info: Images/auth_t.pdf  used on input line 390.
 (pdftex.def)             Requested size: 386.96027pt x 45.85588pt.
 [32 <./Images/auth_t.pdf>]
 
@@ -1585,7 +1595,7 @@ pdfTeX warning: pdflatex (file ./Images/gs-frame.pdf): PDF inclusion: found PDF 
 <Images/gs-frame.pdf, id=1019, 660.54776pt x 388.33081pt>
 File: Images/gs-frame.pdf Graphic file (type pdf)
 <use Images/gs-frame.pdf>
-Package pdftex.def Info: Images/gs-frame.pdf  used on input line 401.
+Package pdftex.def Info: Images/gs-frame.pdf  used on input line 403.
 (pdftex.def)             Requested size: 455.24411pt x 267.64041pt.
 [33 <./Images/gs-frame.pdf>]
 
@@ -1593,7 +1603,7 @@ pdfTeX warning: pdflatex (file ./Images/frameparsing1.pdf): PDF inclusion: found
 <Images/frameparsing1.pdf, id=1042, 310.27919pt x 227.89139pt>
 File: Images/frameparsing1.pdf Graphic file (type pdf)
 <use Images/frameparsing1.pdf>
-Package pdftex.def Info: Images/frameparsing1.pdf  used on input line 410.
+Package pdftex.def Info: Images/frameparsing1.pdf  used on input line 412.
 (pdftex.def)             Requested size: 318.66948pt x 234.07352pt.
 
 
@@ -1601,10 +1611,15 @@ pdfTeX warning: pdflatex (file ./Images/frameparse.pdf): PDF inclusion: found PD
 <Images/frameparse.pdf, id=1043, 555.99718pt x 437.71529pt>
 File: Images/frameparse.pdf Graphic file (type pdf)
 <use Images/frameparse.pdf>
-Package pdftex.def Info: Images/frameparse.pdf  used on input line 418.
+Package pdftex.def Info: Images/frameparse.pdf  used on input line 420.
 (pdftex.def)             Requested size: 500.77129pt x 394.25401pt.
+
+Overfull \hbox (14.21198pt too wide) in paragraph at lines 419--421
+ []|  [] 
+ []
+
 [34 <./Images/frameparsing1.pdf>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 433.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 435.
  [35 <./Images/frameparse.pdf>] [36]) [37]
 \openout2 = `Chapter4/chapter4.aux'.
 
@@ -1617,7 +1632,7 @@ pdfTeX warning: pdflatex (file ./Images/stm32log.pdf): PDF inclusion: found PDF 
 File: Images/stm32log.pdf Graphic file (type pdf)
 <use Images/stm32log.pdf>
 Package pdftex.def Info: Images/stm32log.pdf  used on input line 31.
-(pdftex.def)             Requested size: 364.19667pt x 152.01701pt.
+(pdftex.def)             Requested size: 409.71692pt x 171.01521pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1635,16 +1650,26 @@ pdfTeX warning: pdflatex (file ./Images/initlog.pdf): PDF inclusion: found PDF v
 <Images/initlog.pdf, id=1098, 506.85359pt x 257.04028pt>
 File: Images/initlog.pdf Graphic file (type pdf)
 <use Images/initlog.pdf>
-Package pdftex.def Info: Images/initlog.pdf  used on input line 40.
-(pdftex.def)             Requested size: 455.24411pt x 230.8713pt.
+Package pdftex.def Info: Images/initlog.pdf  used on input line 41.
+(pdftex.def)             Requested size: 491.66446pt x 249.34055pt.
+
+Overfull \hbox (19.33153pt too wide) in paragraph at lines 40--42
+ []|  [] 
+ []
+
 
 
 pdfTeX warning: pdflatex (file ./Images/ecdhlog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <Images/ecdhlog.pdf, id=1100, 651.39355pt x 344.2461pt>
 File: Images/ecdhlog.pdf Graphic file (type pdf)
 <use Images/ecdhlog.pdf>
-Package pdftex.def Info: Images/ecdhlog.pdf  used on input line 49.
-(pdftex.def)             Requested size: 455.24411pt x 240.58716pt.
+Package pdftex.def Info: Images/ecdhlog.pdf  used on input line 51.
+(pdftex.def)             Requested size: 491.66446pt x 259.83855pt.
+
+Overfull \hbox (19.33153pt too wide) in paragraph at lines 50--52
+ []|  [] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1654,148 +1679,161 @@ pdfTeX warning: pdflatex (file ./Images/datalog.pdf): PDF inclusion: found PDF v
 <Images/datalog.pdf, id=1104, 636.45775pt x 332.2011pt>
 File: Images/datalog.pdf Graphic file (type pdf)
 <use Images/datalog.pdf>
-Package pdftex.def Info: Images/datalog.pdf  used on input line 58.
-(pdftex.def)             Requested size: 455.24411pt x 237.61829pt.
-[39 <./Images/stm32log.pdf> <./Images/initlog.pdf>] [40 <./Images/ecdhlog.pdf> <./Images/datalog.pdf>]
+Package pdftex.def Info: Images/datalog.pdf  used on input line 61.
+(pdftex.def)             Requested size: 491.66446pt x 256.632pt.
+
+Overfull \hbox (19.33153pt too wide) in paragraph at lines 60--62
+ []|  [] 
+ []
+
+[39 <./Images/stm32log.pdf> <./Images/initlog.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 pdfTeX warning: pdflatex (file ./Images/sclog.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/sclog.pdf, id=1145, 1372.16632pt x 701.7417pt>
+<Images/sclog.pdf, id=1126, 1372.16632pt x 701.7417pt>
 File: Images/sclog.pdf Graphic file (type pdf)
 <use Images/sclog.pdf>
-Package pdftex.def Info: Images/sclog.pdf  used on input line 67.
-(pdftex.def)             Requested size: 455.24411pt x 232.81757pt.
-[41 <./Images/sclog.pdf>]
-<Images/ke.png, id=1164, 361.35pt x 125.706pt>
+Package pdftex.def Info: Images/sclog.pdf  used on input line 71.
+(pdftex.def)             Requested size: 491.66446pt x 251.43826pt.
+
+Overfull \hbox (19.33153pt too wide) in paragraph at lines 70--72
+ []|  [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40 <./Images/ecdhlog.pdf>] [41 <./Images/datalog.pdf>]
+<Images/ke.png, id=1153, 361.35pt x 125.706pt>
 File: Images/ke.png Graphic file (type png)
 <use Images/ke.png>
-Package pdftex.def Info: Images/ke.png  used on input line 82.
+Package pdftex.def Info: Images/ke.png  used on input line 86.
 (pdftex.def)             Requested size: 364.19667pt x 126.69734pt.
-<Images/esp32.png, id=1165, 401.646pt x 197.976pt>
+<Images/esp32.png, id=1154, 401.646pt x 197.976pt>
 File: Images/esp32.png Graphic file (type png)
 <use Images/esp32.png>
-Package pdftex.def Info: Images/esp32.png  used on input line 89.
+Package pdftex.def Info: Images/esp32.png  used on input line 93.
 (pdftex.def)             Requested size: 364.19667pt x 179.52403pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Images/stm32-2.png, id=1166, 394.638pt x 191.187pt>
+<Images/stm32-2.png, id=1155, 394.638pt x 191.187pt>
 File: Images/stm32-2.png Graphic file (type png)
 <use Images/stm32-2.png>
-Package pdftex.def Info: Images/stm32-2.png  used on input line 96.
+Package pdftex.def Info: Images/stm32-2.png  used on input line 100.
 (pdftex.def)             Requested size: 364.19667pt x 176.44261pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42 <./Images/ke.png>] [43 <./Images/esp32.png> <./Images/stm32-2.png>]
+[42 <./Images/sclog.pdf> <./Images/ke.png>] [43 <./Images/esp32.png> <./Images/stm32-2.png>]
 <Images/packet.png, id=1182, 901.2069pt x 339.669pt>
 File: Images/packet.png Graphic file (type png)
 <use Images/packet.png>
-Package pdftex.def Info: Images/packet.png  used on input line 116.
+Package pdftex.def Info: Images/packet.png  used on input line 119.
 (pdftex.def)             Requested size: 409.71692pt x 154.42525pt.
 <Images/pdr.png, id=1183, 916.3836pt x 339.669pt>
 File: Images/pdr.png Graphic file (type png)
 <use Images/pdr.png>
-Package pdftex.def Info: Images/pdr.png  used on input line 123.
+Package pdftex.def Info: Images/pdr.png  used on input line 126.
 (pdftex.def)             Requested size: 409.71692pt x 151.86487pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[44 <./Images/packet.png> <./Images/pdr.png>]
+ [44 <./Images/packet.png> <./Images/pdr.png>]
 <images/stm32flash.png, id=1193, 219.0pt x 212.649pt>
 File: images/stm32flash.png Graphic file (type png)
 <use images/stm32flash.png>
-Package pdftex.def Info: images/stm32flash.png  used on input line 168.
+Package pdftex.def Info: images/stm32flash.png  used on input line 171.
 (pdftex.def)             Requested size: 225.3436pt x 218.82324pt.
 <images/stm32ram.png, id=1194, 216.81pt x 212.649pt>
 File: images/stm32ram.png Graphic file (type png)
 <use images/stm32ram.png>
-Package pdftex.def Info: images/stm32ram.png  used on input line 174.
+Package pdftex.def Info: images/stm32ram.png  used on input line 177.
 (pdftex.def)             Requested size: 225.3436pt x 221.02966pt.
 <images/esp32flash.png, id=1195, 215.715pt x 216.81pt>
 File: images/esp32flash.png Graphic file (type png)
 <use images/esp32flash.png>
-Package pdftex.def Info: images/esp32flash.png  used on input line 185.
+Package pdftex.def Info: images/esp32flash.png  used on input line 188.
 (pdftex.def)             Requested size: 225.3436pt x 226.49931pt.
 <images/esp32ram.png, id=1196, 217.248pt x 216.81pt>
 File: images/esp32ram.png Graphic file (type png)
 <use images/esp32ram.png>
-Package pdftex.def Info: images/esp32ram.png  used on input line 191.
+Package pdftex.def Info: images/esp32ram.png  used on input line 194.
 (pdftex.def)             Requested size: 225.3436pt x 224.90143pt.
  [45 <./images/stm32flash.png> <./images/stm32ram.png>]
 <Images/ina219.png, id=1203, 233.07076pt x 191.5155pt>
 File: Images/ina219.png Graphic file (type png)
 <use Images/ina219.png>
-Package pdftex.def Info: Images/ina219.png  used on input line 207.
+Package pdftex.def Info: Images/ina219.png  used on input line 210.
 (pdftex.def)             Requested size: 91.04742pt x 74.81639pt.
 <Images/stm32pow2.png, id=1205, 1076.1003pt x 354.123pt>
 File: Images/stm32pow2.png Graphic file (type png)
 <use Images/stm32pow2.png>
-Package pdftex.def Info: Images/stm32pow2.png  used on input line 215.
+Package pdftex.def Info: Images/stm32pow2.png  used on input line 218.
 (pdftex.def)             Requested size: 455.24411pt x 149.81133pt.
  [46 <./images/esp32flash.png> <./images/esp32ram.png> <./Images/ina219.png>]
 <Images/esp32pow2.png, id=1214, 1076.1003pt x 354.123pt>
 File: Images/esp32pow2.png Graphic file (type png)
 <use Images/esp32pow2.png>
-Package pdftex.def Info: Images/esp32pow2.png  used on input line 226.
+Package pdftex.def Info: Images/esp32pow2.png  used on input line 229.
 (pdftex.def)             Requested size: 455.24411pt x 149.81133pt.
 <Images/totalpow.png, id=1218, 859.2903pt x 350.5095pt>
 File: Images/totalpow.png Graphic file (type png)
 <use Images/totalpow.png>
-Package pdftex.def Info: Images/totalpow.png  used on input line 237.
+Package pdftex.def Info: Images/totalpow.png  used on input line 240.
 (pdftex.def)             Requested size: 409.71692pt x 167.12485pt.
  [47 <./Images/stm32pow2.png> <./Images/esp32pow2.png>]
-Overfull \hbox (32.75343pt too wide) in paragraph at lines 247--262
+Overfull \hbox (32.75343pt too wide) in paragraph at lines 250--265
  [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 264.
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 267.
 (D:\MiTek\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 264.
+LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 267.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 264.
+(Font)              size <8> substituted on input line 267.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 264.
+(Font)              size <5> substituted on input line 267.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.58339> not available
-(Font)              size <8> substituted on input line 264.
+(Font)              size <8> substituted on input line 267.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.41673> not available
-(Font)              size <5> substituted on input line 264.
+(Font)              size <5> substituted on input line 267.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 264.
+(Font)              size <8> substituted on input line 267.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 264.
+(Font)              size <5> substituted on input line 267.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 264.
+(Font)              size <8> substituted on input line 267.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 264.
+(Font)              size <5> substituted on input line 267.
 
 [48 <./Images/totalpow.png>] [49]
 <Images/chartefficiency.png, id=1243, 570.933pt x 354.123pt>
 File: Images/chartefficiency.png Graphic file (type png)
 <use Images/chartefficiency.png>
-Package pdftex.def Info: Images/chartefficiency.png  used on input line 316.
+Package pdftex.def Info: Images/chartefficiency.png  used on input line 319.
 (pdftex.def)             Requested size: 341.43307pt x 211.78378pt.
  [50 <./Images/chartefficiency.png>] [51]
-Overfull \hbox (4.61487pt too wide) in paragraph at lines 346--347
+Overfull \hbox (4.61487pt too wide) in paragraph at lines 349--350
 []\T5/cmr/m/n/13 Qu¡ tr¼nh trao ^^_êi khâa dòng thuªt to¡n ECDH sû döng ^^_÷íng cong \T5/cmr/m/it/13 sect163k1
  []
 
@@ -1888,7 +1926,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,2261b,2142s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Hii\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/MiTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiTek/fonts/type1/public/amsfonts/cm/cmtt12.pfb><D:/MiTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnbx12.pfb><D:/MiTek/fonts/type1/vntex/vnr/vncsc10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr12.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr17.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr7.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr8.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnr9.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnti10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vnti12.pfb><D:/MiTek/fonts/type1/vntex/vnr/vntt10.pfb><D:/MiTek/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (71 pages, 11901303 bytes).
+Output written on main.pdf (71 pages, 11901288 bytes).
 PDF statistics:
  1484 PDF objects out of 1728 (max. 8388607)
  227 named destinations out of 1000 (max. 500000)

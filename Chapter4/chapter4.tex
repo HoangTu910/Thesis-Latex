@@ -28,7 +28,7 @@ Phần này nêu ra các kết quả thực hiện và hiệu suất của hệ 
 Trên MCU STM32F411VET6, các kỹ thuật bao gồm kiến trúc khung truyền, kỹ thuật tạo khóa phiên và mã hóa dữ liệu sử dụng thuật toán mã hóa nhẹ Ascon-128a đã được triển khai thành công. Hình \ref{fig:stm32log} trình bày kết quả thực hiện mã hóa và tạo khóa phiên bằng Debugger trên công cụ CubeIDE. Đối với mỗi quá trình tạo khóa và mã hóa thành công, các biến kiểm tra sẽ được đặt thành 1 để báo quá trình thành công. Giá trị \textit{session\_key\_index} thể hiện thứ tự phiên hiện tại trong quá trình giao tiếp, là tham số được sử dụng trong hàm tạo khóa phiên.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\linewidth]{stm32log.pdf}
+    \includegraphics[width=0.9\linewidth]{stm32log.pdf}
     \caption{Kết quả thực hiện trên MCU STM32F411VET6}
     \label{fig:stm32log}
 \end{figure}
@@ -37,7 +37,8 @@ Khi hệ thống được reboot, quá trình khởi tạo ngay lập tức ho�
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{initlog.pdf}
+    \hspace*{-0.7cm}
+    \includegraphics[width=1.08\linewidth]{initlog.pdf}
     \caption{Quá trình khởi tạo khi reboot}
     \label{fig:initlog}
 \end{figure}
@@ -46,7 +47,8 @@ Kỹ thuật trao đổi khóa sử dụng thuật toán ECDH được triển k
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{ecdhlog.pdf}
+    \hspace*{-0.7cm}
+    \includegraphics[width=1.08\linewidth]{ecdhlog.pdf}
     \caption{Quá trình trao đổi khóa giữa gateway và máy chủ}
     \label{fig:logecdh}
 \end{figure}
@@ -55,7 +57,8 @@ Quá trình truyền dữ liệu được triển khai thành công theo đúng 
 Ở phía máy chủ, sau khi tiếp nhận khung truyền, dữ liệu sẽ được giải mã và xác thực. Nếu dữ liệu hợp lệ, máy chủ sẽ phản hồi tín hiệu ACK để xác nhận thành công và kết thúc phiên truyền. Các kết quả giao tiếp trên được trình bày trong hình \ref{fig:datalog}.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{datalog.pdf}
+    \hspace*{-0.7cm}
+    \includegraphics[width=1.08\linewidth]{datalog.pdf}
     \caption{Quá trình truyền dữ liệu}
     \label{fig:datalog}
 \end{figure}
@@ -64,14 +67,15 @@ Cơ chế \textit{Safe counter} cũng được triển khai thành công trên c
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{sclog.pdf}
+    \hspace*{-0.7cm}
+    \includegraphics[width=1.08\linewidth]{sclog.pdf}
     \caption{Quá trình thực hiện cơ chế \textit{safe counter}}
     \label{fig:sclog}
 \end{figure}
 
 \subsection{Đánh giá}
 \label{sec:res}
-Hệ thống được đánh giá dựa trên quá trình trao đổi dữ liệu liên tục trong 120 phút, với các kết quả được trình bày trong hình \ref{fig:ke}, \ref{fig:esp32} và hình \ref{fig:ke}. Kết quả này tập trung vào hiệu suất của hai thiết bị công suất thấp ở lớp nhận thức và lớp mạng. Đầu tiên là đánh giá với STM32F411VET6 ở lớp nhận thức. STM32 thực hiện việc cấu hình khung truyền PG1 với thời gian trung bình là 0.634 ms. Truyền khung PG1 bằng UART lên gateway có thời gian trung bình là 5.58 ms. Thuật toán Ascon-128a có thời gian mã hóa trung bình là 0.328 ms, cho thấy hiệu năng vượt trội so với thuật toán AES, vốn được triển khai tương tự bằng thư viện X-CUBE-CRYPTOLIB và có thời gian mã hóa trung bình là 0.936 ms trên lõi ARM Cortex-M4. Quá trình phân giải khung truyền GP1 từ gateway có thời gian trung bình là 0.374 ms; khung truyền GP2 có thời gian trung bình là 0.023 ms. Sự khác biệt lớn về thời gian trong quá trình phân giải phần lớn là do việc giải mã khóa và tính toán thẻ xác thực ở khung truyền GP1.
+Hệ thống được đánh giá dựa trên quá trình trao đổi dữ liệu liên tục trong 120 phút, với các kết quả được trình bày trong hình \ref{fig:ke}, \ref{fig:esp32} và hình \ref{fig:stm32}. Kết quả này tập trung vào hiệu suất của hai thiết bị công suất thấp ở lớp nhận thức và lớp mạng. Đầu tiên là đánh giá với STM32F411VET6 ở lớp nhận thức. STM32 thực hiện việc cấu hình khung truyền PG1 với thời gian trung bình là 0.634 ms. Truyền khung PG1 bằng UART lên gateway có thời gian trung bình là 5.58 ms. Thuật toán Ascon-128a có thời gian mã hóa trung bình là 0.328 ms, cho thấy hiệu năng vượt trội so với thuật toán AES, vốn được triển khai tương tự bằng thư viện X-CUBE-CRYPTOLIB và có thời gian mã hóa trung bình là 0.936 ms trên lõi ARM Cortex-M4. Quá trình phân giải khung truyền GP1 từ gateway có thời gian trung bình là 0.374 ms; khung truyền GP2 có thời gian trung bình là 0.023 ms. Sự khác biệt lớn về thời gian trong quá trình phân giải phần lớn là do việc giải mã khóa và tính toán thẻ xác thực ở khung truyền GP1.
 
 Ở lớp mạng, ESP32 thực hiện việc phân giải PG1 từ STM32 trong thời gian trung bình 0.35 ms. Cấu hình khung truyền GP1 có thời gian trung bình là 0.57 ms, trong khi đó thời gian cấu hình GP2 có thời gian trung bình là 0.014 ms. Thời gian truyền khung truyền GP2 dùng UART xuống lớp nhận thức có thời gian trung bình là 9.01 ms. Quá trình trao đổi khóa bao gồm việc tạo cặp khóa cá nhân (private key)/khóa công khai (public key) và tính toán khóa bí mật có thời gian trung bình lần lượt là 335.08 ms và 335.46 ms. Tuy nhiên, việc trao đổi khóa chỉ được thực hiện sau một khoảng thời gian cố định, vì vậy nếu xét về tổng thể sẽ không ảnh hưởng nhiều đến toàn bộ hiệu suất của hệ thống. Thời gian trung bình cấu hình khung truyền GS1 và GS2 lần lượt là 0.28 ms và 0.033 ms. Mặc dù GS2 có nhiều trường cần cấu hình hơn GS1, nhưng GS2 chỉ thực hiện việc tách trường dữ liệu và thẻ xác thực từ khung PG1 mà không thực hiện tính toán nào thêm. Vì thế, việc cấu hình GS2 nhanh hơn nhiều so với GS1, khi mà GS1 cần phải tính toán thẻ xác thực trong quá trình cấu hình. Thời gian tính toán khóa phiên ở mỗi phiên truyền dữ liệu có thời gian trung bình là 1.189 ms.
 
@@ -97,7 +101,6 @@ Lệnh ACK phản hồi từ máy chủ, báo hiệu phiên truyền thành côn
     \caption{Đánh giá hiệu suất thực thi các tác vụ của STM32F411VET6}
     \label{fig:stm32}
 \end{figure}
-
 
 Trong khoảng thời gian 120 phút thực nghiệm, gateway đã thực hiện truyền tổng cộng 147,682 gói tin. Một gói tin truyền thành công được định nghĩa là gói tin được mã hóa đúng cách và máy chủ có thể giải mã đúng gói tin đó. Tỷ lệ truyền gói tin thành công (Packet Delivery Ratio - PDR) là một thông số quan trọng trong việc đánh giá mức độ toàn vẹn của hệ thống được tính toán sau mỗi phút truyền dữ liệu, được tính toán với công thức sau:
 \[
@@ -159,7 +162,7 @@ ESP32-WROOM-32  & 51.04 & 1008.01 \\
 \end{tabular}
 \end{table}
 
-Trên STM32F411VET6, nhiệm vụ chính là thu thập và mã hóa dữ liệu, với bộ nhớ chủ yếu dành cho thuật toán Ascon-128a, nhưng tổng thể chiếm dụng không đáng kể. Ngược lại, gateway ESP32 thực hiện nhiều chức năng hệ thống như cấu hình khung truyền và quản lý mạng, thực hiện quá trình trao đổi và quản lý khóa, dẫn đến dung lượng FLASH chiếm nhiều do yêu cầu lập trình đa tác vụ. Hình~\ref{fig:stm32mem} và~\ref{fig:esp32mem} trình bày mức sử dụng bộ nhớ trên hai nền tảng. Cụ thể, trên STM32, bộ nhớ FLASH còn trống 473.78 kB (92.53\%) và RAM còn trống 125.66 kB (98.17\%), cho thấy dung lượng sử dụng là rất thấp. Trong khi đó, trên ESP32, bộ nhớ FLASH chỉ còn trống 291.99 kB (22.46\%) và RAM còn trống 276.96 kB (84.43\%). Như vậy, có thể thấy kiến trúc hệ thống này chủ yếu yêu cầu bộ nhớ FLASH lớn trên gateway ESP32, do cần tích hợp nhiều chức năng hệ thống, trong khi thiết bị cảm biến STM32 hoạt động nhẹ, chủ yếu tập trung vào việc mã hóa dữ liệu với mức tiêu thụ bộ nhớ tối thiểu.
+Trên STM32F411VET6, nhiệm vụ chính là thu thập và mã hóa dữ liệu, với bộ nhớ chủ yếu dành cho thuật toán Ascon, nhưng tổng thể chiếm dụng không đáng kể. Ngược lại, gateway ESP32 thực hiện nhiều chức năng hệ thống như cấu hình khung truyền và quản lý mạng, thực hiện quá trình trao đổi và quản lý khóa, dẫn đến dung lượng FLASH chiếm nhiều do yêu cầu lập trình đa tác vụ. Hình~\ref{fig:stm32mem} và~\ref{fig:esp32mem} trình bày mức sử dụng bộ nhớ trên hai nền tảng. Cụ thể, trên STM32, bộ nhớ FLASH còn trống 473.78 kB (92.53\%) và RAM còn trống 125.66 kB (98.17\%), cho thấy dung lượng sử dụng là rất thấp. Trong khi đó, trên ESP32, bộ nhớ FLASH chỉ còn trống 291.99 kB (22.46\%) và RAM còn trống 276.96 kB (84.43\%). Như vậy, có thể thấy kiến trúc hệ thống này chủ yếu yêu cầu bộ nhớ FLASH lớn trên gateway ESP32, do cần tích hợp nhiều chức năng hệ thống, trong khi thiết bị cảm biến STM32 hoạt động nhẹ, chủ yếu tập trung vào việc mã hóa dữ liệu với mức tiêu thụ bộ nhớ tối thiểu.
 
 \begin{figure}[H]
 \centering
@@ -293,7 +296,7 @@ Trong đánh giá này, mỗi khung truyền GS2 có tổng kích thước là 4
 \textit{Goodput} = \left( \frac{147,562 \times 3}{120 \times 60} \right) \times 8 \approx 491.87 \ \text{bps}
 \]
 Từ những phân tích trên, có thế thấy chi phí truyền tải khi áp dụng kiến trúc khung truyền là không nhỏ. Với hiệu suất tải thấp sẽ dẫn đến việc tiêu tốn băng thông, băng thông sẽ không được sử dụng một cách tối ưu. Tuy nhiên, hiệu suất tải sẽ được cải thiện đáng kể nếu hệ thống truyền nhiều dữ liệu, tức là kích thước tải lớn hơn. Bảng \ref{tab:efficiency} và hình \ref{fig:charteff} trình bày hiệu suất tải với các kích thước tải khác nhau trên cũng một khung truyền dữ liệu. Có thể thấy thay vì truyền 3 byte dữ liệu như đề tài đã thực hiện, nếu ứng dụng kiến trúc này vào các hệ thống cần truyền nhiều dữ liệu đồng thời, việc sử dụng băng thông sẽ được tối ưu hơn rất nhiều.
-Biểu đồ ở hình \ref{fig:charteff} chứng minh với kích thước tải càng lớn, hiệu suất tải càng cải thiện.
+Biểu đồ ở hình \ref{fig:charteff} cho thấy xu hướng với kích thước tải càng lớn, hiệu suất tải càng cải thiện.
 \begin{table}[h]
 \centering
 \small

@@ -28,8 +28,8 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Kết quả thực hiện trên MCU STM32F411VET6}}{39}{figure.caption.37}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Quá trình khởi tạo khi reboot}}{39}{figure.caption.38}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Quá trình trao đổi khóa giữa gateway và máy chủ}}{40}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Quá trình truyền dữ liệu}}{40}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Quá trình thực hiện cơ chế \textit {safe counter}}}{41}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Quá trình truyền dữ liệu}}{41}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Quá trình thực hiện cơ chế \textit {safe counter}}}{42}{figure.caption.41}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Thời gian thực thi quá trình trao đổi khóa trên ESP32}}{42}{figure.caption.42}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Đánh giá hiệu suất thực thi các tác vụ của ESP32}}{43}{figure.caption.43}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Đánh giá hiệu suất thực thi các tác vụ của STM32F411VET6}}{43}{figure.caption.44}%
